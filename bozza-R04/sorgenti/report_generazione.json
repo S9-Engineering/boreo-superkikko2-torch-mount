@@ -1,0 +1,335 @@
+{
+  "revisione": "BOZZA_R04_NON_USO",
+  "stato": "BOZZA_VISIVA_PARAMETRICA_NON_FUNZIONALE",
+  "pezzi": {
+    "base": {
+      "CAD_valido": true,
+      "solidi": 1,
+      "volume_CAD_mm3": 24741.563425477285,
+      "STEP_riaperto_valido": true,
+      "STEP_solidi": 1,
+      "mesh_chiusa": true,
+      "mesh_normali_coerenti": true,
+      "componenti_mesh": 1,
+      "facce_degeneri": 0,
+      "volume_mesh_mm3": 24758.820429978656,
+      "bounds_stampa_mm": [
+        [
+          -51.40095520019531,
+          -11.611825942993164,
+          0.0
+        ],
+        [
+          51.40095520019531,
+          8.5,
+          46.0
+        ]
+      ],
+      "triangoli": 17146
+    },
+    "fermo_sx": {
+      "CAD_valido": true,
+      "solidi": 1,
+      "volume_CAD_mm3": 2320.837696827202,
+      "STEP_riaperto_valido": true,
+      "STEP_solidi": 1,
+      "mesh_chiusa": true,
+      "mesh_normali_coerenti": true,
+      "componenti_mesh": 1,
+      "facce_degeneri": 0,
+      "volume_mesh_mm3": 2323.8079328994595,
+      "bounds_stampa_mm": [
+        [
+          -10.706033706665039,
+          -12.0,
+          1.6876074800440235e-15
+        ],
+        [
+          11.236784934997559,
+          12.0,
+          22.927066802978516
+        ]
+      ],
+      "triangoli": 2786
+    },
+    "fermo_dx": {
+      "CAD_valido": true,
+      "solidi": 1,
+      "volume_CAD_mm3": 2320.831851806565,
+      "STEP_riaperto_valido": true,
+      "STEP_solidi": 1,
+      "mesh_chiusa": true,
+      "mesh_normali_coerenti": true,
+      "componenti_mesh": 1,
+      "facce_degeneri": 0,
+      "volume_mesh_mm3": 2323.8057154701205,
+      "bounds_stampa_mm": [
+        [
+          -11.236784934997559,
+          -12.0,
+          1.6876074800440235e-15
+        ],
+        [
+          10.706033706665039,
+          12.0,
+          22.927066802978516
+        ]
+      ],
+      "triangoli": 2742
+    }
+  },
+  "collisioni_principali_assieme": [
+    {
+      "a": "base",
+      "b": "fermo_sx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "base",
+      "b": "fermo_dx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "base",
+      "b": "farfalla",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "base",
+      "b": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "base",
+      "b": "torcia",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "fermo_sx",
+      "b": "fermo_dx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "fermo_sx",
+      "b": "farfalla",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "fermo_sx",
+      "b": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "fermo_sx",
+      "b": "torcia",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "fermo_dx",
+      "b": "farfalla",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "fermo_dx",
+      "b": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "fermo_dx",
+      "b": "torcia",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "farfalla",
+      "b": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "farfalla",
+      "b": "torcia",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "a": "U_metallica",
+      "b": "torcia",
+      "volume_intersezione_mm3": 0.0
+    }
+  ],
+  "collisioni_ferramenta_schematica": [
+    {
+      "hardware": "viti_fermi",
+      "parte": "base",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_fermi",
+      "parte": "fermo_sx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_fermi",
+      "parte": "fermo_dx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_fermi",
+      "parte": "farfalla",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_fermi",
+      "parte": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_fermi",
+      "parte": "torcia",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_farfalla",
+      "parte": "base",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_farfalla",
+      "parte": "fermo_sx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_farfalla",
+      "parte": "fermo_dx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_farfalla",
+      "parte": "farfalla",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_farfalla",
+      "parte": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "viti_farfalla",
+      "parte": "torcia",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "fissaggi_U_originali",
+      "parte": "base",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "fissaggi_U_originali",
+      "parte": "fermo_sx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "fissaggi_U_originali",
+      "parte": "fermo_dx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "fissaggi_U_originali",
+      "parte": "farfalla",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "fissaggi_U_originali",
+      "parte": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "fissaggi_U_originali",
+      "parte": "torcia",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "perni_torcia_originali",
+      "parte": "base",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "perni_torcia_originali",
+      "parte": "fermo_sx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "perni_torcia_originali",
+      "parte": "fermo_dx",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "perni_torcia_originali",
+      "parte": "farfalla",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "perni_torcia_originali",
+      "parte": "U_metallica",
+      "volume_intersezione_mm3": 0.0
+    },
+    {
+      "hardware": "perni_torcia_originali",
+      "parte": "torcia",
+      "volume_intersezione_mm3": 0.0
+    }
+  ],
+  "quote_assunte": true,
+  "riferimenti_non_stampabili": [
+    "farfalla",
+    "U_metallica",
+    "torcia",
+    "viti_fermi",
+    "viti_farfalla",
+    "fissaggi_U_originali",
+    "perni_torcia_originali"
+  ],
+  "casco_presente": false,
+  "battuta_codolo_y_mm": -4,
+  "gioco_codolo_per_lato_mm": 0.35,
+  "fermi_solo_dima_forma": true,
+  "unita_STL_STEP_3MF": "mm",
+  "unita_GLB": "m",
+  "scala_GLB_da_mm": 0.001,
+  "limiti_verifica": "Controlli sorgente e riapertura dei tre STEP/STL. Nessuna verifica di montaggio reale, materiale, resistenza, termica, slicing o stampa. Verificatore indipendente separato.",
+  "dipendenze": {
+    "cadquery": "2.8.0",
+    "cadquery-ocp": "7.9.3.1.1",
+    "numpy": "2.4.6",
+    "trimesh": "5.1.1"
+  },
+  "sha256": {
+    "sorgenti/riferimenti-visuali/BOZZA_R04_ASSIEME_SCHEMATICO_NON_STAMPARE.glb": "131d7140811d0d590dc1ff1d26bec738f7ac1aa2b8cd78f2c3932e69e82b0e4a",
+    "sorgenti/riferimenti-visuali/BOZZA_R04_ASSIEME_SCHEMATICO_NON_STAMPARE.step": "bf4369fed4ba9017af6f1c0e9de61474b62ac83a4c99b6d0ace68d72f93ff8bb",
+    "sorgenti/riferimenti-visuali/U_metallica_assieme.step": "93a5732c8fa0b59bb2e07e7873f87d71d400a8c7b272a0ce3a31169e62010f5c",
+    "sorgenti/riferimenti-visuali/U_metallica_assieme.stl": "8c9f52b38ef9d9067b0ac49b0ab47d24397a042d3b046e5359a140b1136e97c5",
+    "sorgenti/riferimenti-visuali/base_assieme.step": "569cad69f889ef1432a9daa1334db72b2d15b939271c7145c302e4615224ec33",
+    "sorgenti/riferimenti-visuali/base_assieme.stl": "5d141cc72c8c7a4344b26f4c949d4a34caaff45908cde500c60deace2f8e0c7a",
+    "sorgenti/riferimenti-visuali/farfalla_assieme.step": "62469abb3030b7e26b2765ba1d32ec814d08553f36ea6e792f679c04cdb36eaa",
+    "sorgenti/riferimenti-visuali/farfalla_assieme.stl": "a2f274efc3202c2a17a17c8c713a7947359746c402df74ebed86708301e3f087",
+    "sorgenti/riferimenti-visuali/fermo_dx_assieme.step": "b04583bd2da57303ea17b57b5eacbc0408022325aa76031c142da1f326e49d71",
+    "sorgenti/riferimenti-visuali/fermo_dx_assieme.stl": "e61a37d3925e4debea256967dec46875686d026c2c9a8fc854301e37bd210d09",
+    "sorgenti/riferimenti-visuali/fermo_sx_assieme.step": "36799f6efe17f2d4128f7a18d012ef271fda875a1fc4cc491c61dcf3bf3ec573",
+    "sorgenti/riferimenti-visuali/fermo_sx_assieme.stl": "57c9d2467148f57ff7262eb341f645ad879d67a1138f7abd8e4de5d33f4232ee",
+    "sorgenti/riferimenti-visuali/fissaggi_U_originali_assieme.step": "7986affce887afa8ad30dcaa80fd604a7d03f16485e573b3874aa882623d68b3",
+    "sorgenti/riferimenti-visuali/fissaggi_U_originali_assieme.stl": "3b39378f70f052d043b8482052ffec7bcdc40f17876fb92b5abb969dcd695057",
+    "sorgenti/riferimenti-visuali/perni_torcia_originali_assieme.step": "27ee8f8a8b6f36eac0bcddfe8ad587a15d36aa00de54d8630304bfbd0d510b38",
+    "sorgenti/riferimenti-visuali/perni_torcia_originali_assieme.stl": "e0b214dcea6b417dbd01f6e0dee93ba5fcc1dd3768a545123869a0419c42eaa0",
+    "sorgenti/riferimenti-visuali/torcia_assieme.step": "b6d0ea0ef0a674de11dfc66f7e2de1ddca505473c0a480aa8cf563c3c058e614",
+    "sorgenti/riferimenti-visuali/torcia_assieme.stl": "aace6d6b1c52f14d8f267ae5a78142db87a2ad340ffb1e328fe422f7cb3c6c75",
+    "sorgenti/riferimenti-visuali/viti_farfalla_assieme.step": "baeb31a6c1e427a2a8fa79b10e8917ea08544d0c7c3ca9820edf1c6f4298475a",
+    "sorgenti/riferimenti-visuali/viti_farfalla_assieme.stl": "d044ebbadc9049e45e521e4ffcffd96fd3f6cecba8a276b52a863f5efbbc2216",
+    "sorgenti/riferimenti-visuali/viti_fermi_assieme.step": "9b2f621b6deb1f5b3bd91db0c6ad5054a0a063c459f0868ebfdb912f4460126a",
+    "sorgenti/riferimenti-visuali/viti_fermi_assieme.stl": "bf722bf7642d9ca78b3d9d4fe73a18dc04af36e41eb814ac34fe0ad1ccee58fc",
+    "stampa/BOZZA_R04_BASE_NON_USO.step": "7e1f2a3178176a7288acbb8e68194d3efd6283746b3ddd5d553d1a9ca2f59db3",
+    "stampa/BOZZA_R04_BASE_NON_USO.stl": "5d141cc72c8c7a4344b26f4c949d4a34caaff45908cde500c60deace2f8e0c7a",
+    "stampa/BOZZA_R04_FERMO_DX_DIMA_NON_USO.step": "8eef0d26688e12b908d8e074b27665712caea9faf2e45984e7c597f3f7d9e68f",
+    "stampa/BOZZA_R04_FERMO_DX_DIMA_NON_USO.stl": "1e22b9ddd63ad719f235b6c15c78fe829c61bcd5d6f2f82957b7ad6a4a5e91b0",
+    "stampa/BOZZA_R04_FERMO_SX_DIMA_NON_USO.step": "1a1af4321d61b1bf10f38e1b95b0bc0653ed0bbd7437912e28407380d7fdfacb",
+    "stampa/BOZZA_R04_FERMO_SX_DIMA_NON_USO.stl": "496b8fd5f0069fdcdbf5afa258e684297cc40ec820e0e2253e015648c24168bb",
+    "stampa/BOZZA_R04_TRE_PEZZI_SOLO_GEOMETRIA.3mf": "a2de492e4f437b3cd47314e902e5fb075b2f6dc479387338c4c524350d99eab0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "origine": "Profili R05 verificati, macchina e filamento identici",
+  "processo_modificato": {
+    "layer_height": "0.28",
+    "wall_loops": "2",
+    "brim_width": "4",
+    "enable_support": "0",
+    "top_shell_layers": "2",
+    "bottom_shell_layers": "2"
+  },
+  "motivo": "Dima leggera di ingombro con aperture autosostenute; nessun sostegno della torcia",
+  "PLA": "ELEGOO PLA Basic confermato utente",
+  "ugello_mm": 0.4,
+  "piano": "PEI testurizzato",
+  "temperatura_ugello_C": 220,
+  "temperatura_piano_C": 60,
+  "file_sha256": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "filament.json": "49443f42621e0499958287d7ad9d0d78ff78961d7d6a4994c0fef61464c1d981",
+    "process.json": "88a882eba3e53660bf4ea5d99db1f93c8cd603ece9d2cc29ba0665625bf464c2"
+  },
+  "origine_profili": "provenienza_profili_R05_ORIGINE.json; profili macchina e PLA Basic invariati, processo leggero R06 con override riportati"
+}

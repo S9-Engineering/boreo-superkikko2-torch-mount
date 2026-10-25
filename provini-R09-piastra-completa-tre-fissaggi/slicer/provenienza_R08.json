@@ -1,0 +1,18 @@
+{
+  "origine": "Profili macchina e PLA Basic specifici ECC2 dalla R07 verificata; processo di prova modificato localmente.",
+  "modifiche_processo": {
+    "pareti": 3,
+    "riempimento": "20% gyroid",
+    "strati_sopra_sotto": 3,
+    "strato_mm": 0.2,
+    "brim": 0,
+    "supporti": "normali, solo piano; assenti per A, locali in B"
+  },
+  "hash_profili": {
+    "slicer/filament.json": "49443f42621e0499958287d7ad9d0d78ff78961d7d6a4994c0fef61464c1d981",
+    "slicer/process.json": "25b9768bd86c151eff5108838eeaa5e17c6caad5440b558d8ed34adea4bd6092",
+    "slicer/machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "slicer/provenienza_R07_ORIGINE.json": "36c46db0160f4989be027fabe9f6c4eac5f60e9840c6c088b07f9fe964cc2be1"
+  },
+  "calibrazione_fisica_specifica_R08": false
+}

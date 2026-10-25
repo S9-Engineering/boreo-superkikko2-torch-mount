@@ -1,0 +1,14 @@
+[BOREO_R12_PONTE_CENTRATO_RINFORZATO_PLA_BASIC_ECC2_04.3mf]
+size_x = 104.982140
+size_y = 50.049686
+size_z = 28.799999
+min_x = -52.491070
+min_y = -25.024843
+min_z = -14.400000
+max_x = 52.491070
+max_y = 25.024843
+max_z = 14.400000
+number_of_facets = 2340
+manifold = yes
+number_of_parts =  1
+volume = 8906.032227

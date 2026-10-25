@@ -1,0 +1,125 @@
+{
+  "revisione": "R10_PETG_PRO",
+  "slicer_app_version": "1.5.3.5",
+  "slicer_help_version": "ElegooSlicer-2.4.2",
+  "slicer_binary_sha256": "1ff7fca98c4b0f962ca4f1c764e4f123bab6cc762dbdfbb9c06151b1f08932e9",
+  "command": [
+    "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+    "--debug",
+    "2",
+    "--datadir",
+    "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/boreo-r10-pla-2x4q0br1/data",
+    "--load-settings",
+    "/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prototipo-R10-arrotondato-logo-PETG/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prototipo-R10-arrotondato-logo-PETG/slicer/process.json",
+    "--load-filaments",
+    "/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prototipo-R10-arrotondato-logo-PETG/slicer/filament.json",
+    "--arrange",
+    "0",
+    "--orient",
+    "0",
+    "--slice",
+    "0",
+    "--export-3mf",
+    "BOREO_R10_A_PROVINO_PONTE_PETG_PRO_ECC2_04.3mf",
+    "--outputdir",
+    "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/boreo-r10-pla-2x4q0br1/out",
+    "/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prototipo-R10-arrotondato-logo-PETG/stampa/R10_PIATTO_A_PROVINO_PONTE_SOLO_GEOMETRIA.3mf"
+  ],
+  "input_sha256": {
+    "stampa/R10_PIATTO_A_PROVINO_PONTE_SOLO_GEOMETRIA.3mf": "e6a56058132e0002c602e9fb32d73aad13cc321cfd07d97e446157599c478394",
+    "sorgenti/manifest_A_PROVINO_PONTE.json": "dc21f2119427ea0ec3f3f5f57c5f9424c87d3ac7605753695b945b02e6ad4c4f",
+    "slicer/machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "slicer/process.json": "190e48ab640e37f29838a3cbf1dbbef833155d992db9369acec22674522bc1c6",
+    "slicer/filament.json": "d76c9ce6f2a9230949bc679b0fe81858ea8edfc5ca4bc175ee8c26ecce31c5dd",
+    "stampa/R10_PONTE_TERMINALE_PROTOTIPO_PETG.stl": "23d51121ba56151b012a1ed770dd2e37fac7ca970531463f01a8957569e0c507",
+    "stampa/R10_PROVINO_SUPPORTI_PROTOTIPO_PETG.stl": "467d9196f230d5cee405cdbfb0f9b123ac0d1f672bbc59cac800bf389f4c2c7a"
+  },
+  "stato": "PRONTO_PER_LA_STAMPA_DEI_SOLI_PROTOTIPI_PETG",
+  "warnings_progetto": [],
+  "warnings_log": [],
+  "impostazioni_salvate": {
+    "printer_settings_id": "Elegoo Centauri Carbon 2 0.4 nozzle",
+    "curr_bed_type": "Textured PEI Plate",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_settings_id": [
+      "ELEGOO PETG PRO - BOREO R10"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "nozzle_temperature": [
+      "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "240"
+    ],
+    "textured_plate_temp": [
+      "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "65"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "5",
+    "sparse_infill_density": "30%",
+    "brim_width": "0",
+    "brim_object_gap": "0.1",
+    "enable_support": "1",
+    "support_on_build_plate_only": "1",
+    "support_type": "normal(auto)",
+    "support_top_z_distance": "0.4",
+    "wall_generator": "arachne",
+    "enable_prime_tower": "0",
+    "filament_max_volumetric_speed": [
+      "5"
+    ]
+  },
+  "strati": 135,
+  "stime_slicer": {
+    "filament used [mm]": "4127.79",
+    "filament used [cm3]": "9.93",
+    "filament used [g]": "12.41",
+    "total filament used [g]": "12.41",
+    "estimated printing time (normal mode)": "55m 8s"
+  },
+  "anteprime": {
+    "tutti_strati": [
+      "anteprime/slicing/A_PROVINO_PONTE/strati_0001_0064.png",
+      "anteprime/slicing/A_PROVINO_PONTE/strati_0065_0128.png",
+      "anteprime/slicing/A_PROVINO_PONTE/strati_0129_0135.png"
+    ],
+    "dettagli": [
+      "anteprime/slicing/A_PROVINO_PONTE/dettagli_1.png",
+      "anteprime/slicing/A_PROVINO_PONTE/dettagli_2.png"
+    ],
+    "legenda_ruoli": {
+      "Outer wall": "#1c4568",
+      "Inner wall": "#5183a5",
+      "Overhang wall": "#8b448b",
+      "Sparse infill": "#218d88",
+      "Internal solid infill": "#68a293",
+      "Top surface": "#6c4786",
+      "Bottom surface": "#6c4786",
+      "Bridge": "#d6482e",
+      "Internal Bridge": "#c35e30",
+      "Support": "#c49423",
+      "Support interface": "#d46c28",
+      "Brim": "#b0bbc3"
+    },
+    "tutti_strati_renderizzati": true
+  },
+  "gcode_generato_dallo_slicer": true,
+  "gcode_modificato": false,
+  "gcode_incorporato_identico": true,
+  "file": {
+    "stampa/PETG_PRO_ECC2/A_PROVINO_PONTE/BOREO_R10_A_PROVINO_PONTE_PETG_PRO_ECC2_04.3mf": "6090ca7e388b6afd0dcbb792de41d5b85a865b2a448fa364fcee1b5c266825db",
+    "stampa/PETG_PRO_ECC2/A_PROVINO_PONTE/BOREO_R10_A_PROVINO_PONTE_PETG_PRO_ECC2_04.gcode": "aa3089bc30b33c7bd7b91ca3f9e430008012ba3e2406afb3cdba1cd96d4a932f"
+  },
+  "avvio_stampa_o_invio_macchina": false,
+  "stampa_fisica_eseguita": false,
+  "limite": "Solo provini geometrici: R10 non ancora provata; nessuna resistenza, temperatura o immersione convalidata.",
+  "revisione_visiva_tutti_strati_completata": true,
+  "esito_visivo": "Tutte le tavole dei135/230strati riviste: supporti dal piano sul provino/base e nessuno sul ponte, zero isole candidate, pareti/piani/asole e logo presenti. Distacco e finitura reali ancora da provare."
+}

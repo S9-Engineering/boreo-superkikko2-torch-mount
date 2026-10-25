@@ -1,0 +1,7 @@
+{
+  "macchina_e_filamento": "Identici R11,derivati da R09 ELEGOO PLA Basic ECC2/ugello0.4/PEI testurizzato",
+  "processo": "Identico R11:5pareti30%gyroid,supportiZ0.4/XY0.55,senza brim",
+  "parametri_calibrati_fisicamente": false,
+  "prova_portata_fisica": false,
+  "avvio_stampa": false
+}

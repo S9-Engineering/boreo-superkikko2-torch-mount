@@ -1,0 +1,55 @@
+{
+  "archives": [
+    {
+      "file": "BOREO_R11_PONTE_CENTRATO_RINFORZATO_PLA.zip",
+      "crc_ok": true,
+      "sha256": "f112a282d75aa94028bcf41dc58f54d13a56d69f676ba00d3576db78d2006e3b"
+    },
+    {
+      "file": "BOREO_R07_PROTOTIPO_BULLONATO_PLA.zip",
+      "crc_ok": true,
+      "sha256": "4552fc6c5ddbdcc20be096c56622f1681a01e78e68975c5c22bc43c074556ff1"
+    },
+    {
+      "file": "BOREO_R10_LOGO_PONTE2MM_PETG.zip",
+      "crc_ok": true,
+      "sha256": "da730a39cc705e8ef47aea4f07cb38fe21e7c1ec76321e87e9e0e2d1a428b1fa"
+    },
+    {
+      "file": "BOREO_Superkikko2_BOZZA_R03.zip",
+      "crc_ok": true,
+      "sha256": "b0a712f1d9bcd3b59c34e5b991d9f8092aabd9ef014d0fba74fcb0cce07fcb56"
+    },
+    {
+      "file": "BOREO_R08_PROVINI_PLA.zip",
+      "crc_ok": true,
+      "sha256": "2187a92ef8b56e5efdac3efc8ec9dd509d2314e85777fc80cc6c217dd9a07daf"
+    },
+    {
+      "file": "BOREO_Superkikko2_BOZZA_R04.zip",
+      "crc_ok": true,
+      "sha256": "f7f7b52b583bfe583a4a99cf01d4e2bbc78ff3d98fe95f3f02c72bec2fa01f0f"
+    },
+    {
+      "file": "BOREO_R06_DIMA_RAPIDA_PLA.zip",
+      "crc_ok": true,
+      "sha256": "ca5277484ff2295c9cdff5376dccb0e9863ac382928b80e5116b78e603a5b04e"
+    },
+    {
+      "file": "BOREO_R09_PIASTRA_COMPLETA_PROVINI_PLA.zip",
+      "crc_ok": true,
+      "sha256": "44a8452c82e8ff0bb0639ba38fc8b2203e60044b932f9766892de83ecf2a6dde"
+    },
+    {
+      "file": "BOREO_R13_COMPLETO_PETG_PRO.zip",
+      "crc_ok": true,
+      "sha256": "9e46e280fd3988f3ef58ac483ac81391d0d505735c574c16f09b34594e26d8e7"
+    },
+    {
+      "file": "BOREO_R12_RINFORZO_DALLA_FASCIA_ALLE_ALETTE_PLA.zip",
+      "crc_ok": true,
+      "sha256": "46b04d99d4bcac109d2bf527be538bf31d7eb2d4bf7dc070738d2135b351dd44"
+    }
+  ],
+  "bytes_changed": false
+}

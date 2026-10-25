@@ -1,0 +1,18 @@
+{
+  "origini": {
+    "script_base": "R08, copiati nella R09 e modificati per piastra e tre passaggi",
+    "macchina": "R08 profilo ECC2, nessuna modifica alle macro",
+    "filamento": "R08 ELEGOO PLA Basic, invariato",
+    "processo": "R08, rinominato R09; impostazioni invariate"
+  },
+  "confronto_profili": {
+    "machine.json": {},
+    "filament.json": {},
+    "process.json": {
+      "name": {
+        "R08": "BOREO R08 PROVINI PLA BASIC .20",
+        "R09": "BOREO R09 PROVINI PLA BASIC .20"
+      }
+    }
+  }
+}

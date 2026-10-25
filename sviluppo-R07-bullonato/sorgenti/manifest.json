@@ -1,0 +1,198 @@
+{
+  "revisione": "R07_BULLONATO_SVILUPPO",
+  "unita_assieme": "mm",
+  "casco_presente": false,
+  "pezzi": [
+    {
+      "id": "base_grezza",
+      "quantita": 1,
+      "solo_prototipo": true,
+      "stl_stampa": "stampa/R07_BASE_GREZZA_PROTOTIPO_PLA.stl",
+      "step_stampa": "stampa/R07_BASE_GREZZA_PROTOTIPO_PLA.step",
+      "stl_assieme": "sorgenti/assieme/base_grezza.stl",
+      "step_assieme": "sorgenti/assieme/base_grezza.step",
+      "matrice_stampa_da_assieme": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds_stampa_mm": [
+        [
+          -51.40095758527213,
+          -11.611854934474533,
+          0.0
+        ],
+        [
+          51.40095758527214,
+          14.0,
+          46.0
+        ]
+      ],
+      "bounds_assieme_mm": [
+        [
+          -51.40095758527213,
+          -11.611854934474533,
+          0.0
+        ],
+        [
+          51.40095758527214,
+          14.0,
+          46.0
+        ]
+      ]
+    },
+    {
+      "id": "ponte_terminale",
+      "quantita": 1,
+      "solo_prototipo": true,
+      "stl_stampa": "stampa/R07_PONTE_TERMINALE_PROTOTIPO_PLA.stl",
+      "step_stampa": "stampa/R07_PONTE_TERMINALE_PROTOTIPO_PLA.step",
+      "stl_assieme": "sorgenti/assieme/ponte_terminale.stl",
+      "step_assieme": "sorgenti/assieme/ponte_terminale.step",
+      "matrice_stampa_da_assieme": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -21.0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds_stampa_mm": [
+        [
+          -52.49112111929781,
+          -35.39343709828853,
+          0.0
+        ],
+        [
+          52.49112111929781,
+          14.0,
+          16.0
+        ]
+      ],
+      "bounds_assieme_mm": [
+        [
+          -52.49112111929781,
+          -35.39343709828853,
+          21.0
+        ],
+        [
+          52.49112111929781,
+          14.0,
+          37.0
+        ]
+      ]
+    }
+  ],
+  "riferimenti": [
+    {
+      "id": "vite_M3x16_1",
+      "stl_assieme": "sorgenti/ferramenta-riferimento/vite_M3x16_1.stl",
+      "step_assieme": "sorgenti/ferramenta-riferimento/vite_M3x16_1.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "rondella_M3_1",
+      "stl_assieme": "sorgenti/ferramenta-riferimento/rondella_M3_1.stl",
+      "step_assieme": "sorgenti/ferramenta-riferimento/rondella_M3_1.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "dado_autobloccante_M3_1",
+      "stl_assieme": "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_1.stl",
+      "step_assieme": "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_1.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "vite_M3x16_2",
+      "stl_assieme": "sorgenti/ferramenta-riferimento/vite_M3x16_2.stl",
+      "step_assieme": "sorgenti/ferramenta-riferimento/vite_M3x16_2.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "rondella_M3_2",
+      "stl_assieme": "sorgenti/ferramenta-riferimento/rondella_M3_2.stl",
+      "step_assieme": "sorgenti/ferramenta-riferimento/rondella_M3_2.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "dado_autobloccante_M3_2",
+      "stl_assieme": "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_2.stl",
+      "step_assieme": "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_2.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    }
+  ],
+  "piatto_geometrico": {
+    "file": "stampa/R07_DUE_PEZZI_SOLO_GEOMETRIA.3mf",
+    "numero_pezzi": 2,
+    "unita": "mm",
+    "items": [
+      {
+        "id": "base_grezza",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          93.80584955215454,
+          0.0
+        ]
+      },
+      {
+        "id": "ponte_terminale",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          175.6966953277588,
+          0.0
+        ]
+      }
+    ]
+  },
+  "assieme": {
+    "step": "sorgenti/assieme/R07_ASSIEME_PLASTICA.step",
+    "glb": "sorgenti/assieme/R07_ASSIEME_PLASTICA.glb",
+    "unita_glb": "m"
+  },
+  "scopo": "Prototipo evoluto di aggancio con 2 bulloni M3, non versione funzionale finale. PLA solo prova. Base curva piena grezza, interfaccia farfalla da quotare. Ponte sviluppato solo sopra il limite inferiore R06. Nessuna torcia nel modello."
+}

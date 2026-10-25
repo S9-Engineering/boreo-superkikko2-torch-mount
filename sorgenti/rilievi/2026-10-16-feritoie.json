@@ -1,0 +1,56 @@
+{
+  "data_ricezione": "2026-10-16",
+  "unita_lineari": "mm",
+  "tipo_fonte": "Quote scritte dall utente su schizzo fotografato; non misure ricavate dai pixel",
+  "foto": "../riferimenti/rilievi-utente/2026-10-16-feritoie-spessore.jpg",
+  "foto_sha256": "3ed0cc55e3f8e97ca509afbf942a8d6e0cb9436594de9c79f65608e17fc5a130",
+  "stato": "RILIEVO_PARZIALE_DICHIARATO_UTENTE_NON_VERIFICATO_SU_ESEMPLARE",
+  "direzione_progetto": "Base esterna per farfalla e U originali; variante con piastra interna unica curva e due terminali passanti. La bozza CAD disponibile R04 conserva invece due fermi separati e quote assunte.",
+  "feritoia_interna_rappresentata": {
+    "lato_casco_sinistro_o_destro": null,
+    "bordo_superiore_mm": 35,
+    "bordo_inferiore_mm": 30,
+    "conversione_bordo_inferiore": "3 cm = 30 mm",
+    "lato_obliquo_sinistro_nello_schizzo_mm": 10,
+    "lato_corto_destro_nello_schizzo_mm": 5,
+    "metodo_diretto_o_lungo_bordo": null,
+    "precisione_strumento": null,
+    "angoli": null,
+    "altezza_massima_libera_mm": null,
+    "sagoma_metrica_completa": null,
+    "sezione_rettangolare_attraversabile_mm": null,
+    "stesse_quote_sull_altra_feritoia_confermate": null,
+    "nota": "Sinistro e destro descrivono il disegno, non il lato indossato. I 10 mm sono il lato obliquo e i 5 mm il lato corto: non sono due quote di una sezione utile rettangolare. Non imporre un trapezio a basi parallele o una sagoma in scala."
+  },
+  "distanza_feritoie": {
+    "valore_mm": 63,
+    "riferimento": "Bordi piu vicini delle due feritoie",
+    "conferma_utente": "Fra i bordi piu vicini",
+    "tipo_misura_rettilinea_o_lungo_curva": null,
+    "interasse_centri_passaggi_mm": null,
+    "differenza_altezza_passaggi_mm": null,
+    "nota": "La quota non e un interasse. Posizione e distanza dei codoli richiedono scelta dei punti di passaggio e verifica della luce utile."
+  },
+  "spessore_casco_piu_schiuma": {
+    "valore_mm": 18,
+    "dicitura_utente": "18 MM = SPESSORE CASCO + SCHIUMA",
+    "punto_e_direzione_di_misura": null,
+    "rilevato_su_entrambi_i_lati": null,
+    "distanza_fra_appoggi_lungo_asse_codolo_mm": null,
+    "lunghezza_codolo_mm": null,
+    "nota": "Non e lo spessore della piastra interna, lo spazio libero verso la testa o la lunghezza completa del codolo. Quest ultima include il tratto verso gli appoggi effettivi e l innesto nella base."
+  },
+  "ancora_da_rilevare": [
+    "Profili orizzontali interno ed esterno alla quota dei passaggi; eventuale doppia curvatura.",
+    "Orientamento e luce utile completa di entrambi i passaggi, compreso lato esterno e percorso.",
+    "Appoggi effettivi e spazio libero per ponte interno, girotesta e imbottitura.",
+    "Sagoma, spessore, asole e sporgenze posteriori della farfalla originale."
+  ],
+  "conseguenze_CAD": {
+    "quote_R04_modificate": false,
+    "STL_STEP_3MF_e_anteprime_R04_modificati": false,
+    "codoli_R04_10x12_mm_compatibilita_dimostrata": false,
+    "nuova_variante_realizzata": false,
+    "nota": "Dati sufficienti a vincolare il prossimo studio; insufficienti a validare montaggio, forma definitiva, materiale, resistenza o serraggio."
+  }
+}

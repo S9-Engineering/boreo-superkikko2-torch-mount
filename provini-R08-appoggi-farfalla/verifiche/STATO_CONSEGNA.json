@@ -1,0 +1,37 @@
+{
+  "revisione": "R08",
+  "stato": "PRONTO_PER_LA_STAMPA_DEI_SOLI_PROVINI_PLA",
+  "stampante": "ELEGOO Centauri Carbon 2 Combo",
+  "ugello_mm": 0.4,
+  "piano": "PEI testurizzato",
+  "materiale": "ELEGOO PLA Basic",
+  "piatti": {
+    "A_DIMA": {
+      "pezzi": 1,
+      "tempo_slicer": "5m 2s",
+      "consumo_slicer_g": 1.33,
+      "supporti": false,
+      "strati": 14
+    },
+    "B_BASE_PONTE": {
+      "pezzi": 2,
+      "tempo_slicer": "1h 15m 30s",
+      "consumo_slicer_g": 20.2,
+      "supporti": true,
+      "strati": 230
+    }
+  },
+  "brim": false,
+  "avviso_PLA": "Conservato: sportello aperto e/o vetro superiore rimosso.",
+  "controlli_geometrici_superati": 115,
+  "controlli_pacchetto_superati": 109,
+  "correzione_pre_rilascio": "Finestra ridotta a70mm per mantenere bordi continui attorno ai passaggi M3. Esportati, anteprime e slicing finali rigenerati: nessuna isola di parete candidata.",
+  "ponte": "Geometria CAD identica alla R07",
+  "limiti": [
+    "Solo prove dimensionali a mano, nessun carico della torcia o funzionamento acceso.",
+    "Luce asole2mm e bordo2mm dichiarati; interasse57.5mm calcolato da lettura W circa63.5 e simmetria.",
+    "Spessore lamiera, accesso rivetti, materiale e serraggio funzionale da definire.",
+    "Nessuna prova fisica R08, strutturale, termica o di immersione."
+  ],
+  "avvio_o_invio_macchina": false
+}

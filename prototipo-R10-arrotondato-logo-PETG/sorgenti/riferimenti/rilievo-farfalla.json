@@ -1,0 +1,154 @@
+{
+  "data": "2026-10-22",
+  "tipo": "Letture fotografiche indicative integrate da dichiarazione diretta utente sui 2 mm.",
+  "unita": "mm",
+  "nota": "Usata scala metrica inferiore. Prospettiva, nonio e posizionamento dei becchi non consentono quote affidabili al centesimo. Le stime di lettura non includono errori strumentali o di presa. Nessuna quota funzionale mancante viene compilata dal rapporto pixel.",
+  "foto": [
+    {
+      "foto": 1,
+      "file": "sorgenti/foto-originali/1-Foto-1.jpg",
+      "sha256": "9954c1fae13009625d045dc75a857636e41a33810e0ce34919205df0009bb6aa"
+    },
+    {
+      "foto": 2,
+      "file": "sorgenti/foto-originali/2-Foto-2.jpg",
+      "sha256": "7c039006e4eba2a4d904ed9f86abd50babc5b472d95bbfab4a21a2c79343be4d"
+    },
+    {
+      "foto": 3,
+      "file": "sorgenti/foto-originali/3-Foto-3.jpg",
+      "sha256": "2cc604bbbdfd564ef852b31a788e7ac82c47c11ab4354e7db105f6aa6f652085"
+    },
+    {
+      "foto": 4,
+      "file": "sorgenti/foto-originali/4-Foto-4.jpg",
+      "sha256": "d8336d66f1ffa8d4c9f76d8a0831e8bf3e4f578223ccfa49554f78bee08ccb38"
+    },
+    {
+      "foto": 5,
+      "file": "sorgenti/foto-originali/5-Foto-5.jpg",
+      "sha256": "e779c9e32e337cb97eaf3571a22f54d9d6ed53a62f03ce8bc38552c881c6a175"
+    },
+    {
+      "foto": 6,
+      "file": "sorgenti/foto-originali/6-Foto-6.jpg",
+      "sha256": "66edddbff68d14a41f0b43c28ece36d0335502fe703be6bc12783a9c32f6023b"
+    },
+    {
+      "foto": 7,
+      "file": "sorgenti/foto-originali/7-Foto-7.jpg",
+      "sha256": "2f24eb8bc99ae381033109b1d167eaf434eed83ef16df2d2372dc1f8ae9cfc2c"
+    }
+  ],
+  "letture": [
+    {
+      "foto": 1,
+      "grandezza": "Larghezza esterna totale farfalla",
+      "stima_mm": 63.5,
+      "fascia_indicativa_mm": [
+        63,
+        64
+      ],
+      "stato": "LETTURA_FOTOGRAFICA_DA_CONFERMARE"
+    },
+    {
+      "foto": 2,
+      "grandezza": "Tratto metallico esterno accanto asola destra, non luce interna certa",
+      "stima_mm": null,
+      "fascia_indicativa_mm": [
+        1.5,
+        2.1
+      ],
+      "stato": "CONTATTI_DA_CONFERMARE"
+    },
+    {
+      "foto": 3,
+      "grandezza": "Larghezza apparente bordo esterno asola destra, non spessore lamiera",
+      "stima_mm": 2.0,
+      "fascia_indicativa_mm": [
+        1.7,
+        2.2
+      ],
+      "stato": "CONTATTI_DA_CONFERMARE"
+    },
+    {
+      "foto": 4,
+      "grandezza": "Larghezza apparente bordo esterno asola destra, non spessore lamiera",
+      "stima_mm": 2.0,
+      "fascia_indicativa_mm": [
+        1.7,
+        2.2
+      ],
+      "stato": "CONTATTI_DA_CONFERMARE"
+    },
+    {
+      "foto": 5,
+      "grandezza": "Larghezza esterna traversina superiore",
+      "stima_mm": 31.0,
+      "fascia_indicativa_mm": [
+        30.5,
+        31.5
+      ],
+      "stato": "LETTURA_FOTOGRAFICA_DA_CONFERMARE"
+    },
+    {
+      "foto": 6,
+      "grandezza": "Distanza presa dai becchi: verosimilmente sommità T e bordo inferiore traversa centrale; NON attribuita ad altezza totale",
+      "stima_mm": 36.0,
+      "fascia_indicativa_mm": [
+        35.5,
+        36.5
+      ],
+      "stato": "ESTREMI_DA_CONFERMARE",
+      "correzione": "Prima lettura di circa37mm corretta dopo ingrandimento della scala metrica."
+    },
+    {
+      "foto": 7,
+      "grandezza": "Larghezza collo centrale",
+      "stima_mm": 10.5,
+      "fascia_indicativa_mm": [
+        10,
+        11
+      ],
+      "stato": "LETTURA_FOTOGRAFICA_DA_CONFERMARE"
+    }
+  ],
+  "quote_funzionali_ancora_mancanti": {
+    "spessore_lamiera_mm": null,
+    "lunghezza_utile_asole_verticali_mm": null,
+    "altezza_totale_mm": null,
+    "protrusione_rivetti_lato_casco_mm": null,
+    "planarita_faccia_lato_casco": null
+  },
+  "necessarie_per_primo_fissaggio": [
+    "spessore lamiera fra facce",
+    "verifica planarità e sporgenze lato casco per appoggi e scarichi"
+  ],
+  "vincoli_conservati_R07": [
+    "Ponte interno unico, bordo inferiore R06 conservato e sviluppo verso alto",
+    "Giunto ponte/base con due bulloni M3 esterni, distinto dalle future viti farfalla/base",
+    "Nessun nuovo foro nel casco o nel metallo originale"
+  ],
+  "aggiornamento_utente": {
+    "testo": "Sia il foro che lo spessore a fianco sono di 2 mm",
+    "interpretazione": "Luce asola 2 mm e larghezza del bordo esterno accanto al foro 2 mm nel piano della farfalla. Non è una misura dello spessore della lamiera fra le due facce.",
+    "assunzione_di_simmetria": "Usati 2 mm per ciascuna asola e ciascun bordo esterno, assumendo identiche le due alette."
+  },
+  "quote_dichiarate_utente": {
+    "larghezza_libera_asole_verticali_mm": 2.0,
+    "larghezza_bordo_esterno_nel_piano_mm": 2.0,
+    "spessore_lamiera_fra_facce_mm": null
+  },
+  "quote_calcolate": {
+    "interasse_asole_verticali_circa_mm": 57.5,
+    "formula_generale": "I = W - b_sx - b_dx - (a_sx + a_dx)/2",
+    "formula_simettrica": "I = W - 2*b - a = 63.5 - 2*2 - 2 = 57.5 mm",
+    "larghezza_W_fonte": "Foto1, lettura indicativa circa63.5 mm",
+    "simmetria_adottata": true,
+    "intervallo_solo_da_lettura_W_mm": [
+      57,
+      58
+    ],
+    "stato": "CALCOLATO_DA_LETTURA_FOTOGRAFICA_E_QUOTE_UTENTE_NON_MISURATO_DIRETTAMENTE"
+  }
+}

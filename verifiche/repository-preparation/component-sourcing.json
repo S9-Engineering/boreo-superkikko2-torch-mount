@@ -1,0 +1,49 @@
+{
+  "checked_on": "2026-10-25",
+  "marketplace": "Amazon.it",
+  "purchases_made": false,
+  "items": [
+    {
+      "id": "m3-screws",
+      "required": 2,
+      "url": "https://www.amazon.it/dp/B0DHPJTV8P",
+      "pack": 10,
+      "packs": 1,
+      "verified": "Live product page: ProRaje M3x16 full-thread cylindrical socket head ISO4762/DIN912, A2-70, 10-piece selected variant.",
+      "physical_dimensions_tested": false
+    },
+    {
+      "id": "m3-nuts-washers",
+      "required": {
+        "nuts": 2,
+        "washers": 2
+      },
+      "url": "https://www.amazon.it/dp/B0GFC9H67Y",
+      "pack": {
+        "nuts": 100,
+        "washers": 100
+      },
+      "packs": 1,
+      "verified": "Live product page: M3-100 Stuck variant, stainless304, DIN985 nylon insert nuts and DIN125 washers.",
+      "pending": "Actual AF5.5/H4 nut and ID3.2/OD7/t0.5 washer dimensions to be measured; individual dimensions not provided in visible listing text.",
+      "physical_dimensions_tested": false
+    },
+    {
+      "id": "generic-petg",
+      "required_g": 45,
+      "url": "https://www.amazon.it/dp/B0F443Q9KS",
+      "pack_kg": 1,
+      "packs_if_needed": 1,
+      "verified": "Live page: ELEGOO PETG black1kg, diameter1.75mm.",
+      "pending": "Not identified as PETG Pro. Alternative for STL/reslicing only; not a replacement under the native PETG Pro profile."
+    },
+    {
+      "id": "butterfly-fasteners",
+      "required_sets": 3,
+      "status": "UNRESOLVED_DO_NOT_BUY",
+      "reason": "M1.6 is a candidate only. Metal thickness, rivet and tool/head clearances must be measured before length and washer selection."
+    }
+  ],
+  "technical_specs_govern_equivalents": true,
+  "commercial_relationship": "No affiliation or sponsorship established; links have no affiliate parameters."
+}

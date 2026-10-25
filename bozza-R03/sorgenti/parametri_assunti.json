@@ -1,0 +1,36 @@
+{
+  "revisione": "BOZZA_R03_NON_USO",
+  "stato": "BOZZA VISIVA NON FUNZIONALE - NON USARE SUL CASCO",
+  "unita": "millimetri",
+  "assi": {"X": "sinistra-destra", "Y": "avanti", "Z": "alto"},
+  "nota": "Ogni quota e raccordo e ASSUNTO. Non deriva da CAD Petzl, rilievo del casco o specifiche di fissaggio Superkikko2. I fori non identificano una filettatura.",
+  "ponte": {
+    "raggio_centrolinea_mm": {"valore": 110.0, "stato": "ASSUNTA"},
+    "corda_centrolinea_mm": {"valore": 120.0, "stato": "ASSUNTA"},
+    "spessore_radiale_mm": {"valore": 1.2, "stato": "ASSUNTA"},
+    "altezza_mm": {"valore": 12.0, "stato": "ASSUNTA"}
+  },
+  "bracci": {
+    "spessore_iniziale_mm": {"valore": 1.2, "stato": "ASSUNTA"},
+    "spessore_finale_mm": {"valore": 4.0, "stato": "ASSUNTA"},
+    "altezza_mm": {"valore": 12.0, "stato": "ASSUNTA"},
+    "controlli_bezier_destro_xy_mm": {"valore": [[60.0, 0.0], [59.0, 10.0], [36.0, 30.0], [36.0, 44.5]], "stato": "ASSUNTA", "nota": "Profilo morbido nominale, riflesso sul lato sinistro. Il primo tratto si sovrappone volumetricamente al ponte."},
+    "raccordo_bordi_verticali_mm": {"valore": 0.15, "stato": "ASSUNTA"}
+  },
+  "orecchie": {
+    "luce_interna_mm": {"valore": 68.0, "stato": "ASSUNTA"},
+    "spessore_x_mm": {"valore": 4.0, "stato": "ASSUNTA"},
+    "lunghezza_y_mm": {"valore": 18.0, "stato": "ASSUNTA"},
+    "altezza_z_mm": {"valore": 16.0, "stato": "ASSUNTA"},
+    "raccordo_profilo_yz_mm": {"valore": 3.0, "stato": "ASSUNTA"},
+    "asse_fori_y_mm": {"valore": 50.0, "stato": "ASSUNTA"},
+    "asse_fori_z_mm": {"valore": 8.0, "stato": "ASSUNTA"},
+    "diametro_fori_mm": {"valore": 4.5, "stato": "ASSUNTA", "nota": "Foro liscio nominale ipotetico: nessuna filettatura, vite o compatibilita SK2 attribuita."},
+    "assi_fori": [{"punto_xyz_mm": [36.0, 50.0, 8.0], "direzione": [1, 0, 0], "stato": "ASSUNTA"}, {"punto_xyz_mm": [-36.0, 50.0, 8.0], "direzione": [1, 0, 0], "stato": "ASSUNTA"}]
+  },
+  "esportazione": {
+    "tolleranza_lineare_mesh_mm": {"valore": 0.01, "stato": "ASSUNTA"},
+    "tolleranza_angolare_mesh_rad": {"valore": 0.08, "stato": "ASSUNTA"},
+    "centro_piatto_xy_mm": {"valore": [128.0, 128.0], "stato": "ASSUNTA", "nota": "Solo disposizione geometrica nominale; nessun profilo macchina, brim, supporto o slicing."}
+  }
+}

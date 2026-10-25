@@ -1,0 +1,22 @@
+{
+  "revisione": "R06",
+  "metodo": "STL esportati riaperti e renderer VTK; nessun casco ricostruito",
+  "slicing_incluso": false,
+  "riferimenti_schematici_non_stampabili": true,
+  "input": [
+    {
+      "id": "base_cornice",
+      "stl": "sorgenti/assieme/base_cornice.stl",
+      "sha256": "1951ce49e480f070da8b82694c4cc49169b3fa27e478e78395ee6daccb6747a9"
+    },
+    {
+      "id": "ponte_terminale",
+      "stl": "sorgenti/assieme/ponte_terminale.stl",
+      "sha256": "99860214bb376cd19a54913633dd85dff7b886beb682b284b161e209f9da93e1"
+    }
+  ],
+  "versioni": {
+    "vtk": "9.6.2",
+    "trimesh": "5.1.1"
+  }
+}

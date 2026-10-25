@@ -1,0 +1,15 @@
+{
+  "data": "2026-10-22",
+  "correzione": "intendevo l’altro verso, cioè dalla base all’aletta",
+  "interpretazione": "Nervature dal lato dei bracci, dalla fascia curva verso la torcia. Eliminati talloni e rinforzi verso la testa della R11.",
+  "parametri_provino": {
+    "altezza_nervatura_max_mm": 1.2,
+    "lunghezza_da_fascia_esterno_mm": 12,
+    "larghezza_mm": 6,
+    "punta_mm": 0.4,
+    "spessore_aletta_mm": 3.2,
+    "ingombro_locale_massimo_progetto_mm": 4.4
+  },
+  "ipotesi": "La luce minima5mm del rilievo manuale non è un modello3D del canale. Il passaggio reale con la nervatura esterna resta da provare senza forzare.",
+  "riscontro_fisico_R12": null
+}

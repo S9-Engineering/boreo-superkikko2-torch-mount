@@ -1,0 +1,8 @@
+{
+  "data": "2026-10-22",
+  "richiesta": "fissaggio per aletta superiore e appoggio completo della farfalla",
+  "asola_superiore_luce_mm": 2,
+  "fonte": "Conferma diretta utente: Anche l’asola superiore è larga2mm",
+  "posizione_centro_superiore": "non rilevata: Z41.5 assunto per provino",
+  "calore": "Nessun valore di temperatura acquisito. Appoggio plastico completo non convalidato come dissipatore."
+}

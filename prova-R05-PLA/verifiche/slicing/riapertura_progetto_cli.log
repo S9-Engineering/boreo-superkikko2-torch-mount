@@ -1,0 +1,28 @@
+[BOREO_R05_DIMA_PLA_BASIC_ECC2_04.3mf]
+size_x = 102.801315
+size_y = 20.111557
+size_z = 46.000000
+min_x = -51.400658
+min_y = -10.055779
+min_z = -23.000000
+max_x = 51.400658
+max_y = 10.055779
+max_z = 23.000000
+number_of_facets = 13320
+manifold = yes
+number_of_parts =  1
+volume = 24758.347656
+[BOREO_R05_DIMA_PLA_BASIC_ECC2_04.3mf]
+size_x = 104.942703
+size_y = 31.373920
+size_z = 24.000000
+min_x = -52.471352
+min_y = -15.686960
+min_z = -12.000000
+max_x = 52.471352
+max_y = 15.686960
+max_z = 12.000000
+number_of_facets = 4602
+manifold = yes
+number_of_parts =  1
+volume = 8237.632812

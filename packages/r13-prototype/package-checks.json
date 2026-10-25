@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "archive": "packages/r13-prototype/boreo-superkikko2-torch-mount-r13-prototype-print-pack.zip",
+  "sha256": "90f03948125992fc2941e75a34d04dad40ff41376a24357cc8a4c5d5f765bac2",
+  "members": 10,
+  "bytes": 1662335,
+  "standalone_links": [
+    {
+      "document": "README.md",
+      "target": "print/stl/R13_PONTE_CENTRATO_PETG.stl"
+    },
+    {
+      "document": "README.md",
+      "target": "print/stl/R13_BASE_APPOGGI_PETG.stl"
+    },
+    {
+      "document": "README.md",
+      "target": "print/3mf/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.3mf"
+    },
+    {
+      "document": "README.md",
+      "target": "assembly/r13-exploded.png"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSE.txt"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSE-SOFTWARE.txt"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSING.md"
+    },
+    {
+      "document": "LICENSING.md",
+      "target": "LICENSE.txt"
+    },
+    {
+      "document": "LICENSING.md",
+      "target": "LICENSE-SOFTWARE.txt"
+    },
+    {
+      "document": "LICENSING.md",
+      "target": "LICENSE-SOFTWARE.txt"
+    }
+  ],
+  "files": [
+    {
+      "source": "progetto-R13-completo-PETG/stampa/R13_PONTE_CENTRATO_PETG.stl",
+      "archive": "print/stl/R13_PONTE_CENTRATO_PETG.stl",
+      "role": "model",
+      "sha256": "b7ffd0778cd092c533875846b68a235f75fabc20edb1a2d0399cf956ccee99df",
+      "bytes": 117084
+    },
+    {
+      "source": "progetto-R13-completo-PETG/stampa/R13_BASE_APPOGGI_PETG.stl",
+      "archive": "print/stl/R13_BASE_APPOGGI_PETG.stl",
+      "role": "model",
+      "sha256": "9f2d9fbfde3bb2989819d4e1db064e5e18d89f3d75fba6ee1973def8aef22b9d",
+      "bytes": 288584
+    },
+    {
+      "source": "progetto-R13-completo-PETG/stampa/PETG_PRO_ECC2/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.3mf",
+      "archive": "print/3mf/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.3mf",
+      "role": "model",
+      "expected_sha256": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b",
+      "sha256": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b",
+      "bytes": 1490945
+    },
+    {
+      "source": "packages/r13-prototype/README.print.md",
+      "archive": "README.md",
+      "role": "instructions",
+      "sha256": "00118082110e8b86d233fc5a1fd3684d1281132043a2766236cb2950204bb4fb",
+      "bytes": 8535
+    },
+    {
+      "source": "previews/assembly/r13-exploded.png",
+      "archive": "assembly/r13-exploded.png",
+      "role": "image",
+      "sha256": "933ac89c7e76c40721ecf59a77f3cecf50f64e7a510440b47ded15b7971aabf0",
+      "bytes": 57103
+    },
+    {
+      "source": "LICENSE.txt",
+      "archive": "LICENSE.txt",
+      "role": "license",
+      "sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "bytes": 20849
+    },
+    {
+      "source": "LICENSE-SOFTWARE.txt",
+      "archive": "LICENSE-SOFTWARE.txt",
+      "role": "license",
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8",
+      "bytes": 4563
+    },
+    {
+      "source": "LICENSING.md",
+      "archive": "LICENSING.md",
+      "role": "license",
+      "sha256": "0484bbaf1d182ab0137b73c4c0e888a3208855a119025b5318cb52efaa5b645d",
+      "bytes": 6280
+    }
+  ],
+  "portal_files_included": false,
+  "tag_or_release_created": false,
+  "physical_tests": false
+}

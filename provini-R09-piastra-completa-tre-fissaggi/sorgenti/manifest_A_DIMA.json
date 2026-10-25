@@ -1,0 +1,80 @@
+{
+  "revisione": "R09_A_DIMA",
+  "pezzi": [
+    {
+      "id": "dima_interasse",
+      "quantita": 1,
+      "solo_prototipo": true,
+      "montaggio_casco": false,
+      "stl_stampa": "stampa/R09_DIMA_INTERASSE_PROTOTIPO_PLA.stl",
+      "step_stampa": "stampa/R09_DIMA_INTERASSE_PROTOTIPO_PLA.step",
+      "stl_assieme": "sorgenti/assieme/dima_interasse.stl",
+      "step_assieme": "sorgenti/assieme/dima_interasse.step",
+      "matrice_stampa_da_assieme": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          -80
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds_stampa_mm": [
+        [
+          -31.75,
+          0.0,
+          0.0
+        ],
+        [
+          31.75,
+          24.900000000000006,
+          2.8
+        ]
+      ],
+      "bounds_assieme_mm": [
+        [
+          -31.75,
+          80.0,
+          0.0
+        ],
+        [
+          31.75,
+          104.9,
+          2.8
+        ]
+      ]
+    }
+  ],
+  "piatto_geometrico": {
+    "file": "stampa/R09_PIATTO_A_DIMA_SOLO_GEOMETRIA.3mf",
+    "numero_pezzi": 1,
+    "unita": "mm",
+    "items": [
+      {
+        "id": "dima_interasse",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          73.55000019073486,
+          0.0
+        ]
+      }
+    ]
+  }
+}

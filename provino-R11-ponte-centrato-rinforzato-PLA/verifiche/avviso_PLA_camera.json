@@ -1,0 +1,69 @@
+{
+  "verificato_utc": "2026-10-21T14:35:07.728072+00:00",
+  "avviso": {
+    "msg": "bed_temperature_too_high_than_filament",
+    "level": "3",
+    "error_code": "1000C001"
+  },
+  "stato": "AVVISO_PRESENTE_E_DOCUMENTATO_PREPARAZIONE_MACCHINA_RICHIESTA",
+  "interpretazione": "Avviso di possibile intasamento del filamento a bassa temperatura di rammollimento quando il piano riscalda una camera chiusa. La raccomandazione del software e aprire lo sportello anteriore e/o rimuovere il vetro superiore; il codice non dichiara errata la temperatura del piano del preset.",
+  "preparazione_richiesta_prima_stampa": "Tenere aperto lo sportello anteriore e/o rimuovere il vetro superiore durante la stampa PLA, come indicato dall avviso del software. Per questo provino mantenere camera ventilata; verifica fisica a cura dell operatore prima dell avvio.",
+  "valori_preservati": {
+    "ugello_C": [
+      "220"
+    ],
+    "ugello_primo_strato_C": [
+      "220"
+    ],
+    "piano_PEI_testurizzato_C": [
+      "60"
+    ],
+    "piano_primo_strato_C": [
+      "60"
+    ],
+    "soglia_temperature_vitrification_C": [
+      "45"
+    ],
+    "portata_massima_mm3_s": [
+      "12"
+    ]
+  },
+  "azione_su_preset": "Nessuna temperatura o soglia alterata per sopprimere l avviso. Profilo ufficiale Basic220/60 preservato, portata12 come override R05 gia documentato.",
+  "provenienza_risorse_installate": [
+    {
+      "file": "/Applications/ElegooSlicer.app/Contents/Resources/i18n/en/ElegooSlicer.mo",
+      "sha256": "036752f13785fe87d70236f0aa8d818f749d4ce267ee19bbf003873561604fc2",
+      "messaggio_presente": true,
+      "lingua": "en"
+    },
+    {
+      "file": "/Applications/ElegooSlicer.app/Contents/Resources/i18n/it/ElegooSlicer.mo",
+      "sha256": "d5a3bb721c05c67333603765af9aced4fc47e6482c883b9c3867b46404dde174",
+      "messaggio_presente": true,
+      "lingua": "it"
+    }
+  ],
+  "provenienza_codice_ufficiale": [
+    {
+      "url": "https://github.com/elegooofficial/ElegooSlicer/blob/v1.5.3.5/src/slic3r/GUI/Plater.cpp#L5267-L5271",
+      "versione": "v1.5.3.5",
+      "riscontro": "Mappa esattamente BED_TEMP_TOO_HIGH_THAN_FILAMENT al messaggio camera chiusa e apertura sportello/vetro."
+    },
+    {
+      "url": "https://github.com/elegooofficial/ElegooSlicer/blob/v1.5.3.5/src/libslic3r/GCode/GCodeProcessor.cpp#L5579-L5605",
+      "versione": "v1.5.3.5",
+      "riscontro": "Emette codice1000C001 per filamento utilizzato con soglia non nulla quando la massima temperatura piano e maggiore o uguale alla soglia temperature_vitrification."
+    }
+  ],
+  "riscontro_slicing": {
+    "file": "verifiche/slicing/report.json",
+    "warning_presente": true,
+    "gcode_non_modificato": true
+  },
+  "limiti": [
+    "Il confronto del software usa il valore massimo del piano e la soglia del preset: non misura la temperatura reale della camera o della bobina.",
+    "Aprire la camera e una preparazione richiesta, non una prova gia eseguita sulla macchina fisica o una garanzia contro intasamenti.",
+    "Nessuna stampa inviata o avviata da questo controllo.",
+    "Il provino rimane solo prova di forma e montaggio: il PLA non e validato come supporto portante o per calore della lampada."
+  ]
+}

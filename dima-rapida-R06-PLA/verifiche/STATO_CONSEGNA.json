@@ -1,0 +1,24 @@
+{
+  "data": "2026-10-21",
+  "revisione": "R06",
+  "stato": "PRONTO_PER_LA_STAMPA_DELLA_SOLA_DIMA",
+  "scopo": "Verifica manuale degli ingombri, delle feritoie e della curvatura; cornice esterna aperta, ponte interno unico con linguette 10x4 mm.",
+  "controlli_geometrici_superati": 59,
+  "strati_verificati": 165,
+  "slicer": "ElegooSlicer 1.5.3.5 (CLI ElegooSlicer-2.4.2)",
+  "macchina": "ELEGOO Centauri Carbon 2 Combo, ugello 0.4 mm, PEI testurizzato",
+  "filamento": "ELEGOO PLA Basic",
+  "tempo_stimato_slicer": "28 min 21 s",
+  "consumo_stimato_g": 7.27,
+  "supporti": false,
+  "avviso_conservato": "bed_temperature_too_high_than_filament: sportello aperto e/o vetro superiore rimosso per il PLA",
+  "interasse_terminali_assunto_mm": 84,
+  "curvatura_assunta": true,
+  "stampa_fisica_eseguita": false,
+  "avvio_o_invio_macchina": false,
+  "limiti": [
+    "Solo dima dimensionale; non sostiene la torcia.",
+    "Nessuna convalida fisica, termica, strutturale o della protezione del casco.",
+    "Non forzare il montaggio o comprimere/rimuovere le schiume."
+  ]
+}

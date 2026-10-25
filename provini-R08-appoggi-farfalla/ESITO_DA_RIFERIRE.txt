@@ -1,0 +1,13 @@
+PROVINI R08 - ESITO DELLE PROVE A MANO
+
+A - I due piolini entrano insieme senza piegare la dima?
+A - Ogni piolino entra singolarmente? La dima resta piana?
+B - Le linguette del ponte entrano libere nelle feritoie?
+B - Il bordo inferiore resta sopra il cuscinetto, come nella R06?
+B - La farfalla tocca contemporaneamente entrambi gli appoggi?
+B - Rivetti e corpo lampada rimangono liberi al centro?
+B - Quanto occorre alzare/abbassare il metallo rispetto ai passaggi?
+Spessore lamiera fra le due facce, se misurato: ___ mm
+
+Utili una foto frontale e una di profilo dei pezzi appoggiati.
+PLA solo per la prova geometrica: sostenere la lampada, non caricare il supporto e non accenderla su questi provini.

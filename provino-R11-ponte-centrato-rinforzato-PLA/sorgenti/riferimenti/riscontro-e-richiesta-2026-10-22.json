@@ -1,0 +1,17 @@
+{
+  "data": "2026-10-22",
+  "riscontro_utente": "Il pezzo arancione funziona bene, anzi meglio, anche al rovescio.",
+  "revisione_esemplare_riferito": "non specificata",
+  "richiesta": "Estendere la fascia anche nell’altro verso, alette al centro; rinforzo su un solo verso; provino PLA.",
+  "decisione_provino": {
+    "spessore_pelle_mm": 2,
+    "altezza_fascia_mm": 28.8,
+    "estensione_sotto_rispetto_R10_mm": 12.8,
+    "nervature": 2,
+    "verso_nervature": "sotto le radici in posa normale; sopra capovolto",
+    "passante_feritoie": "invariato",
+    "modello_base_di_riferimento": "R10, compatibilità solo CAD in entrambi i versi"
+  },
+  "nota": "L’indicazione precedente di crescita solo verso l’alto è superata per questa prova dalla richiesta esplicita di fascia centrata. Lo spazio del cuscinetto non è ancora verificato per R11.",
+  "stampa_fisica_R11": false
+}

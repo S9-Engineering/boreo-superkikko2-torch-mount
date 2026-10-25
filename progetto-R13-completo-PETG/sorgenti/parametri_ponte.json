@@ -1,0 +1,37 @@
+{
+  "revisione": "R13_PONTE_R12",
+  "unita": "mm",
+  "centro_curva_xy": [
+    0,
+    -110
+  ],
+  "raggio_interno": 90.0,
+  "spessore_fascia": 2.0,
+  "raggio_esterno": 92.0,
+  "riferimento_angolare_raggio": 91.4,
+  "estensione_angolo_mm": 12,
+  "assi_x": [
+    -42.0,
+    42.0
+  ],
+  "aletta_larghezza": 9.2,
+  "aletta_spessore": 3.2,
+  "aletta_basso_z": 21.0,
+  "aletta_centro_z": 22.6,
+  "aletta_fronte_y": 14.0,
+  "aletta_raccordo": 0.6,
+  "foro_y": 8,
+  "foro_diametro": 3.4,
+  "fascia_alto_z": 37.0,
+  "fascia_basso_z": 8.2,
+  "fascia_altezza": 28.8,
+  "tallone_profondita_radiale": 0,
+  "rinforzo_larghezza": 6.0,
+  "rinforzo_altezza": 1.2,
+  "rinforzo_raccordo": 0,
+  "rinforzo_verso": "Dalla fascia curva verso la torcia, sotto i bracci in posa normale; sopra dopo inversione.",
+  "materiale": "ELEGOO PETG Pro",
+  "scopo": "Insieme completo R13 in PETG Pro. Geometria conservata; montaggio, portata e calore da verificare.",
+  "rinforzo_lunghezza_esterna": 12.0,
+  "rinforzo_spessore_punta": 0.4
+}

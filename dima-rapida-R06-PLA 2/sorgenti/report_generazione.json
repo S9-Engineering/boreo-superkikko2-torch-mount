@@ -1,0 +1,45 @@
+{
+  "pezzi": {
+    "base_cornice": {
+      "CAD_valido": true,
+      "volume_CAD_mm3": 4408.079363669271,
+      "triangoli": 900,
+      "dimensioni_STL_mm": [
+        102.80131530761719,
+        15.579081773757935,
+        46.0
+      ],
+      "volume_STL_mm3": 4405.452408541508
+    },
+    "ponte_terminale": {
+      "CAD_valido": true,
+      "volume_CAD_mm3": 2630.147014350169,
+      "triangoli": 1260,
+      "dimensioni_STL_mm": [
+        104.98213958740234,
+        33.39339065551758,
+        4.0
+      ],
+      "volume_STL_mm3": 2631.340140583617
+    }
+  },
+  "intersezione_assieme_mm3": 0.0,
+  "sha256": {
+    "stampa/R06_PONTE_TERMINALE_SOLO_DIMA.stl": "3d1091ae66efd5328cd09d07f645f7d89e85f3e2a3d2c506ac89f6fabf46991f",
+    "stampa/R06_DUE_PEZZI_SOLO_GEOMETRIA.3mf": "9c761fb22522cb3e75f59b156f781e8062388c58616571689966fea8e76ceac2",
+    "stampa/R06_BASE_CORNICE_SOLO_DIMA.stl": "25c6722887da43f6df1cd3406b206822142b1f08dcee24a5d03761b634787bbe",
+    "stampa/R06_BASE_CORNICE_SOLO_DIMA.step": "adc9d79ff6f79b8a798b18ce2b0812b00a5cdfbe72fe47abfb3bec682b20bc5d",
+    "stampa/R06_PONTE_TERMINALE_SOLO_DIMA.step": "582f62a47b66531331a166f473cbeebb105d475d8a9aff43d7b8fabd2b9de512",
+    "sorgenti/assieme/R06_ASSIEME.step": "d9c142a4f887d95a89d304b53cd1456981be801b3b029279c38135d2ec887bd6",
+    "sorgenti/assieme/base_cornice.step": "2c0677c078d2e6fa13617bdbd59a6c9bb0d272c1ea9adca4fc84ca5092473ca0",
+    "sorgenti/assieme/base_cornice.stl": "1951ce49e480f070da8b82694c4cc49169b3fa27e478e78395ee6daccb6747a9",
+    "sorgenti/assieme/ponte_terminale.step": "dcb65fed9b82f5b1fb6286dd170da38068dc26a6b10b3ed27bad58d8801682fb",
+    "sorgenti/assieme/R06_ASSIEME.glb": "a0f12b4909a410c15026707f8d99e8dde971a109d4f3b8c5b79d676ccaab69bc",
+    "sorgenti/assieme/ponte_terminale.stl": "99860214bb376cd19a54913633dd85dff7b886beb682b284b161e209f9da93e1"
+  },
+  "dipendenze": {
+    "cadquery": "2.8.0",
+    "trimesh": "5.1.1",
+    "numpy": "2.4.6"
+  }
+}

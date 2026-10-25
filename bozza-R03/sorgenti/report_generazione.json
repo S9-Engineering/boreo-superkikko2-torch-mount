@@ -1,0 +1,73 @@
+{
+  "revisione": "BOZZA_R03_NON_USO",
+  "stato": "BOZZA VISIVA NON FUNZIONALE - NON USARE SUL CASCO",
+  "unita_CAD_STL_3MF": "mm",
+  "unita_GLB": "m",
+  "scala_GLB_da_mm": 0.001,
+  "volume_CAD_mm3": 6885.331825189149,
+  "volume_STL_mm3": 6886.188791034986,
+  "bounds_CAD_mm": [
+    [
+      -60.61229439203536,
+      -0.4454474127961225,
+      -0.03185802855863318
+    ],
+    [
+      60.61229439203536,
+      59.00057837855381,
+      16.00057837855381
+    ]
+  ],
+  "bounds_STL_mm": [
+    [
+      -60.58147048950195,
+      -0.44541844725608826,
+      -4.440892098500626e-16
+    ],
+    [
+      60.58147048950195,
+      59.0,
+      16.0
+    ]
+  ],
+  "ingombro_STL_mm": [
+    121.1629409790039,
+    59.44541844725609,
+    16.0
+  ],
+  "solidi_CAD": 1,
+  "CAD_valido": true,
+  "STEP_riaperto_valido": true,
+  "STEP_solidi": 1,
+  "sovrapposizioni_prima_fusione": {
+    "ponte_braccio_destro_mm3": 9.59510634929022,
+    "ponte_braccio_sinistro_mm3": 9.595106348083359,
+    "braccio_orecchio_destro_mm3": 155.3676158727266,
+    "braccio_orecchio_sinistro_mm3": 155.3676158727266
+  },
+  "raccordi_verticali_applicati": 8,
+  "STL_chiusa": true,
+  "STL_normali_coerenti": true,
+  "STL_componenti": 1,
+  "STL_facce_degeneri": 0,
+  "STL_vertici": 3346,
+  "STL_triangoli": 6696,
+  "traslazione_3MF_mm": [
+    128.0,
+    98.72270922362804,
+    0.0
+  ],
+  "nota_verifiche": "Controlli sorgente e riapertura STEP/STL. Le verifiche indipendenti sono separate. Nessuno slicing e nessuna prova funzionale, di resistenza o montaggio.",
+  "dipendenze": {
+    "cadquery": "2.8.0",
+    "cadquery-ocp": "7.9.3.1.1",
+    "numpy": "2.4.6",
+    "trimesh": "5.1.1"
+  },
+  "sha256": {
+    "BOZZA_R03_GEOMETRIA.3mf": "4379d05250bca9222239c0bedd81944f77c7738764f4ab2ebb0a34d5924a2547",
+    "BOZZA_R03_NON_USO.glb": "c175492a8778b5922a69a100f447eafe1486ca4aa2671dd05402b5beec4cbc24",
+    "BOZZA_R03_NON_USO.step": "a991208766e9a84c9734935d9b8e916bd2de50bb853dabbadd678538ddf2dd20",
+    "BOZZA_R03_NON_USO.stl": "37160b175b7ffc6b856ddcb227e332373807eb1f2f76e37bea41854926b96d59"
+  }
+}

@@ -1,0 +1,7 @@
+R13 completa PETG Pro: un piatto con ponte R12 e base R10, una copia ciascuno.
+Pronto per la stampa del prototipo completo, 2h55m19s /44.23g inclusi supporti.
+Centauri Carbon2 Combo, ugello0.4, PEI testurizzato, 240/65C.
+140 controlli geometria,98 pacchetto,230 strati rivisti,nessun avviso o isola candidata.
+Rinforzi locali fino4.4mm:inserimento reale da verificare senza forzare.
+Fissaggio farfalla,portata e calore ancora da verificare.
+Nessuna stampa inviata o avviata.

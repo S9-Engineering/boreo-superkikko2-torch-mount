@@ -1,0 +1,28 @@
+[BOREO_R08_B_BASE_PONTE_PLA_BASIC_ECC2_04.3mf]
+size_x = 102.801315
+size_y = 25.611698
+size_z = 46.000000
+min_x = -51.400658
+min_y = -12.805849
+min_z = -23.000000
+max_x = 51.400658
+max_y = 12.805849
+max_z = 23.000000
+number_of_facets = 4788
+manifold = yes
+number_of_parts =  1
+volume = 17183.236328
+[BOREO_R08_B_BASE_PONTE_PLA_BASIC_ECC2_04.3mf]
+size_x = 104.982140
+size_y = 49.393391
+size_z = 16.000000
+min_x = -52.491070
+min_y = -24.696695
+min_z = -8.000000
+max_x = 52.491070
+max_y = 24.696695
+max_z = 8.000000
+number_of_facets = 2300
+manifold = yes
+number_of_parts =  1
+volume = 4560.883301

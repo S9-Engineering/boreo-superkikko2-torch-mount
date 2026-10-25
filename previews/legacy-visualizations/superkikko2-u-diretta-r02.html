@@ -1,0 +1,62 @@
+<div id="sk2-u-diretta-r02">
+  <div class="viz-row sk2-legend">
+    <span><span class="sk2-swatch new"></span>U stampata, corpo unico</span>
+    <span><span class="sk2-swatch lamp"></span>Superkikko2</span>
+    <span class="text-small text-muted">R02 · vista dall’alto schematica · non in scala</span>
+  </div>
+  <svg class="drawing" role="img" aria-labelledby="sk2-r02-title sk2-r02-desc"></svg>
+</div>
+<style>
+  #sk2-u-diretta-r02 { width:100%; }
+  #sk2-u-diretta-r02 .sk2-legend { gap:12px; justify-content:flex-start; }
+  #sk2-u-diretta-r02 .sk2-legend > span { display:inline-flex; align-items:center; gap:6px; }
+  #sk2-u-diretta-r02 .sk2-swatch { display:inline-block; width:12px; height:12px; }
+  #sk2-u-diretta-r02 .new { background:var(--viz-series-1); }
+  #sk2-u-diretta-r02 .lamp { background:var(--muted-foreground); }
+  #sk2-u-diretta-r02 .drawing { display:block; width:100%; }
+  #sk2-u-diretta-r02 .drawing text { fill:var(--foreground); font-size:12px; font-family:inherit; }
+  #sk2-u-diretta-r02 .part { fill:color-mix(in srgb,var(--viz-series-1) 24%,var(--background)); stroke:var(--viz-series-1); stroke-width:2; }
+  #sk2-u-diretta-r02 .body { fill:var(--muted); stroke:var(--muted-foreground); stroke-width:2; }
+  #sk2-u-diretta-r02 .shell { fill:color-mix(in srgb,var(--muted-foreground) 9%,var(--background)); stroke:var(--border); stroke-width:1; }
+  #sk2-u-diretta-r02 .line { fill:none; stroke:var(--muted-foreground); stroke-width:1; }
+  #sk2-u-diretta-r02 .axis { fill:none; stroke:var(--foreground); stroke-width:1.5; stroke-dasharray:6 4; }
+  #sk2-u-diretta-r02 .bore { fill:var(--background); stroke:var(--foreground); stroke-width:1; }
+</style>
+<script>
+(() => {
+ const root=document.getElementById('sk2-u-diretta-r02');
+ const svg=root.querySelector('.drawing');
+ function draw(){
+  const w=Math.max(280,root.getBoundingClientRect().width), narrow=w<580;
+  const c=narrow?w/2:w*.35, span=Math.min(118,narrow?(w-92)/2:w*.16);
+  const l=c-span,r=c+span, half=span*.71, fl=c-half,fr=c+half;
+  svg.setAttribute('viewBox',`0 0 ${w} 426`); svg.setAttribute('height','426'); svg.replaceChildren();
+  const add=(tag,a,t)=>{const n=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const[k,v]of Object.entries(a))n.setAttribute(k,v);if(t)n.textContent=t;svg.append(n);return n;};
+  add('title',{id:'sk2-r02-title'},'U monopezzo con aggancio diretto ai lati della torcia');
+  add('desc',{id:'sk2-r02-desc'},'Schema non quotato visto dall’alto. Un ponte curvo interno unisce due bracci che attraversano le aperture anteriori del casco e terminano ai lati della Superkikko2. Due fori laterali sul medesimo asse accolgono le viti di inclinazione. Piastra e staffa metallica precedenti sono sostituite. Montabilità e dimensioni restano da verificare.');
+  const label=(t,yn,yw,sx,sy)=>{if(narrow)add('text',{x:c,y:yn,'text-anchor':'middle'},t);else{const tx=Math.max(r+36,w*.58);add('path',{d:`M ${sx} ${sy} H ${tx-12} V ${yw-4}`,class:'line'});add('text',{x:tx,y:yw},t);}};
+  // Corpo unico: ponte e due bracci raccordati, qui rappresentati simbolicamente.
+  add('path',{d:`M ${l-12} 54 Q ${c} 27 ${r+12} 54 L ${r+12} 75 Q ${c} 53 ${l-12} 75 Z`,class:'part'});
+  add('path',{d:`M ${l-10} 63 L ${l-10} 185 Q ${l-10} 213 ${fl-10} 241 L ${fl-10} 337 L ${fl+10} 337 L ${fl+10} 238 Q ${fl+10} 222 ${l+10} 183 L ${l+10} 63 Z`,class:'part'});
+  add('path',{d:`M ${r+10} 63 L ${r+10} 185 Q ${r+10} 213 ${fr+10} 241 L ${fr+10} 337 L ${fr-10} 337 L ${fr-10} 238 Q ${fr-10} 222 ${r-10} 183 L ${r-10} 63 Z`,class:'part'});
+  label('Ponte curvo dentro il casco',22,52,r+12,57);
+  // Calotta schematica con due aperture libere attorno ai bracci.
+  for(const[x,width]of[[l-33,17],[l+16,r-l-32],[r+16,17]]) add('rect',{x,y:139,width,height:25,class:'shell'});
+  label('Bracci nelle aperture anteriori',119,151,r+34,151);
+  // Lampada e dissipatore schematici: nessuna misura ricavata dalla figura.
+  add('rect',{x:fl+16,y:247,width:fr-fl-32,height:91,rx:8,class:'body'});
+  for(let y=255;y<285;y+=7)add('line',{x1:fl+21,y1:y,x2:fr-21,y2:y,class:'line'});
+  label('Superkikko2 fra le due orecchie',228,248,fr-14,263);
+  // Foro lungo l'asse trasversale: la vista dall'alto mostra il passaggio in sezione.
+  for(const x of[fl,fr]) add('rect',{x:x-10,y:298,width:20,height:8,class:'bore'});
+  add('line',{x1:fl-31,y1:302,x2:fr+31,y2:302,class:'axis'});
+  add('line',{x1:fl-28,y1:291,x2:fl-28,y2:313,class:'line'});
+  add('line',{x1:fr+28,y1:291,x2:fr+28,y2:313,class:'line'});
+  label('Due fori laterali sullo stesso asse',369,316,fr+32,302);
+  // Luce interna, volutamente priva di valore numerico.
+  add('path',{d:`M ${fl+10} 347 V 392 M ${fr-10} 347 V 392 M ${fl+10} 384 H ${fr-10}`,class:'line'});
+  add('text',{x:c,y:414,'text-anchor':'middle'},'Luce interna della U: da rilevare');
+ }
+ new ResizeObserver(draw).observe(root);draw();
+})();
+</script>

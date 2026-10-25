@@ -1,0 +1,28 @@
+[BOREO_R07_PROVINO_GIUNTO_PLA_ECC2_04.3mf]
+size_x = 14.000000
+size_y = 20.000000
+size_z = 14.500000
+min_x = -7.000000
+min_y = -10.000000
+min_z = -7.250000
+max_x = 7.000000
+max_y = 10.000000
+max_z = 7.250000
+number_of_facets = 1088
+manifold = yes
+number_of_parts =  1
+volume = 2854.221924
+[BOREO_R07_PROVINO_GIUNTO_PLA_ECC2_04.3mf]
+size_x = 9.200000
+size_y = 20.000000
+size_z = 3.200000
+min_x = -4.600000
+min_y = -10.000000
+min_z = -1.600000
+max_x = 4.600000
+max_y = 10.000000
+max_z = 1.600000
+number_of_facets = 1032
+manifold = yes
+number_of_parts =  1
+volume = 558.768616

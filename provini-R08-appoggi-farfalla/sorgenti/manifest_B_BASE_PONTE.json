@@ -1,0 +1,148 @@
+{
+  "revisione": "R08_B_BASE_PONTE",
+  "pezzi": [
+    {
+      "id": "base_appoggi",
+      "quantita": 1,
+      "solo_prototipo": true,
+      "montaggio_casco": true,
+      "stl_stampa": "stampa/R08_BASE_APPOGGI_PROTOTIPO_PLA.stl",
+      "step_stampa": "stampa/R08_BASE_APPOGGI_PROTOTIPO_PLA.step",
+      "stl_assieme": "sorgenti/assieme/base_appoggi.stl",
+      "step_assieme": "sorgenti/assieme/base_appoggi.step",
+      "matrice_stampa_da_assieme": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds_stampa_mm": [
+        [
+          -51.40095758527213,
+          -11.611854934474533,
+          0.0
+        ],
+        [
+          51.40095758527214,
+          14.0,
+          46.0
+        ]
+      ],
+      "bounds_assieme_mm": [
+        [
+          -51.40095758527213,
+          -11.611854934474533,
+          0.0
+        ],
+        [
+          51.40095758527214,
+          14.0,
+          46.0
+        ]
+      ]
+    },
+    {
+      "id": "ponte_terminale",
+      "quantita": 1,
+      "solo_prototipo": true,
+      "montaggio_casco": true,
+      "stl_stampa": "stampa/R08_PONTE_TERMINALE_PROTOTIPO_PLA.stl",
+      "step_stampa": "stampa/R08_PONTE_TERMINALE_PROTOTIPO_PLA.step",
+      "stl_assieme": "sorgenti/assieme/ponte_terminale.stl",
+      "step_assieme": "sorgenti/assieme/ponte_terminale.step",
+      "matrice_stampa_da_assieme": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -21.0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds_stampa_mm": [
+        [
+          -52.49112111929781,
+          -35.39343709828853,
+          0.0
+        ],
+        [
+          52.49112111929781,
+          14.0,
+          16.0
+        ]
+      ],
+      "bounds_assieme_mm": [
+        [
+          -52.49112111929781,
+          -35.39343709828853,
+          21.0
+        ],
+        [
+          52.49112111929781,
+          14.0,
+          37.0
+        ]
+      ]
+    }
+  ],
+  "piatto_geometrico": {
+    "file": "stampa/R08_PIATTO_B_BASE_PONTE_SOLO_GEOMETRIA.3mf",
+    "numero_pezzi": 2,
+    "unita": "mm",
+    "items": [
+      {
+        "id": "base_appoggi",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          84.80584955215454,
+          0.0
+        ]
+      },
+      {
+        "id": "ponte_terminale",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          163.6966953277588,
+          0.0
+        ]
+      }
+    ]
+  }
+}

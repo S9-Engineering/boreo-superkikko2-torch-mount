@@ -1,0 +1,40 @@
+{
+  "revisione": "R07_PROVINO_GIUNTO",
+  "pezzi": [
+    {
+      "id": "sede_dado",
+      "quantita": 1,
+      "stl_stampa": "stampa/R07_PROVINO_SEDE_DADO.stl",
+      "step_stampa": "stampa/R07_PROVINO_SEDE_DADO.step"
+    },
+    {
+      "id": "linguetta",
+      "quantita": 1,
+      "stl_stampa": "stampa/R07_PROVINO_LINGUETTA.stl",
+      "step_stampa": "stampa/R07_PROVINO_LINGUETTA.step"
+    }
+  ],
+  "piatto_geometrico": {
+    "file": "stampa/R07_PROVINO_SOLO_GEOMETRIA.3mf",
+    "items": [
+      {
+        "id": "sede_dado",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          85.0,
+          0.0
+        ]
+      },
+      {
+        "id": "linguetta",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          155.0,
+          0.0
+        ]
+      }
+    ],
+    "unita": "mm",
+    "numero_pezzi": 2
+  }
+}

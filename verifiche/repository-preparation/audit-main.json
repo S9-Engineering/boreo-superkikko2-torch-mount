@@ -1,0 +1,91 @@
+{
+  "workspace": "/Users/stefanonovelli/Sites/Personal/stampe3d",
+  "project": "/Users/stefanonovelli/Sites/Personal/stampe3d/boreo-torch-mount",
+  "repository": "S9-Engineering/boreo-superkikko2-torch-mount",
+  "config": {
+    "schema_version": 2,
+    "repository": "S9-Engineering/boreo-superkikko2-torch-mount",
+    "layout": {
+      "source": "sorgenti",
+      "cad": "cad",
+      "stl": "print/stl",
+      "slicer": "print/slicer",
+      "previews": "previews",
+      "verification": "verifiche"
+    },
+    "project_name": "BOREO Superkikko2 Torch Mount",
+    "name_confirmation": {
+      "project_name": "BOREO Superkikko2 Torch Mount",
+      "repository": "S9-Engineering/boreo-superkikko2-torch-mount",
+      "confirmed_by": "user"
+    },
+    "visibility": "public"
+  },
+  "layout": {
+    "source": "sorgenti",
+    "cad": "cad",
+    "stl": "print/stl",
+    "slicer": "print/slicer",
+    "previews": "previews",
+    "verification": "verifiche"
+  },
+  "project_name": "BOREO Superkikko2 Torch Mount",
+  "name_confirmation_required": false,
+  "git": {
+    "own_repository": true,
+    "ancestor_repository": null,
+    "branch": "main",
+    "status": "?? .3dcook.json\n?? .gitignore\n?? BOREO_R06_DIMA_RAPIDA_PLA.zip\n?? BOREO_R07_PROTOTIPO_BULLONATO_PLA.zip\n?? BOREO_R08_PROVINI_PLA.zip\n?? BOREO_R09_PIASTRA_COMPLETA_PROVINI_PLA.zip\n?? BOREO_R10_LOGO_PONTE2MM_PETG.zip\n?? BOREO_R11_PONTE_CENTRATO_RINFORZATO_PLA.zip\n?? BOREO_R12_RINFORZO_DALLA_FASCIA_ALLE_ALETTE_PLA.zip\n?? BOREO_R13_COMPLETO_PETG_PRO.zip\n?? BOREO_Superkikko2_BOZZA_R03.zip\n?? BOREO_Superkikko2_BOZZA_R04.zip\n?? LICENSE-SOFTWARE.txt\n?? LICENSE.txt\n?? LICENSING.md\n?? README.legacy.it.md\n?? README.md\n?? assets/\n?? bozza-R03/\n?? bozza-R04/\n?? cad/\n?? \"dima-rapida-R06-PLA 2/\"\n?? dima-rapida-R06-PLA/\n?? docs/\n?? packages/\n?? previews/\n?? print/\n?? progetto-R13-completo-PETG/\n?? prototipo-R10-arrotondato-logo-PETG/\n?? prova-R05-PLA/\n?? provini-R08-appoggi-farfalla/\n?? provini-R09-piastra-completa-tre-fissaggi/\n?? provino-R11-ponte-centrato-rinforzato-PLA/\n?? provino-R12-rinforzi-verso-alette-PLA/\n?? rilievo-farfalla-2026-10-22/\n?? sorgenti/\n?? sviluppo-R07-bullonato/\n?? verifiche/",
+    "origin": null
+  },
+  "audit": {
+    "document": "README.md",
+    "checked_local_links": [
+      "previews/renders/r13-hero-ai.png",
+      "previews/renders/r13-front-cad.png",
+      "previews/renders/r13-rear-cad.png",
+      "previews/renders/r13-bridge-underside-cad.png",
+      "progetto-R13-completo-PETG/stampa/R13_PONTE_CENTRATO_PETG.stl",
+      "progetto-R13-completo-PETG/stampa/R13_BASE_APPOGGI_PETG.stl",
+      "packages/r13-prototype/boreo-superkikko2-torch-mount-r13-prototype-print-pack.zip",
+      "progetto-R13-completo-PETG/stampa/PETG_PRO_ECC2/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.3mf",
+      "progetto-R13-completo-PETG/stampa/PETG_PRO_ECC2/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.gcode",
+      "progetto-R13-completo-PETG/stampa/R13_COMPLETO_SOLO_GEOMETRIA.3mf",
+      "progetto-R13-completo-PETG/stampa/R13_PONTE_CENTRATO_PETG.step",
+      "progetto-R13-completo-PETG/stampa/R13_BASE_APPOGGI_PETG.step",
+      "progetto-R13-completo-PETG/sorgenti/assieme/R13_ASSIEME_PLASTICA.step",
+      "docs/printing-r13.md",
+      "README.legacy.it.md",
+      "progetto-R13-completo-PETG/slicer",
+      "previews/assembly/r13-exploded.png",
+      "progetto-R13-completo-PETG/sorgenti/parametri_ponte.json",
+      "progetto-R13-completo-PETG/sorgenti/parametri_base.json",
+      "progetto-R13-completo-PETG/sorgenti",
+      "progetto-R13-completo-PETG/verifiche/geometria.json",
+      "progetto-R13-completo-PETG/verifiche/slicing/report.json",
+      "progetto-R13-completo-PETG/verifiche/pacchetto.json",
+      "progetto-R13-completo-PETG/verifiche/STATO_CONSEGNA.json",
+      "verifiche/repository-preparation/status.json",
+      "README.legacy.it.md",
+      "LICENSE.txt",
+      "LICENSE-SOFTWARE.txt",
+      "LICENSING.md"
+    ],
+    "same_repository_release_links": [
+      "https://github.com/S9-Engineering/boreo-superkikko2-torch-mount/releases",
+      "https://github.com/S9-Engineering/boreo-superkikko2-torch-mount/releases"
+    ],
+    "local_portal_git_guard": {
+      "directory": "publication-local/",
+      "present": true,
+      "own_repository": true,
+      "tracked_files": [],
+      "ignored_by_git": true,
+      "passed": true
+    },
+    "require_tracked": false,
+    "issues": [],
+    "passed": true,
+    "scope": "Inline Markdown links/images. Inspect HTML, reference-style links, source dependencies and image content separately."
+  }
+}

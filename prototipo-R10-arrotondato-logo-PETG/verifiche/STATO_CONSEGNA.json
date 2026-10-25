@@ -1,0 +1,17 @@
+{
+  "data": "2026-10-22",
+  "revisione": "R10",
+  "stato": "PRONTO_PER_LA_STAMPA_DEI_SOLI_PROTOTIPI_PETG",
+  "materiale": "ELEGOO PETG Pro",
+  "macchina": "Centauri Carbon2 Combo / ugello0.4 / PEI testurizzato",
+  "controlli_geometria": 141,
+  "controlli_pacchetto": 111,
+  "slicing_rivisto_strati": 365,
+  "avvisi_slicer": [],
+  "isole_candidate_finali": 0,
+  "logo_2mm_presente_STEP_e_percorsi": true,
+  "distacco_supporti_fisicamente_verificato": false,
+  "ponte2mm_fisicamente_verificato": false,
+  "carichi_temperatura_immersione_verificati": false,
+  "stampa_inviata_o_avviata": false
+}

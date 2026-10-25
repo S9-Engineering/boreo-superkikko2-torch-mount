@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "revision": "r13-prototype",
+  "status": "UNRELEASED_PROTOTYPE",
+  "output": "boreo-superkikko2-torch-mount-r13-prototype-print-pack.zip",
+  "files": [
+    {
+      "source": "progetto-R13-completo-PETG/stampa/R13_PONTE_CENTRATO_PETG.stl",
+      "archive": "print/stl/R13_PONTE_CENTRATO_PETG.stl",
+      "role": "model"
+    },
+    {
+      "source": "progetto-R13-completo-PETG/stampa/R13_BASE_APPOGGI_PETG.stl",
+      "archive": "print/stl/R13_BASE_APPOGGI_PETG.stl",
+      "role": "model"
+    },
+    {
+      "source": "progetto-R13-completo-PETG/stampa/PETG_PRO_ECC2/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.3mf",
+      "archive": "print/3mf/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.3mf",
+      "role": "model",
+      "expected_sha256": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b"
+    },
+    {
+      "source": "packages/r13-prototype/README.print.md",
+      "archive": "README.md",
+      "role": "instructions"
+    },
+    {
+      "source": "previews/assembly/r13-exploded.png",
+      "archive": "assembly/r13-exploded.png",
+      "role": "image"
+    },
+    {
+      "source": "LICENSE.txt",
+      "archive": "LICENSE.txt",
+      "role": "license"
+    },
+    {
+      "source": "LICENSE-SOFTWARE.txt",
+      "archive": "LICENSE-SOFTWARE.txt",
+      "role": "license"
+    },
+    {
+      "source": "LICENSING.md",
+      "archive": "LICENSING.md",
+      "role": "license"
+    }
+  ],
+  "release_authorization": false
+}

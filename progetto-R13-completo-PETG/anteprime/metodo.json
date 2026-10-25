@@ -1,0 +1,14 @@
+{
+  "metodo": "VTK da STL finali riaperti; piatto ricostruito con le trasformazioni del 3MF geometrico.",
+  "casco_o_torcia_ricostruiti": false,
+  "file_sha256": {
+    "sorgenti/assieme/ponte_centrato.stl": "38d70abfaec1d46f31e5daf60bf23e40a4ceeb05b4b7065118545c3d2ceeb9f8",
+    "sorgenti/assieme/base_appoggi.stl": "b27b4af7ddfbedac8bf28ad309b7d74358d41595d3b0fcdd8c1fa8be31d3fcd1",
+    "sorgenti/ferramenta-riferimento/vite_M3x16_1.stl": "73c7662b154dd3c2a66a8f01487f5f2e1ed0ac5b8d4b3d6396fa560d6e769839",
+    "sorgenti/ferramenta-riferimento/rondella_M3_1.stl": "e8f22733e7e12fcde457637e6766ebac018b6af8c608d1465fdd8168f60b7638",
+    "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_1.stl": "40c4e6a4412d6e35c290eb3f8d75d41f7010b5a0a342b5aa2fd213ccea7b97ce",
+    "sorgenti/ferramenta-riferimento/vite_M3x16_2.stl": "d0ce98b1f779a86461e6ec355edd36a40a19e1b049bcc85efb1565e21d7b20f9",
+    "sorgenti/ferramenta-riferimento/rondella_M3_2.stl": "64cd8cef0a89c251e657706dc12ae214da2824308c23933520228ad478715709",
+    "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_2.stl": "7f10df5e41e4f66c1cc5e599f170ec4cfca56d3146870101318da48d3e6cc20f"
+  }
+}

@@ -1,0 +1,131 @@
+# BOREO Superkikko2 Torch Mount — DIY 3D-printable prototype
+
+A two-piece DIY torch-mount prototype designed around one measured **Petzl BOREO M/L helmet** and the existing **Superkikko2 metal butterfly plate and U-bracket**. Includes separate **STL**, editable **STEP/CAD sources** and a prepared **3MF** printing project. A curved inner bridge passes through the existing ventilation slots and bolts to an external backing plate, without drilling, glue or an elastic band around the helmet.
+
+**Current revision: R13. Ready for printing as a prototype in the documented setup; physical fit, lamp fastening, load retention and heat performance remain unverified.** This independent experimental design is not an approved Petzl accessory or validated protective equipment. The public project identity is **BOREO Superkikko2 Torch Mount**. No tagged GitHub release is published yet.
+
+![Illustrative AI-generated render of the R13 bracket beside caving rope on limestone](previews/renders/r13-hero-ai.png)
+
+*AI-generated render checked against the CAD views. It is an illustration, not a photograph of a real print or evidence of an installed or tested mount. Full S9 Engineering signature at bottom-right.*
+
+## Product views
+
+| External plate and joint | Inner curved bridge | Underside reinforcement |
+| --- | --- | --- |
+| ![Front CAD view showing backing plate, rivet reliefs and M3 joint](previews/renders/r13-front-cad.png) | ![Rear CAD view showing the continuous inner bridge](previews/renders/r13-rear-cad.png) | ![Underside CAD view of the identical R12 bridge geometry retained in R13](previews/renders/r13-bridge-underside-cad.png) |
+
+*CAD renders. Colours identify parts; the bundled job uses one filament. The underside view shows the unchanged R12 bridge used in R13. Grey hardware is purchased, not printed.*
+
+## What you need
+
+### Printing materials and parts
+
+PETG suitable for your calibrated process, enough for two parts and removable supports. The prepared job estimates **44.23 g** in **My setup**; allow extra for loading and trials. Earlier PLA files are historical coupons, not the current PETG job.
+
+| Part | Quantity | Print-oriented STL | Overall dimensions, mm |
+| --- | --- | --- | --- |
+| Centred inner bridge with external ribs | 1 | [R13_PONTE_CENTRATO_PETG.stl](progetto-R13-completo-PETG/stampa/R13_PONTE_CENTRATO_PETG.stl) | 104.98 × 50.05 × 28.80 |
+| Rounded backing plate with S9 relief | 1 | [R13_BASE_APPOGGI_PETG.stl](progetto-R13-completo-PETG/stampa/R13_BASE_APPOGGI_PETG.stl) | 102.80 × 25.61 × 46.00 |
+
+The inner skin is **2 mm** thick and **28.8 mm** high with centred arms. Arms are **9.2 × 3.2 mm**; ribs bring the nominal local envelope to **4.4 mm**. The backing retains three fastening passages, two rivet reliefs, rounded edges and a **2 mm raised S9 logo**. These are design dimensions, not measurements of a finished print.
+
+### Assembly BOM and Amazon.it examples
+
+Listings checked **25 October 2026**. Non-affiliate sourcing examples, not mandatory brands; written specifications govern equivalents. No purchase was made. Prices and delivery promises are omitted. Listing verification does not inspect delivered hardware.
+
+| Item | Required quantity | Specification / fit constraint | Amazon example and pack |
+| --- | --- | --- | --- |
+| Bridge/base screws | 2 | M3 × 16 mm, full thread, cylindrical socket head, ISO 4762 / DIN 912, stainless A2; CAD head Ø5.5 × 3 mm | [ProRaje M3 × 16, 10 screws](https://www.amazon.it/dp/B0DHPJTV8P); one 10-piece pack |
+| Self-locking nuts | 2 | M3 nylon insert, DIN 985; target AF 5.5 / height 4 mm, for AF 5.85 / depth 4.3 mm pockets | [qjuwhua M3 nuts and washers](https://www.amazon.it/dp/B0GFC9H67Y); one pack contains 100 nuts and 100 washers, shared with the next row |
+| Flat washers | 2 | M3 DIN 125; nominal ID 3.2 / OD 7 / thickness 0.5 mm | Same [nuts-and-washers pack](https://www.amazon.it/dp/B0GFC9H67Y); no second pack needed |
+| PETG filament | About 45 g plus trial/loading allowance | Suitable PETG and its own profile; 1.75 mm for the prepared machine | [ELEGOO PETG black, 1 kg](https://www.amazon.it/dp/B0F443Q9KS), one spool if needed. **This is PETG, not a verified PETG Pro SKU: reslice the STL using its own profile** |
+| Lamp interface | 1 | Original Superkikko2 butterfly plate and U-bracket with measured 2 mm slots | Reuse the matching original assembly; no replacement selected |
+| Butterfly-to-base fasteners | Up to 3 sets, pending | M1.6 screw/washer/nut is only a candidate. Length and head/washer clearance require metal thickness and rivet measurements | **Not selected for purchase.** M3 does not fit the original 2 mm slots |
+| Helmet | 1 | The measured BOREO M/L used for this project | Existing device; no wider fit claim |
+
+The nut/washer listing identifies the required standards but does not independently confirm every dimension. Check actual nut height/AF and washer dimensions before assembly. Relevant tools are a 2.5 mm hex key and 5.5 mm spanner for the defined joint, plus a caliper and small support-removal tool. Confirm the actual screw drive. No general tool kit is specified.
+
+## Downloads and print files
+
+Canonical download entry point: [BOREO Superkikko2 Torch Mount — Releases](https://github.com/S9-Engineering/boreo-superkikko2-torch-mount/releases). **No tagged GitHub release is published yet.** The linked repository pack is an **unreleased R13 prototype**, not a stable public release.
+
+- [Clean R13 prototype print pack](packages/r13-prototype/boreo-superkikko2-torch-mount-r13-prototype-print-pack.zip): two STL files, native 3MF, standalone English guide, assembly image and licence notices; no CAD, scripts, logs or historical revisions.
+- [Native slicer project](progetto-R13-completo-PETG/stampa/PETG_PRO_ECC2/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.3mf): both parts on one plate, profiles, support settings and sliced path for **My setup**.
+- [Verified setup-specific G-code](progetto-R13-completo-PETG/stampa/PETG_PRO_ECC2/BOREO_R13_COMPLETO_PETG_PRO_ECC2_04.gcode): only for the documented configuration; omitted from the new general print pack.
+- [Geometry-only 3MF](progetto-R13-completo-PETG/stampa/R13_COMPLETO_SOLO_GEOMETRIA.3mf): geometry/placement without a complete printing configuration.
+- Editable STEP: [bridge](progetto-R13-completo-PETG/stampa/R13_PONTE_CENTRATO_PETG.step), [base](progetto-R13-completo-PETG/stampa/R13_BASE_APPOGGI_PETG.step), [assembly](progetto-R13-completo-PETG/sorgenti/assieme/R13_ASSIEME_PLASTICA.step).
+- [English printing and assembly guide](docs/printing-r13.md) and [historical index](README.legacy.it.md).
+
+For other printers/materials, import STL in **millimetres**, keep the documented orientation and slice with the appropriate machine/filament profile. Do not mix current and historical parts.
+
+## My setup
+
+This setup was **prepared and digitally checked**, not physically printed as R13.
+
+| Setting | Prepared configuration |
+| --- | --- |
+| Printer | ELEGOO Centauri Carbon 2 Combo; internal profile: Elegoo Centauri Carbon 2 0.4 nozzle |
+| Nozzle / plate | 0.4 mm / textured PEI |
+| Filament | ELEGOO PETG Pro, 1.75 mm; physical colour not documented |
+| Slicer | ElegooSlicer 1.5.3.5; CLI engine 2.4.2 |
+| Temperatures | 240 °C nozzle / 65 °C plate; within the [manufacturer's PETG Pro range](https://www.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg) |
+| Layers / walls / infill | 0.20 mm / 5 / 30% gyroid; 5 top/bottom layers |
+| Flow limit / speeds | 5 mm³/s; outer/inner/infill/first-layer: 40/60/70/25 mm/s; bridges 25 mm/s |
+| Supports | Normal snug, plate only; top/bottom Z gaps 0.40 mm, XY gap 0.55 mm, two interface layers at 0.5 mm spacing |
+| Adhesion / material changes | No brim, skirt, raft or purge tower; one filament, printing by layer |
+| Slicer estimate | **2 h 55 min 19 s / 44.23 g**, supports included; 230 layers |
+
+Flow 0.98, pressure advance 0.1 and cooling are initial profile values, not new spool calibrations. Larger support gaps aim to reduce welded residue; a clean underside is not guaranteed. Use dry material and follow its manufacturer's drying guidance. [Profiles](progetto-R13-completo-PETG/slicer) and provenance are retained.
+
+## How to
+
+![Exploded CAD illustration of bridge, base and M3 hardware](previews/assembly/r13-exploded.png)
+
+1. **Choose the matching package.** Until publication, use the linked prototype pack. After publication, open the [Releases page](https://github.com/S9-Engineering/boreo-superkikko2-torch-mount/releases), select the matching revision/setup, expand **Assets**, download its named **print-pack.zip**, extract it and read the included README. GitHub's automatic source ZIP is different. Keep files from one revision together.
+2. **Choose a printing route.** Use the native 3MF only with the matching setup, or import both STL files and slice for your own configuration. Confirm units, quantity, orientation, supports and first layer before printing.
+3. **Clean separate pieces.** Cool before removing support towers. Clear residue from pockets and passage surfaces. Preserve the tapered ribs beneath the arms: they are part of the model.
+4. **Try the helmet fit first.** With the helmet stationary and not worn, insert without bending arms or compressing foam. Stop if the ribbed transition binds. Check padding/adjustment hardware in both bridge orientations; do not modify the helmet to accommodate it.
+5. **Try the M3 joint.** Slide the base onto the arms, insert nuts from below, then washers and screws. Seat lightly for the dimensional trial. No validated working torque is specified; do not clamp the helmet foam.
+6. **Check the butterfly with the lamp off and bench-supported.** Confirm slot alignment, rivet relief and tool/head clearance before choosing the three fastening sets. Do not widen the metal slots or use M3 in them. Printed passages are not self-tapping threads.
+7. **Record results.** Insertion, lamp fastening, load/time retention and contact temperature still require physical checks. Full backing does not establish heat dissipation. Cold wet and submerged use remain unverified.
+
+## Geometry and known fit limits
+
+The M3 joint uses Ø3.4 mm holes: **0.4 mm diametral clearance**. Arm seats have **0.35 mm per-side clearance**. Nut pockets are 5.85 mm AF. Bridge outer radius 92 mm and arm axes ±42 mm are design assumptions around this specimen, not universal BOREO dimensions.
+
+Butterfly interaxis **57.5 mm is estimated**, derived from approximately 63.5 mm overall photographed width and the user's confirmed 2 mm slots/borders. Upper-passage Z41.5, metal thickness and rivet projection remain provisional. [Bridge parameters](progetto-R13-completo-PETG/sorgenti/parametri_ponte.json) and [base parameters](progetto-R13-completo-PETG/sorgenti/parametri_base.json) are editable.
+
+## Source and regeneration
+
+[Current R13 sources](progetto-R13-completo-PETG/sorgenti) are self-contained. Necessary logos are project-local. Use **Python 3.11** and a project-local environment:
+
+    python3.11 -m venv .venv
+    .venv/bin/python -m pip install -r progetto-R13-completo-PETG/sorgenti/requisiti.txt
+    cd progetto-R13-completo-PETG
+    ../.venv/bin/python sorgenti/genera.py
+    ../.venv/bin/python sorgenti/verifica.py
+    ../.venv/bin/python sorgenti/crea_anteprime.py
+    ../.venv/bin/python sorgenti/prepara_slicing_petg.py
+    ../.venv/bin/python sorgenti/verifica_logo_percorsi.py
+    # Review every new layer preview and record that outcome.
+    ../.venv/bin/python sorgenti/verifica_pacchetto.py
+
+Slicing requires the documented installation or an explicit compatible executable through --slicer. These are reproduction instructions; documentation preparation did not regenerate or reslice the checked geometry. Rebuild only the clean prototype package with **python3 sorgenti/publication/build_print_pack.py** from the project root.
+
+## Verification
+
+Retained evidence records **140 geometry checks, 98 package checks, 230 rendered/reviewed layers**, no slicer warnings and no candidate islands. Native 3MF geometry/poses match the exports, and embedded/separate G-code match. Repository preparation on 25 October independently rechecked current hashes; it did not create physical evidence or rewrite the historical reports.
+
+- [Geometry](progetto-R13-completo-PETG/verifiche/geometria.json)
+- [Slicing and layer review](progetto-R13-completo-PETG/verifiche/slicing/report.json)
+- [Package checks](progetto-R13-completo-PETG/verifiche/pacchetto.json)
+- [Original delivery status](progetto-R13-completo-PETG/verifiche/STATO_CONSEGNA.json)
+- [Current preparation audit](verifiche/repository-preparation/status.json)
+
+The user's fit report concerns an earlier orange coupon, not R13. Mesh-intersection screening is not a complete mathematical proof. No carrying capacity, safe operating temperature or protective compatibility is claimed. No printer has been started.
+
+## History and licences
+
+All retained revisions, research, photos and archives remain here. [Historical index](README.legacy.it.md) preserves the original evidence; old absolute report paths are provenance, not the current download route. The legacy BOREO_R13_COMPLETO_PETG_PRO.zip remains byte-for-byte intact as a development archive.
+
+Original models/documentation: **CC BY-NC-SA 4.0** ([LICENSE.txt](LICENSE.txt)). Original S9 software: **PolyForm Noncommercial 1.0.0** ([LICENSE-SOFTWARE.txt](LICENSE-SOFTWARE.txt)), described as **source-available**. [LICENSING.md](LICENSING.md) defines scope, Required Notice, S9 branding and third-party exclusions. Device names identify intended compatibility without affiliation or approval.

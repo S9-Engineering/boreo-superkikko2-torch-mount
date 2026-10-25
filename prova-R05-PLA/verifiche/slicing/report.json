@@ -1,0 +1,130 @@
+{
+  "revisione": "R05_DIMA_PLA_BASIC",
+  "slicer_app_version": "1.5.3.5",
+  "slicer_help_version": "ElegooSlicer-2.4.2",
+  "slicer_binary_sha256": "1ff7fca98c4b0f962ca4f1c764e4f123bab6cc762dbdfbb9c06151b1f08932e9",
+  "command": [
+    "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+    "--debug",
+    "2",
+    "--datadir",
+    "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/boreo-r05-pla-5kpcpnll/data",
+    "--load-settings",
+    "/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prova-R05-PLA/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prova-R05-PLA/slicer/process.json",
+    "--load-filaments",
+    "/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prova-R05-PLA/slicer/filament.json",
+    "--arrange",
+    "0",
+    "--orient",
+    "0",
+    "--slice",
+    "0",
+    "--export-3mf",
+    "BOREO_R05_DIMA_PLA_BASIC_ECC2_04.3mf",
+    "--outputdir",
+    "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/boreo-r05-pla-5kpcpnll/out",
+    "/Users/stefanonovelli/Sites/Personal/stampe3d/supporto-torcia-petzl-boreo/prova-R05-PLA/stampa/PROVA_R05_DUE_PEZZI_SOLO_GEOMETRIA.3mf"
+  ],
+  "input_sha256": {
+    "stampa/PROVA_R05_DUE_PEZZI_SOLO_GEOMETRIA.3mf": "3409bbb2aeea878a2c6da740d9491676050719cda5e36579ece6b0f3b2c9bed9",
+    "sorgenti/manifest.json": "7b8b118e8762d747d6610b85f43eddb04e8c510d8f4f03ff851d383ce5434e82",
+    "slicer/machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "slicer/process.json": "9d603f9490d8eef572482a7f37c076a90bb4d9d4b5ab864625a7aaff8d0ceead",
+    "slicer/filament.json": "49443f42621e0499958287d7ad9d0d78ff78961d7d6a4994c0fef61464c1d981",
+    "stampa/PROVA_R05_BASE_PLA_NON_PORTANTE.stl": "4794bc4992654733557e624a3fa51175057de6decc0711d8cd00c396ac8dff02",
+    "stampa/PROVA_R05_PIASTRA_UNICA_PLA_NON_PORTANTE.stl": "b4bf6036235f43c1e259ccc743f4848e24d34988a113a24c0b4b9f64633f7e41"
+  },
+  "stato": "SLICING_ESEGUITO_IN_ATTESA_REVISIONE_VISIVA",
+  "warnings_progetto": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "warnings_log": [],
+  "impostazioni_salvate": {
+    "printer_settings_id": "Elegoo Centauri Carbon 2 0.4 nozzle",
+    "curr_bed_type": "Textured PEI Plate",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_settings_id": [
+      "Elegoo PLA Basic @ECC2"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "nozzle_temperature": [
+      "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220"
+    ],
+    "textured_plate_temp": [
+      "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "60"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "3",
+    "sparse_infill_density": "15%",
+    "brim_width": "8",
+    "brim_object_gap": "0.1",
+    "enable_support": "1",
+    "support_on_build_plate_only": "1",
+    "support_type": "normal(auto)",
+    "support_top_z_distance": "0.2",
+    "wall_generator": "arachne",
+    "enable_prime_tower": "0",
+    "filament_max_volumetric_speed": [
+      "12"
+    ]
+  },
+  "strati": 230,
+  "stime_slicer": {
+    "filament used [mm]": "11341.55",
+    "filament used [cm3]": "27.28",
+    "filament used [g]": "34.10",
+    "total filament used [g]": "34.10",
+    "estimated printing time (normal mode)": "2h 2m 15s"
+  },
+  "anteprime": {
+    "tutti_strati": [
+      "anteprime/slicing/strati_0001_0064.png",
+      "anteprime/slicing/strati_0065_0128.png",
+      "anteprime/slicing/strati_0129_0192.png",
+      "anteprime/slicing/strati_0193_0230.png"
+    ],
+    "dettagli": [
+      "anteprime/slicing/dettagli_1.png",
+      "anteprime/slicing/dettagli_2.png"
+    ],
+    "legenda_ruoli": {
+      "Outer wall": "#1c4568",
+      "Inner wall": "#5183a5",
+      "Overhang wall": "#8b448b",
+      "Sparse infill": "#218d88",
+      "Internal solid infill": "#68a293",
+      "Top surface": "#6c4786",
+      "Bottom surface": "#6c4786",
+      "Bridge": "#d6482e",
+      "Internal Bridge": "#c35e30",
+      "Support": "#c49423",
+      "Support interface": "#d46c28",
+      "Brim": "#b0bbc3"
+    },
+    "tutti_strati_renderizzati": true
+  },
+  "gcode_generato_dallo_slicer": true,
+  "gcode_modificato": false,
+  "gcode_incorporato_identico": true,
+  "file": {
+    "stampa/PLA_BASIC_ECC2/BOREO_R05_DIMA_PLA_BASIC_ECC2_04.3mf": "c851055165d9a05432e53a4d42966669884f6369a15c4491a4758545484fc0c4",
+    "stampa/PLA_BASIC_ECC2/BOREO_R05_DIMA_PLA_BASIC_ECC2_04.gcode": "48ebe4f000d98a925fe79a73e1cd889bcf887029a5cabee8fbd4170d9b016a32"
+  },
+  "avvio_stampa_o_invio_macchina": false,
+  "stampa_fisica_eseguita": false,
+  "limite": "Solo dima di forma: curvatura e terminali assunti; montaggio, comfort, resistenza, calore e immersione non convalidati."
+}

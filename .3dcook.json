@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "repository": "S9-Engineering/boreo-superkikko2-torch-mount",
+  "layout": {
+    "source": "sorgenti",
+    "cad": "cad",
+    "stl": "print/stl",
+    "slicer": "print/slicer",
+    "previews": "previews",
+    "verification": "verifiche"
+  },
+  "project_name": "BOREO Superkikko2 Torch Mount",
+  "name_confirmation": {
+    "project_name": "BOREO Superkikko2 Torch Mount",
+    "repository": "S9-Engineering/boreo-superkikko2-torch-mount",
+    "confirmed_by": "user"
+  },
+  "visibility": "public"
+}

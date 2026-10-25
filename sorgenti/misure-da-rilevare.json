@@ -1,0 +1,308 @@
+{
+  "stato": "R04_bozza_disponibile_quote_assunte_rilievi_parziali_variante_piastra_unica",
+  "ultimo_rilievo": "rilievi/2026-10-16-feritoie.json",
+  "unita_quote_lineari": "mm",
+  "data_ricerca": "2026-10-15",
+  "casco": {
+    "marca": "Petzl",
+    "modello_dichiarato": "BOREO ultimo modello",
+    "taglia": "M/L",
+    "riferimento_etichetta": null,
+    "generazione_confermata": null,
+    "foto_con_riferimento_metrico": [],
+    "girotesta_etichetta_cm": [
+      53,
+      61
+    ],
+    "massa_nominale_etichetta_g": 330,
+    "fonte_taglia": "riferimenti/foto-utente/Foto-1.jpg",
+    "foto_senza_riferimento_metrico": [
+      "riferimenti/foto-utente/Foto-1.jpg",
+      "riferimenti/foto-utente/Foto-2.jpg",
+      "riferimenti/foto-utente/Foto-3.jpg",
+      "riferimenti/foto-utente/Foto-4.jpg"
+    ]
+  },
+  "torcia": {
+    "marca": "Kikko Lamp",
+    "modello": "Superkikko2",
+    "massa_montata_g": null,
+    "interfaccia": {
+      "revisione_attiva": "R04",
+      "stato_meccanismo": "Bozza CAD R04 a fermi separati disponibile; variante richiesta con piastra interna unica curva ancora da modellare",
+      "schema_o_foto": [
+        "riferimenti/foto-utente/Foto-2.jpg",
+        "riferimenti/foto-utente/Foto-4.jpg"
+      ],
+      "parte_da_conservare": "Corpo lampada, farfalla asolata e staffa a U metalliche originali; fissaggi centrali farfalla/U e perni laterali restano nel gruppo originale",
+      "parte_da_sostituire": "Collegamento della farfalla al casco; base/sella esterna stampata e piastra interna unica curva con due terminali",
+      "direzione_utente": "Conservare farfalla e U; base esterna porta farfalla, due collegamenti attraverso le feritoie verso una piastra interna unica curva; accesso alle viti dall esterno",
+      "interfaccia_attiva": "Due punti nelle asole laterali esistenti della farfalla e battute della sella",
+      "fissaggi_centrali_U_usati_per_nuovo_collegamento": false,
+      "nuovi_fori_farfalla_ammessi": false,
+      "farfalla": {
+        "documentazione_produttore": "https://www.kikkolamp.com/pagina-prodotto/staffa-lampada",
+        "identita_versione_dimensioni_verificate": false,
+        "sagoma_o_rilievo": "../rilievo-farfalla-2026-10-22/README.md",
+        "larghezza_totale_mm": null,
+        "altezza_totale_mm": null,
+        "spessore_lamina_mm": null,
+        "planarita_curvatura_appoggio": null,
+        "asole_laterali": {
+          "numero_previsto": 2,
+          "origine_numero": "Interfaccia scelta e riscontro visivo; quote da rilevare",
+          "larghezza_sinistra_mm": 2,
+          "lunghezza_sinistra_mm": null,
+          "larghezza_destra_mm": 2,
+          "lunghezza_destra_mm": null,
+          "interasse_mm": 57.5,
+          "inclinazione_gradi": null,
+          "posizione_viti_entro_asole": null,
+          "distanza_da_U_e_fissaggi_centrali_mm": null,
+          "origine_larghezze": "Conferma utente: foro2mm; applicata simmetria delle alette.",
+          "origine_interasse": "Calcolato circa57.5 =63.5 -2*2 -2; W63.5 da lettura foto1, simmetria adottata; non misura diretta.",
+          "bordo_esterno_nel_piano_mm": 2
+        },
+        "asola_superiore_usata_per_fissaggio_R04": false,
+        "nuovo_rilievo_2026_10_22": {
+          "tipo": "letture fotografiche indicative non confermate; valori mancanti non compilati",
+          "larghezza_totale_circa_mm": 63.5,
+          "larghezza_T_circa_mm": 31,
+          "larghezza_collo_circa_mm": 10.5,
+          "misura_foto_6_circa_mm": 36,
+          "estremi_foto_6_confermati": false,
+          "quote_per_fissaggio_base_mancanti": [
+            "spessore lamiera fra le facce",
+            "planarità e sporgenze lato casco"
+          ],
+          "asole_mm": 2,
+          "bordo_esterno_mm": 2,
+          "interasse_calcolato_circa_mm": 57.5
+        }
+      },
+      "viti_farfalla_sella": {
+        "numero_previsto": 2,
+        "diametro_mm": null,
+        "filetto": null,
+        "lunghezza_sotto_testa_mm": null,
+        "diametro_rondelle_mm": null,
+        "spessore_rondelle_mm": null,
+        "ingombro_testa_dado_mm": null,
+        "spazio_accesso_utensile_mm": null,
+        "accessibilita_con_U_montata_verificata": false,
+        "serraggio_definito": false
+      },
+      "spazio_rotazione_gruppo_originale_mm": null,
+      "distanza_dissipatore_dalla_sella_mm": null,
+      "ferramenta_nuova_verificata": false
+    },
+    "fonte_modello": "Conferma diretta utente: Superkikko2",
+    "documentazione_produttore": "https://www.kikkolamp.com/superkikko2"
+  },
+  "appoggio_interno": {
+    "tipo": "Variante con piastra interna unica curva; due zone di appoggio e due terminali passanti. CAD R04 disponibile ancora a fermi separati",
+    "numero_pezzi_interni_previsto": 1,
+    "numero_terminali_previsto": 2,
+    "nomi_fermo_sinistro_destro": "Campi delle due zone locali di appoggio; nella variante appartengono a una piastra unica",
+    "fermo_sinistro": {
+      "zona_appoggio": null,
+      "sagoma_o_rilievo": null,
+      "area_appoggio_mm2": null,
+      "spessore_massimo_mm": null
+    },
+    "fermo_destro": {
+      "zona_appoggio": null,
+      "sagoma_o_rilievo": null,
+      "area_appoggio_mm2": null,
+      "spessore_massimo_mm": null
+    },
+    "requisito_spessore_utente": "Molto sottile; nessuno spessore numerico R04 confermato",
+    "alternative_costruttive_da_valutare": [
+      "FDM",
+      "lamiera"
+    ],
+    "alternativa_selezionata": null,
+    "materiale_specifico": null,
+    "spazio_disponibile_senza_comprimere_schiume_mm": null,
+    "interferenze_girotesta_cinghie_schiume": null,
+    "appoggio_strutturale_idoneo_identificato": false,
+    "vestibilita_originale_preservata_verificata": null,
+    "serraggio_senza_compressione_schiume_verificato": false,
+    "teste_vite_verso_testa_all_interno_ammesse": false
+  },
+  "compatibilita_petzl": {
+    "verifica_soluzione_inserto": "non_dimostrata",
+    "riferimento_riscontro": null
+  },
+  "stampa": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "materiale": null,
+    "marca_variante_filamento": null,
+    "ugello_mm": null,
+    "superficie_piano": null,
+    "profilo_verificato": null,
+    "slicing_eseguito": false
+  },
+  "concetto_attivo": "base_esterna_portafarfalla_piastra_interna_unica_curva_da_modellare",
+  "vincoli_utente": {
+    "elastici_ammessi": false,
+    "motivazione_esclusione_elastici": "Sporco, usura, impigli; preferenza per piastra su misura compatta",
+    "nuovi_fori_casco_ammessi": false,
+    "ingombro_interno": "Molto sottile e senza fastidio; limite numerico da rilevare; FDM o lamiera ancora da valutare",
+    "resistenza_richiesta": "Sostenere la torcia e trattenerne la posizione; da verificare sul pezzo fisico",
+    "schema_attivo": "Sella esterna stampata per farfalla e U originali, piastra interna unica curva con due terminali attraverso feritoie esistenti; bozza R04 a fermi separati conservata",
+    "meccanismo_da_discutere": true,
+    "nuovi_fori_farfalla_ammessi": false,
+    "conservare_farfalla_e_U_metalliche": true,
+    "viti_accessibili_dall_esterno": true,
+    "teste_vite_verso_testa_all_interno_ammesse": false,
+    "smontabile_per_manutenzione": true
+  },
+  "storico_concetti": {
+    "R02_R03_attacco_diretto": {
+      "stato": "SUPERATO_NON_ATTIVO",
+      "concetto": "R02_U_diretta_monopezzo",
+      "interfaccia_diretta_SK2": {
+        "schema_o_foto": [
+          "riferimenti/foto-utente/Foto-3.jpg",
+          "riferimenti/foto-utente/Foto-4.jpg"
+        ],
+        "parte_da_sostituire": "Piastra asolata e staffa metallica a U originali",
+        "parte_da_conservare": "Corpo lampada; ferramenta laterale solo se verificata compatibile",
+        "conferma_utente": "Anche la staffa u, avviterò direttamente ai lati della torcia quindi prevedi una U che entra direttamente nel casco e mette due fori ai lati",
+        "interfaccia_attiva": "Due punti laterali di inclinazione della Superkikko2",
+        "numero_fori_nuova_U": 2,
+        "assi_fori_coassiali": true,
+        "direzione_asse": "Sinistra-destra, attraverso le due orecchie esterne",
+        "larghezza_fra_facce_laterali_lampada_mm": null,
+        "luce_interna_staffa_originale_smontata_mm": null,
+        "fonte_quota_larghezza": null,
+        "distanza_libera_tra_orecchie_nuova_U_mm": null,
+        "gioco_per_lato_mm": null,
+        "gioco_totale_mm": null,
+        "diametro_vite_mm": null,
+        "filetto": null,
+        "lunghezza_vite_sotto_testa_mm": null,
+        "lunghezza_utile_impegno_lampada_mm": null,
+        "spallamenti_rondelle_distanziali": null,
+        "offset_asse_dal_retro_lampada_mm": null,
+        "offset_asse_dai_bordi_lampada_mm": null,
+        "inclinazione_da_conservare": true,
+        "spazio_rotazione_mm": null,
+        "distanza_dissipatore_mm": null,
+        "ferramenta_laterale_verificata": false
+      },
+      "percorso_alette": {
+        "tipo": "Ponte interno e due bracci integrali attraverso aperture anteriori, con orecchie ai lati della lampada",
+        "interasse_passaggi_mm": null,
+        "sinistra": {
+          "larghezza_utile_mm": null,
+          "altezza_utile_mm": null,
+          "profondita_passaggio_mm": null,
+          "sagoma_o_rilievo": null
+        },
+        "destra": {
+          "larghezza_utile_mm": null,
+          "altezza_utile_mm": null,
+          "profondita_passaggio_mm": null,
+          "sagoma_o_rilievo": null
+        },
+        "montabilita_monopezzo_verificata": false,
+        "offset_asse_torcia_avanti_dai_passaggi_mm": null,
+        "offset_asse_torcia_altezza_dai_passaggi_mm": null
+      },
+      "appoggio_interno": {
+        "zona": null,
+        "sagoma_o_scansione": null,
+        "spazio_disponibile_senza_comprimere_schiume_mm": null,
+        "interferenze_girotesta_cinghie_schiume": null,
+        "vestibilita_originale_preservata_verificata": null,
+        "requisito_curvatura": "Fascia già curva che segue la zona interna di appoggio del casco; geometria reale da rilevare",
+        "requisito_spessore_utente": "Molto molto sottile; valore e ambito da precisare",
+        "spessore_massimo_fascia_mm": null,
+        "vincolo_sottigliezza_solo_fascia_interna": null,
+        "metodo_rilievo_proposto": "Profilo di cartoncino adattato alla sezione e fotografato in piano con scala, oppure dime di curvatura; verifica successiva con dima locale"
+      },
+      "schema_precedente_utente": "Piastra curva interna e due bracci integrali attraverso le aperture, fori sui lati della torcia",
+      "nota": "Campi conservati per lo storico della U diretta R03. Non compilano e non definiscono la R04."
+    }
+  },
+  "nota_quote": "Le decisioni di concetto non sono rilievi. Le quote dichiarate ricevute il 16 ottobre sono nel file ultimo_rilievo; conversione 3 cm = 30 mm. Interasse, sezione utile e distanza fra appoggi restano null. I parametri ASSUNTI dei CAD R03/R04 restano separati dai rilievi.",
+  "base_esterna_portafarfalla": {
+    "tipo": "Sella esterna stampata, con battute e due punti nelle asole laterali farfalla; meccanismo da discutere",
+    "sagoma_farfalla_e_sede": null,
+    "superficie_appoggio_casco": null,
+    "curvatura_locale_casco": null,
+    "larghezza_mm": null,
+    "altezza_mm": null,
+    "spessore_mm": null,
+    "gioco_sede_per_lato_mm": null,
+    "gioco_sede_totale_mm": null,
+    "zone_e_area_contatto_farfalla_mm2": null,
+    "posizione_dimensioni_battute": null,
+    "quote_guide_laterali": null,
+    "spazio_accesso_viti_esterno_mm": null,
+    "nessuna_interferenza_con_dissipatore_cavo_rotazione_verificata": false
+  },
+  "collegamenti_passanti": {
+    "tipo": "Due collegamenti dalla sella esterna alla piastra interna unica curva prevista, attraverso le feritoie esistenti",
+    "numero_previsto": 2,
+    "interasse_passaggi_mm": null,
+    "distanza_bordi_piu_vicini_feritoie_mm": 63,
+    "distanza_bordi_riferimento": "Conferma esplicita utente; distanza rettilinea o lungo curva non ancora precisata",
+    "spessore_casco_piu_schiuma_dichiarato_mm": 18,
+    "fonte_quote_parziali": "rilievi/2026-10-16-feritoie.json",
+    "sinistra": {
+      "larghezza_utile_mm": null,
+      "altezza_utile_mm": null,
+      "profondita_passaggio_mm": null,
+      "sagoma_o_rilievo": null,
+      "percorso_collegamento": null
+    },
+    "destra": {
+      "larghezza_utile_mm": null,
+      "altezza_utile_mm": null,
+      "profondita_passaggio_mm": null,
+      "sagoma_o_rilievo": null,
+      "percorso_collegamento": null
+    },
+    "sezione_collegamenti_mm": null,
+    "accesso_viti": "Esterno",
+    "teste_vite_verso_testa_all_interno_ammesse": false,
+    "sequenza_montaggio": null,
+    "montabilita_componenti_separati_verificata": false
+  },
+  "verifica_termica_R04": {
+    "temperatura_massima_contatto_farfalla_sella_C": null,
+    "temperatura_massima_polimero_C": null,
+    "temperatura_ambiente_prova_C": null,
+    "modalita_potenza_lampada": null,
+    "durata_prova_min": null,
+    "strumento_e_metodo_misura": null,
+    "stabilizzazione_termica_raggiunta": null,
+    "carico_e_serraggio_durante_prova": null,
+    "creep_a_caldo_verificato": false,
+    "nota": "Il metallo puo condurre calore alla sella; nessuna temperatura o prestazione e dedotta dalla sola massa della torcia."
+  },
+  "ambiente_richiesto_R04": {
+    "temperatura_ambiente_operativa_C": 5,
+    "umidita_relativa_percento": 100,
+    "immersione_prevista": true,
+    "durata_immersione_min": null,
+    "profondita_massima_m": null,
+    "tipo_acqua_dolce_salata": null,
+    "temperatura_contatto_farfalla_massima_C": null,
+    "fonte": "Dichiarazione utente, non prova ambientale eseguita"
+  },
+  "scelta_fissaggio_R04": {
+    "preferenza_utente": "Meccanico senza colle, bicomponenti o elastici; incollaggio soltanto piano B da valutare",
+    "direzione_preferita_di_sviluppo": "Piastra interna unica curva con due terminali nelle feritoie, ritenuta positiva e chiusura esterna; appoggi reali da verificare",
+    "incollaggio_dimostrato_sufficiente": false,
+    "adesivo_selezionato": null,
+    "compatibilita_adesivo_casco_documentata": false,
+    "tenuta_meccanica_feritoie_verificata": false,
+    "prova_a_5C_bagnato_immersione_eseguita": false,
+    "nota": "Nessun incollaggio autorizzato o eseguito; preferenza progettuale non convalida il casco."
+  },
+  "ultimo_rilievo_farfalla": "../rilievo-farfalla-2026-10-22/sorgenti/letture-foto.json"
+}

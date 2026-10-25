@@ -1,0 +1,76 @@
+{
+  "pezzi": {
+    "base_appoggi": {
+      "CAD_valido": true,
+      "volume_CAD_mm3": 17180.79004219683,
+      "triangoli": 4788,
+      "dimensioni_STL_mm": [
+        102.80131530761719,
+        25.611699104309082,
+        46.0
+      ],
+      "volume_STL_mm3": 17183.240515460584
+    },
+    "ponte_terminale": {
+      "CAD_valido": true,
+      "volume_CAD_mm3": 4561.006515737504,
+      "triangoli": 2300,
+      "dimensioni_STL_mm": [
+        104.98213958740234,
+        49.39339065551758,
+        16.0
+      ],
+      "volume_STL_mm3": 4560.899587510662
+    },
+    "dima_interasse": {
+      "CAD_valido": true,
+      "volume_CAD_mm3": 717.9104419080678,
+      "triangoli": 1804,
+      "dimensioni_STL_mm": [
+        63.5,
+        20.0,
+        2.799999952316284
+      ],
+      "volume_STL_mm3": 717.9076946354356
+    }
+  },
+  "intersezione_assieme_mm3": 0.0,
+  "sha256": {
+    "stampa/R08_BASE_APPOGGI_PROTOTIPO_PLA.stl": "5742e52190142a9d4228195773a478617a7cf5da7ff1fa8bff5b22f6989f485d",
+    "stampa/R08_DIMA_INTERASSE_PROTOTIPO_PLA.stl": "2fb8b97d7200105d05920df95e329fdfa331fe8d010f04d945bb17a10bc20548",
+    "stampa/R08_PONTE_TERMINALE_PROTOTIPO_PLA.stl": "37de33f2f95a105f989ef57586d20ec4b3801fc09ea78873bdaa88372d53553b",
+    "stampa/R08_TRE_PROVINI_SOLO_GEOMETRIA.3mf": "1f8e7948ebdf27c99e5da2417cce9a6772b5fb0daf4f100598ae7e6dd01ee132",
+    "stampa/R08_BASE_APPOGGI_PROTOTIPO_PLA.step": "888bcce248bf43f4f722028448a663c845c2bc536a833cffd48e5c33963495de",
+    "stampa/R08_PIATTO_A_DIMA_SOLO_GEOMETRIA.3mf": "829265b492fdf7079c85e0ae18aebc33b1b785d13fe1c0d897b00bcb42cb95e4",
+    "stampa/R08_PONTE_TERMINALE_PROTOTIPO_PLA.step": "cce28b60c2ed3311c0693fee79fb20ec0dcb287f4cfeaa58681f3f67053a994f",
+    "stampa/R08_DIMA_INTERASSE_PROTOTIPO_PLA.step": "1682924a2ba14bf1e6ab3ac7fb69af5cd011820d694110ce8bb03e7ab12d97a7",
+    "stampa/R08_PIATTO_B_BASE_PONTE_SOLO_GEOMETRIA.3mf": "f663de205a8254bbad5581848f1a7f739c97faf969719ec79d0c6305e38b8ad7",
+    "sorgenti/assieme/dima_interasse.step": "31375f97aa589f0dcf9ed011a0342dadab717f7af22f98b446e6c0ebb60a72cf",
+    "sorgenti/assieme/R08_ASSIEME_CON_FERRAMENTA_SCHEMATICA.glb": "582fc2a8e573aff649c4d7b22edeee454ef36338ffe7623a8e485cbd55111a37",
+    "sorgenti/assieme/base_appoggi.stl": "13d41abec10335b133b667f3b5382ef30bf691cdae46d9cc3b025bd2b1be77ab",
+    "sorgenti/assieme/dima_interasse.stl": "a2696c1921fd6b76d7f7daaeffb7bfae7345d145b9ff63f8ab404159b8ff9d02",
+    "sorgenti/assieme/base_appoggi.step": "66e51adab86b1c4868f203fe7d6e1f74a76adefe160994e4b6c7d632137d4950",
+    "sorgenti/assieme/ponte_terminale.step": "6aaa50dd7986c30f9ed4809bd4e2b54d14452cb383acbe68eba8feb4c7c576fc",
+    "sorgenti/assieme/R08_ASSIEME_PLASTICA.glb": "095781a205ef3b1861ed14b77163c8b6407c3f3a253a03586fcf8b9f9c7c360d",
+    "sorgenti/assieme/R08_ASSIEME_PLASTICA.step": "1590169811ccc8928ade616fe9c3a18a681e902663f0b6f81012440d50473a95",
+    "sorgenti/assieme/ponte_terminale.stl": "ccf45d726a0d6ccbc8af7be5909e3016e864392b4a32eb1c921379015e7def80",
+    "sorgenti/assieme/R08_ASSIEME_CON_FERRAMENTA_SCHEMATICA.step": "2d807ac1809b18494efcf1388a73848b1a776f74cfaefba1f5c93fbaf75f1238",
+    "sorgenti/ferramenta-riferimento/rondella_M3_1.stl": "e8f22733e7e12fcde457637e6766ebac018b6af8c608d1465fdd8168f60b7638",
+    "sorgenti/ferramenta-riferimento/vite_M3x16_1.step": "ff1e73499868cd63d89de68bffaca079685da296d89a37d167da68de21ac95f0",
+    "sorgenti/ferramenta-riferimento/rondella_M3_2.stl": "64cd8cef0a89c251e657706dc12ae214da2824308c23933520228ad478715709",
+    "sorgenti/ferramenta-riferimento/vite_M3x16_2.stl": "d0ce98b1f779a86461e6ec355edd36a40a19e1b049bcc85efb1565e21d7b20f9",
+    "sorgenti/ferramenta-riferimento/vite_M3x16_1.stl": "73c7662b154dd3c2a66a8f01487f5f2e1ed0ac5b8d4b3d6396fa560d6e769839",
+    "sorgenti/ferramenta-riferimento/rondella_M3_2.step": "feb9888b4bc3e93d42ffacae1e9374bd2e6627a742f88ec17135a27b6b46e89b",
+    "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_1.stl": "40c4e6a4412d6e35c290eb3f8d75d41f7010b5a0a342b5aa2fd213ccea7b97ce",
+    "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_2.stl": "7f10df5e41e4f66c1cc5e599f170ec4cfca56d3146870101318da48d3e6cc20f",
+    "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_1.step": "fd655accd4776d6214890f4b20763822d2b855a8a33ba92c51f9ffdd3c73f0e8",
+    "sorgenti/ferramenta-riferimento/dado_autobloccante_M3_2.step": "b8374ea2c36559de22d3e7098fead6b34f5232a0f4748992f16f6c04fefd4021",
+    "sorgenti/ferramenta-riferimento/rondella_M3_1.step": "303c990a03a345ae4eafd47512fa1c3e661f745d3a5313b21e0cb945135f6331",
+    "sorgenti/ferramenta-riferimento/vite_M3x16_2.step": "8ec1488906c0b510c74e8c71c3f78b51da63435fd53f79425667b6568e8d056a"
+  },
+  "dipendenze": {
+    "cadquery": "2.8.0",
+    "trimesh": "5.1.1",
+    "numpy": "2.4.6"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "revisione": "R12",
+  "CAD_valido": true,
+  "CAD_solidi": 1,
+  "CAD_volume_mm3": 8911.18461240001,
+  "STL_dim_mm": [
+    104.98213958740234,
+    50.049686431884766,
+    28.799999237060547
+  ],
+  "STL_volume_mm3": 8906.042904823664,
+  "altezza_fascia": 28.8,
+  "aletta_al_centro": true,
+  "nervature": 2,
+  "riferimenti_rinforzo_bounds": [
+    [
+      [
+        -45.0,
+        -30.556620210761338,
+        19.799999999999997
+      ],
+      [
+        -38.99999999999999,
+        -16.146472281275507,
+        21.15
+      ]
+    ],
+    [
+      [
+        38.999999999999986,
+        -30.556620210761313,
+        19.799999999999997
+      ],
+      [
+        45.0,
+        -16.146472281275507,
+        21.15
+      ]
+    ]
+  ],
+  "dipendenze": {
+    "cadquery": "2.8.0",
+    "trimesh": "5.1.1",
+    "numpy": "2.4.6"
+  },
+  "file_sha256": {
+    "stampa/R12_PONTE_CENTRATO_RINFORZATO_PLA.stl": "b7ffd0778cd092c533875846b68a235f75fabc20edb1a2d0399cf956ccee99df",
+    "stampa/R12_PONTE_CENTRATO_RINFORZATO_PLA.step": "3fb9d51d2c38e5b733b13bf4f8157077731c57aa8b69259124f28698cd7d189f",
+    "stampa/R12_PONTE_SOLO_GEOMETRIA.3mf": "55aa32e97d4f67d374fb589a7c6730b67f84e0ecd6bd6c2ecc58735f6e9530cb",
+    "sorgenti/assieme/ponte.stl": "38d70abfaec1d46f31e5daf60bf23e40a4ceeb05b4b7065118545c3d2ceeb9f8",
+    "sorgenti/assieme/ponte.step": "300d0e37a6ebc2512eaebcd44c07921dfc7290be5eb5526c9e10eeeaa4c53a67",
+    "sorgenti/assieme/ponte.glb": "5003f4485cba65e6201980ade44e833b3946b080f320dd38ca125e4417626d01"
+  }
+}

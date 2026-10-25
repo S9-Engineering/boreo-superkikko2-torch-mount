@@ -1,0 +1,308 @@
+{
+  "progetto": "BOREO prova R05 PLA",
+  "preparato_utc": "2026-10-21T14:28:51.761682+00:00",
+  "stato": "PROFILI PREPARATI - slicing e controllo percorsi demandati al processo di consegna; nessun job inviato.",
+  "configurazione": {
+    "stampante": "ELEGOO Centauri Carbon 2 Combo indicata dall utente; preset locale Centauri Carbon 2 con supporto MMS",
+    "preset_macchina": "Elegoo Centauri Carbon 2 0.4 nozzle",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "filamento": "ELEGOO PLA Basic confermato dall utente nel turno R05",
+    "temperatura_ugello_C": 220,
+    "temperatura_piano_C": 60,
+    "portata_massima_mm3_s": 12,
+    "nota_temperature": "220/60 derivano dal preset ufficiale PLA Basic ECC2 installato; non sono valori calibrati per questa bobina. Il preset PLA semplice, distinto da Basic, usa 210 C."
+  },
+  "software": {
+    "app": "/Applications/ElegooSlicer.app",
+    "eseguibile": "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+    "versione_Info_plist": "1.5.3.5",
+    "identificazione_help_CLI_precedentemente_letta": "ElegooSlicer-2.4.2",
+    "origine_preset_bundle": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo"
+  },
+  "profili": {
+    "machine.json": {
+      "profilo_origine": "Elegoo Centauri Carbon 2 0.4 nozzle",
+      "catena_derivato_verso_basi": [
+        {
+          "nome": "Elegoo Centauri Carbon 2 0.4 nozzle",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/machine/ECC2/Elegoo Centauri Carbon 2 0.4 nozzle.json",
+          "sha256": "06ce79b9ad2d9e40bffa786f2df5199ec33add8d31b70cd4e5ea687c9fcc2039"
+        },
+        {
+          "nome": "fdm_elegoo_3dp_001_common",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/machine/fdm_elegoo_3dp_001_common.json",
+          "sha256": "305c5826b25413f8257d8dec529ac691d2f4bb899fb391dbebbec576d9dcc00b"
+        },
+        {
+          "nome": "fdm_machine_common",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/machine/fdm_machine_common.json",
+          "sha256": "5f3b32c4dfd0aa4dd4187bf516bde8fb8a35ef08d03580be7ee4c7a28702c795"
+        }
+      ],
+      "appiattimento": "Merge ricorsivo base -> derivato, successivamente inherits stringa vuota. Nessuna modifica ai preset installati.",
+      "override": {},
+      "file": "machine.json",
+      "sha256": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+      "chiavi": 95
+    },
+    "filament.json": {
+      "profilo_origine": "Elegoo PLA Basic @ECC2",
+      "catena_derivato_verso_basi": [
+        {
+          "nome": "Elegoo PLA Basic @ECC2",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/filament/ECC2/Elegoo PLA Basic @ECC2.json",
+          "sha256": "8682e4713299224f3657239775470c50aabb1bb81776ccbf937ffbb212432075"
+        },
+        {
+          "nome": "Elegoo PLA @base",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/filament/BASE/Elegoo PLA @base.json",
+          "sha256": "5923401a79e2d3b3115019bce2a9d0e023a14bff17ad95ca59e7d74b360dc055"
+        },
+        {
+          "nome": "fdm_filament_pla",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/filament/fdm_filament_pla.json",
+          "sha256": "f867b1e209051427290b11cc2a085ed722643a47823f1827f820bbb6c7d2a08e"
+        },
+        {
+          "nome": "fdm_filament_common",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/filament/fdm_filament_common.json",
+          "sha256": "905b6882f138c64d28cd5a6615f5abb0eb079161340781600a7b09401f05f7c8"
+        }
+      ],
+      "appiattimento": "Merge ricorsivo base -> derivato, successivamente inherits stringa vuota. Nessuna modifica ai preset installati.",
+      "override": {
+        "filament_max_volumetric_speed": {
+          "prima": [
+            "21"
+          ],
+          "dopo": [
+            "12"
+          ]
+        }
+      },
+      "file": "filament.json",
+      "sha256": "49443f42621e0499958287d7ad9d0d78ff78961d7d6a4994c0fef61464c1d981",
+      "chiavi": 64
+    },
+    "process.json": {
+      "profilo_origine": "0.20mm Standard @Elegoo CC2 0.4 nozzle",
+      "catena_derivato_verso_basi": [
+        {
+          "nome": "0.20mm Standard @Elegoo CC2 0.4 nozzle",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/process/ECC2/0.20mm Standard @Elegoo CC2 0.4 nozzle.json",
+          "sha256": "80030b42558303e83daffd8694752c2e548ac0524cb60994d7d4dcfa9e5d8fd9"
+        },
+        {
+          "nome": "fdm_process_elegoo_04020",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/process/fdm_process_elegoo_04020.json",
+          "sha256": "36b40a1a5dd70653aa8b9363925f8da79974d1621c87c643ac1572d60cf2b974"
+        },
+        {
+          "nome": "fdm_process_elegoo_common",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/process/fdm_process_elegoo_common.json",
+          "sha256": "840a7fb58405d3e11b34cd6fc206a2720b0143575a03581d4aea453dbdc1ce67"
+        },
+        {
+          "nome": "fdm_process_common",
+          "percorso": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/process/fdm_process_common.json",
+          "sha256": "5ad25427d0c8e20fd1768555270bd573988a93d28b1a9645448ec02d09bea48a"
+        }
+      ],
+      "appiattimento": "Merge ricorsivo base -> derivato, successivamente inherits stringa vuota. Nessuna modifica ai preset installati.",
+      "override": {
+        "name": {
+          "prima": "0.20mm Standard @Elegoo CC2 0.4 nozzle",
+          "dopo": "BOREO R05 PROVA PLA BASIC - ECC2 0.4 - 0.20mm"
+        },
+        "print_settings_id": {
+          "prima": null,
+          "dopo": "BOREO R05 PROVA PLA BASIC - ECC2 0.4 - 0.20mm"
+        },
+        "layer_height": {
+          "prima": "0.2",
+          "dopo": "0.2"
+        },
+        "initial_layer_print_height": {
+          "prima": "0.2",
+          "dopo": "0.2"
+        },
+        "wall_loops": {
+          "prima": "2",
+          "dopo": "3"
+        },
+        "wall_generator": {
+          "prima": "classic",
+          "dopo": "arachne"
+        },
+        "detect_thin_wall": {
+          "prima": "0",
+          "dopo": "0"
+        },
+        "sparse_infill_density": {
+          "prima": "15%",
+          "dopo": "15%"
+        },
+        "sparse_infill_pattern": {
+          "prima": "rectilinear",
+          "dopo": "gyroid"
+        },
+        "outer_wall_speed": {
+          "prima": "160",
+          "dopo": "50"
+        },
+        "inner_wall_speed": {
+          "prima": "200",
+          "dopo": "80"
+        },
+        "sparse_infill_speed": {
+          "prima": "200",
+          "dopo": "100"
+        },
+        "initial_layer_speed": {
+          "prima": "50",
+          "dopo": "25"
+        },
+        "initial_layer_infill_speed": {
+          "prima": "105",
+          "dopo": "25"
+        },
+        "internal_solid_infill_speed": {
+          "prima": "250",
+          "dopo": "80"
+        },
+        "top_surface_speed": {
+          "prima": "200",
+          "dopo": "50"
+        },
+        "gap_infill_speed": {
+          "prima": "250",
+          "dopo": "80"
+        },
+        "support_speed": {
+          "prima": "150",
+          "dopo": "80"
+        },
+        "support_interface_speed": {
+          "prima": "80",
+          "dopo": "50"
+        },
+        "brim_type": {
+          "prima": null,
+          "dopo": "outer_only"
+        },
+        "brim_width": {
+          "prima": "5",
+          "dopo": "8"
+        },
+        "brim_object_gap": {
+          "prima": "0.1",
+          "dopo": "0.1"
+        },
+        "enable_support": {
+          "prima": "0",
+          "dopo": "1"
+        },
+        "support_type": {
+          "prima": "tree(auto)",
+          "dopo": "normal(auto)"
+        },
+        "support_style": {
+          "prima": "default",
+          "dopo": "default"
+        },
+        "support_on_build_plate_only": {
+          "prima": "0",
+          "dopo": "1"
+        },
+        "support_threshold_angle": {
+          "prima": "30",
+          "dopo": "45"
+        },
+        "support_interface_top_layers": {
+          "prima": "2",
+          "dopo": "2"
+        },
+        "support_interface_bottom_layers": {
+          "prima": "2",
+          "dopo": "2"
+        },
+        "support_top_z_distance": {
+          "prima": "0.2",
+          "dopo": "0.2"
+        },
+        "support_bottom_z_distance": {
+          "prima": "0.2",
+          "dopo": "0.2"
+        },
+        "support_object_xy_distance": {
+          "prima": "0.35",
+          "dopo": "0.35"
+        },
+        "curr_bed_type": {
+          "prima": null,
+          "dopo": "Textured PEI Plate"
+        },
+        "enable_prime_tower": {
+          "prima": "1",
+          "dopo": "0"
+        },
+        "skirt_loops": {
+          "prima": "0",
+          "dopo": "0"
+        },
+        "print_sequence": {
+          "prima": "by layer",
+          "dopo": "by layer"
+        },
+        "enable_arc_fitting": {
+          "prima": "0",
+          "dopo": "0"
+        }
+      },
+      "file": "process.json",
+      "sha256": "9d603f9490d8eef572482a7f37c076a90bb4d9d4b5ab864625a7aaff8d0ceead",
+      "chiavi": 148
+    }
+  },
+  "controllo_macro_macchina": {
+    "before_layer_change_gcode": {
+      "identico_preset_risolto": true,
+      "sha256_valore": "5a0aa56e06f6a31720010d1eaa6ecdf4822a9ee8a70c615ce7f82dc9c637f7b4"
+    },
+    "change_filament_gcode": {
+      "identico_preset_risolto": true,
+      "sha256_valore": "3c212f5f69e9b67d569e6f57b8e8fa988ce50cfdf5d194ed69c394f8becaf287"
+    },
+    "gcode_flavor": {
+      "identico_preset_risolto": true,
+      "sha256_valore": "6f0c661314c63370a80a8dddc74b3e6094c36f40ba00c92d1160fc05c0016556"
+    },
+    "layer_change_gcode": {
+      "identico_preset_risolto": true,
+      "sha256_valore": "57cfc24ffb0d55f7f85f049458324bfa69316a48750eb02312f2c1c8c8e50115"
+    },
+    "machine_end_gcode": {
+      "identico_preset_risolto": true,
+      "sha256_valore": "05a04a7bcd9652b8acee48ec8cd53a173481a4fa147507d2f450e3ad34e030af"
+    },
+    "machine_pause_gcode": {
+      "identico_preset_risolto": true,
+      "sha256_valore": "aa32eec918e3f479134389c324976a637aee4803b5ea20b2d56a5a45fbd9d5eb"
+    },
+    "machine_start_gcode": {
+      "identico_preset_risolto": true,
+      "sha256_valore": "056c3120113b82a22df91521368987c3bb71a7dfad82aa084db08e83f020a76f"
+    }
+  },
+  "note": [
+    "Processo per prova di forma e montaggio, non validazione di resistenza o uso del supporto con torcia/casco.",
+    "Pareti Arachne per adattare estrusioni alle zone sottili; riconoscimento effettivo e presenza pareti da verificare nel G-code generato. Nessuna convalida CLI di slicing eseguita da questo task.",
+    "Supporti normali automatici dal solo piano; accessibilita e rimozione da verificare sui percorsi reali.",
+    "Nessuna torre di spurgo: singolo materiale. Valori di accelerazione ereditati dal preset standard, velocita indicate ridotte per il provino.",
+    "La temperatura di rammollimento del preset e preservata: nessuna modifica per sopprimere avvisi.",
+    "Provenienza registrata dai file bundle attuali; profili applicazione e preferenze utente non modificati.",
+    "Brim esterno aumentato a8mm su indicazione di coordinamento: piastra curva continua stampata verticale; codoli sospesi aZ6 con supporti automatici rimovibili da verificare nel G-code."
+  ],
+  "profili_congelati": true
+}

@@ -1,0 +1,17 @@
+{
+  "data": "2026-10-21",
+  "fonti": [
+    {
+      "url": "https://help.prusa3d.com/article/skirt-and-brim_133969",
+      "uso": "Il brim aumenta la superficie del primo strato e ha un distacco configurabile. Nel file R06 larghezza 4 mm e gap .1 mm, confermati dal progetto locale."
+    },
+    {
+      "url": "https://help.prusa3d.com/article/elephant-foot-compensation_114487",
+      "uso": "Un allargamento del primo strato integrato nel pezzo è diverso dal brim e può ostacolare accoppiamenti. Nessuna diagnosi certa della stampa utente senza foto."
+    },
+    {
+      "url": "https://www.accu.co.uk/hexagon-nylon-locking-nuts/7957-HNN-M3-A4",
+      "uso": "Dado DIN985 M3 A4: chiave 5.5mm, h4mm, passo .5mm, nylon per contrastare svitamento. Non prova resistenza della struttura stampata."
+    }
+  ]
+}

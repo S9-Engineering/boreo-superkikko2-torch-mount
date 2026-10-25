@@ -1,0 +1,11 @@
+{
+  "data": "2026-10-21",
+  "fonte": "Dichiarazione diretta utente in chat",
+  "revisione_provata": "R06",
+  "materiale": "ELEGOO PLA Basic",
+  "evidenza": "L utente riferisce prova fisica: terminali entrano al limite, senza forzarli intenzionalmente, ma con flessione del materiale.",
+  "contatto_ponte": "Ritenuto adeguato dall utente. Nessuna nuova misura di curva.",
+  "limite_inferiore": "Bordo inferiore del ponte arancione R06, Z=21 mm nel riferimento CAD. Espandere il ponte solo verso alto per evitare il cuscinetto.",
+  "dimensioni_misurate_in_questa_prova": null,
+  "R07": "Da verificare fisicamente. Le riduzioni .8 mm in larghezza e .8 mm in altezza sono scelte iniziali, non giochi misurati."
+}

@@ -1,0 +1,277 @@
+{
+  "revisione": "R06",
+  "controlli": {
+    "due_pezzi": true,
+    "base_cornice:mesh_chiusa": true,
+    "base_cornice:normali_coerenti": true,
+    "base_cornice:volume_positivo": true,
+    "base_cornice:vertici_finiti": true,
+    "base_cornice:spigoli_incidenza_diversa_da_2": true,
+    "base_cornice:facce_duplicate": true,
+    "base_cornice:facce_degeneri_area_inferiore_1e-10": true,
+    "base_cornice:un_corpo": true,
+    "base_cornice:manifold": true,
+    "base_cornice:nessuna_autointersezione_screening": true,
+    "base_cornice:sul_piano": true,
+    "base_cornice:STEP_stampa_valido": true,
+    "base_cornice:STEP_assieme_valido": true,
+    "base_cornice:STEP_STL_volume": true,
+    "base_cornice:STEP_STL_limiti": true,
+    "base_cornice:pose_CAD_coerenti": true,
+    "base_cornice:pose_STL_coerenti": true,
+    "ponte_terminale:mesh_chiusa": true,
+    "ponte_terminale:normali_coerenti": true,
+    "ponte_terminale:volume_positivo": true,
+    "ponte_terminale:vertici_finiti": true,
+    "ponte_terminale:spigoli_incidenza_diversa_da_2": true,
+    "ponte_terminale:facce_duplicate": true,
+    "ponte_terminale:facce_degeneri_area_inferiore_1e-10": true,
+    "ponte_terminale:un_corpo": true,
+    "ponte_terminale:manifold": true,
+    "ponte_terminale:nessuna_autointersezione_screening": true,
+    "ponte_terminale:sul_piano": true,
+    "ponte_terminale:STEP_stampa_valido": true,
+    "ponte_terminale:STEP_assieme_valido": true,
+    "ponte_terminale:STEP_STL_volume": true,
+    "ponte_terminale:STEP_STL_limiti": true,
+    "ponte_terminale:pose_CAD_coerenti": true,
+    "ponte_terminale:pose_STL_coerenti": true,
+    "assemblaggio_senza_interferenze": true,
+    "terminale_-42:altezza4": true,
+    "terminale_-42:larghezza10": true,
+    "base_-42:passaggio_aperto": true,
+    "terminale_42:altezza4": true,
+    "terminale_42:larghezza10": true,
+    "base_42:passaggio_aperto": true,
+    "ponte_spessore1_2": true,
+    "3MF_CRC": true,
+    "3MF_mm": true,
+    "3MF_due_oggetti": true,
+    "3MF_geometria_base_cornice": true,
+    "3MF_matrice_base_cornice": true,
+    "3MF_sul_piano_base_cornice": true,
+    "3MF_margine_brim_base_cornice": true,
+    "3MF_geometria_ponte_terminale": true,
+    "3MF_matrice_ponte_terminale": true,
+    "3MF_sul_piano_ponte_terminale": true,
+    "3MF_margine_brim_ponte_terminale": true,
+    "GLB_due_componenti": true,
+    "GLB_scala_ponte_terminale": true,
+    "GLB_scala_base_cornice": true,
+    "STEP_assieme_due_solidi": true,
+    "file_stabili": true
+  },
+  "fallimenti": [],
+  "pezzi": {
+    "base_cornice": {
+      "mesh": {
+        "vertici": 448,
+        "triangoli": 900,
+        "limiti_mm": [
+          [
+            -51.400657653808594,
+            -11.611556053161621,
+            0.0
+          ],
+          [
+            51.400657653808594,
+            3.9675257205963135,
+            46.0
+          ]
+        ],
+        "dimensioni_mm": [
+          102.80131530761719,
+          15.579081773757935,
+          46.0
+        ],
+        "volume_mm3": 4405.452408541508,
+        "volume_positivo": true,
+        "mesh_chiusa": true,
+        "normali_coerenti": true,
+        "corpi_connessi": 1,
+        "spigoli_incidenza_diversa_da_2": 0,
+        "facce_duplicate": 0,
+        "facce_degeneri_area_inferiore_1e-10": 0,
+        "vertici_finiti": true,
+        "manifold_importazione": {
+          "stato": "Error.NoError",
+          "volume_mm3": 4405.452408541508
+        }
+      },
+      "autointersezioni": {
+        "coppie_candidate_senza_vertici_comuni": 2652,
+        "coppie_con_intersezione": 0,
+        "esempi": [],
+        "limite": "Coppie con vertice comune escluse; screening della mesh esportata, non prova CAD completa.",
+        "metodo": "Broadphase AABB, segmento-triangolo per non coplanari e area proiettata per coplanari; derivato dal verificatore locale DiscoX Cage R02."
+      },
+      "differenza_pose_CAD_mm3": 0.0,
+      "scarto_limiti_STEP_STL_mm": 0.032474279403700734,
+      "tolleranza_limiti_STEP_STL_mm": 0.061
+    },
+    "ponte_terminale": {
+      "mesh": {
+        "vertici": 632,
+        "triangoli": 1260,
+        "limiti_mm": [
+          [
+            -52.49106979370117,
+            -35.39339065551758,
+            0.0
+          ],
+          [
+            52.49106979370117,
+            -2.0,
+            4.0
+          ]
+        ],
+        "dimensioni_mm": [
+          104.98213958740234,
+          33.39339065551758,
+          4.0
+        ],
+        "volume_mm3": 2631.340140583617,
+        "volume_positivo": true,
+        "mesh_chiusa": true,
+        "normali_coerenti": true,
+        "corpi_connessi": 1,
+        "spigoli_incidenza_diversa_da_2": 0,
+        "facce_duplicate": 0,
+        "facce_degeneri_area_inferiore_1e-10": 0,
+        "vertici_finiti": true,
+        "manifold_importazione": {
+          "stato": "Error.NoError",
+          "volume_mm3": 2631.3401405836157
+        }
+      },
+      "autointersezioni": {
+        "coppie_candidate_senza_vertici_comuni": 7460,
+        "coppie_con_intersezione": 0,
+        "esempi": [],
+        "limite": "Coppie con vertice comune escluse; screening della mesh esportata, non prova CAD completa.",
+        "metodo": "Broadphase AABB, segmento-triangolo per non coplanari e area proiettata per coplanari; derivato dal verificatore locale DiscoX Cage R02."
+      },
+      "differenza_pose_CAD_mm3": 0.0,
+      "scarto_limiti_STEP_STL_mm": 5.1325596828633024e-05,
+      "tolleranza_limiti_STEP_STL_mm": 0.061
+    }
+  },
+  "sonde_terminali": {
+    "-42": {
+      "altezza": [
+        {
+          "estremi_mm": [
+            [
+              -42.0,
+              -12.0,
+              21.0
+            ],
+            [
+              -42.0,
+              -12.0,
+              25.0
+            ]
+          ],
+          "lunghezza_mm": 4.0
+        }
+      ],
+      "larghezza": [
+        {
+          "estremi_mm": [
+            [
+              -47.0,
+              -12.0,
+              23.0
+            ],
+            [
+              -37.0,
+              -12.0,
+              23.0
+            ]
+          ],
+          "lunghezza_mm": 10.0
+        }
+      ],
+      "base_lungo_passaggio": []
+    },
+    "42": {
+      "altezza": [
+        {
+          "estremi_mm": [
+            [
+              42.0,
+              -12.0,
+              21.0
+            ],
+            [
+              42.0,
+              -12.0,
+              25.0
+            ]
+          ],
+          "lunghezza_mm": 4.0
+        }
+      ],
+      "larghezza": [
+        {
+          "estremi_mm": [
+            [
+              37.0,
+              -12.0,
+              23.0
+            ],
+            [
+              47.0,
+              -12.0,
+              23.0
+            ]
+          ],
+          "lunghezza_mm": 10.0
+        }
+      ],
+      "base_lungo_passaggio": []
+    }
+  },
+  "sonda_pelle": [
+    {
+      "estremi_mm": [
+        [
+          0.0,
+          -19.20000000000001,
+          23.0
+        ],
+        [
+          0.0,
+          -18.000000000000007,
+          23.0
+        ]
+      ],
+      "lunghezza_mm": 1.2000000000000028
+    }
+  ],
+  "intersezione_assieme_mm3": 0.0,
+  "hash_input": {
+    "sorgenti/manifest.json": "afce49efb7df33f3f10ef4c9bb46d9ddf68718f7b014941412eea7e55516a33a",
+    "sorgenti/parametri.json": "4a9e9d2e55f695ce9e7a88e6c5a7469dd36b0116083adaebfcdba00d5a85079b",
+    "stampa/R06_BASE_CORNICE_SOLO_DIMA.stl": "25c6722887da43f6df1cd3406b206822142b1f08dcee24a5d03761b634787bbe",
+    "stampa/R06_BASE_CORNICE_SOLO_DIMA.step": "adc9d79ff6f79b8a798b18ce2b0812b00a5cdfbe72fe47abfb3bec682b20bc5d",
+    "sorgenti/assieme/base_cornice.stl": "1951ce49e480f070da8b82694c4cc49169b3fa27e478e78395ee6daccb6747a9",
+    "sorgenti/assieme/base_cornice.step": "2c0677c078d2e6fa13617bdbd59a6c9bb0d272c1ea9adca4fc84ca5092473ca0",
+    "stampa/R06_PONTE_TERMINALE_SOLO_DIMA.stl": "3d1091ae66efd5328cd09d07f645f7d89e85f3e2a3d2c506ac89f6fabf46991f",
+    "stampa/R06_PONTE_TERMINALE_SOLO_DIMA.step": "582f62a47b66531331a166f473cbeebb105d475d8a9aff43d7b8fabd2b9de512",
+    "sorgenti/assieme/ponte_terminale.stl": "99860214bb376cd19a54913633dd85dff7b886beb682b284b161e209f9da93e1",
+    "sorgenti/assieme/ponte_terminale.step": "dcb65fed9b82f5b1fb6286dd170da38068dc26a6b10b3ed27bad58d8801682fb",
+    "stampa/R06_DUE_PEZZI_SOLO_GEOMETRIA.3mf": "9c761fb22522cb3e75f59b156f781e8062388c58616571689966fea8e76ceac2",
+    "sorgenti/assieme/R06_ASSIEME.glb": "a0f12b4909a410c15026707f8d99e8dde971a109d4f3b8c5b79d676ccaab69bc",
+    "sorgenti/assieme/R06_ASSIEME.step": "d9c142a4f887d95a89d304b53cd1456981be801b3b029279c38135d2ec887bd6"
+  },
+  "limiti": "Solo dima di ingombro; nessuna prova fisica, di montaggio o resistenza. Screening delle autointersezioni, non prova geometrica completa.",
+  "dipendenze": {
+    "cadquery": "2.8.0",
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "shapely": "2.2.0"
+  }
+}
