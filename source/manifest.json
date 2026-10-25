@@ -1,0 +1,200 @@
+{
+  "revisione": "R13_COMPLETO_PETG",
+  "unita": "mm",
+  "casco_o_torcia_ricostruiti": false,
+  "pezzi": [
+    {
+      "id": "ponte_centrato",
+      "quantita": 1,
+      "materiale": "ELEGOO PETG Pro",
+      "solo_prototipo": true,
+      "stl_stampa": "print/stl/inner-bridge.stl",
+      "step_stampa": "cad/inner-bridge.step",
+      "stl_assieme": "cad/assembly/inner-bridge.stl",
+      "step_assieme": "cad/assembly/inner-bridge.step",
+      "matrice_stampa_da_assieme": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -8.2
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds_stampa_mm": [
+        [
+          -52.491121119297794,
+          -36.04973414035034,
+          -1.7763568394002505e-15
+        ],
+        [
+          52.4911211192978,
+          14.0,
+          28.8
+        ]
+      ],
+      "bounds_assieme_mm": [
+        [
+          -52.491121119297794,
+          -36.04973414035034,
+          8.199999999999998
+        ],
+        [
+          52.4911211192978,
+          14.0,
+          37.0
+        ]
+      ]
+    },
+    {
+      "id": "base_appoggi",
+      "quantita": 1,
+      "materiale": "ELEGOO PETG Pro",
+      "solo_prototipo": true,
+      "stl_stampa": "print/stl/backing-plate.stl",
+      "step_stampa": "cad/backing-plate.step",
+      "stl_assieme": "cad/assembly/backing-plate.stl",
+      "step_assieme": "cad/assembly/backing-plate.step",
+      "matrice_stampa_da_assieme": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds_stampa_mm": [
+        [
+          -51.40095768527213,
+          -11.611855033747137,
+          -1.0000000089420058e-07
+        ],
+        [
+          51.40095768527213,
+          14.0,
+          46.0000001
+        ]
+      ],
+      "bounds_assieme_mm": [
+        [
+          -51.40095768527213,
+          -11.611855033747137,
+          -1.0000000089420058e-07
+        ],
+        [
+          51.40095768527213,
+          14.0,
+          46.0000001
+        ]
+      ]
+    }
+  ],
+  "riferimenti": [
+    {
+      "id": "vite_M3x16_1",
+      "stl_assieme": "cad/hardware/screw-m3x16-1.stl",
+      "step_assieme": "cad/hardware/screw-m3x16-1.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "rondella_M3_1",
+      "stl_assieme": "cad/hardware/washer-m3-1.stl",
+      "step_assieme": "cad/hardware/washer-m3-1.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "dado_autobloccante_M3_1",
+      "stl_assieme": "cad/hardware/nut-m3-1.stl",
+      "step_assieme": "cad/hardware/nut-m3-1.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "vite_M3x16_2",
+      "stl_assieme": "cad/hardware/screw-m3x16-2.stl",
+      "step_assieme": "cad/hardware/screw-m3x16-2.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "rondella_M3_2",
+      "stl_assieme": "cad/hardware/washer-m3-2.stl",
+      "step_assieme": "cad/hardware/washer-m3-2.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    },
+    {
+      "id": "dado_autobloccante_M3_2",
+      "stl_assieme": "cad/hardware/nut-m3-2.stl",
+      "step_assieme": "cad/hardware/nut-m3-2.step",
+      "non_stampare": true,
+      "schematico_non_filettato": true
+    }
+  ],
+  "piatto_geometrico": {
+    "file": "print/slicer/geometry-only.3mf",
+    "numero_pezzi": 2,
+    "unita": "mm",
+    "items": [
+      {
+        "id": "ponte_centrato",
+        "traslazione_da_stampa_mm": [
+          128.0,
+          101.02484321594238,
+          1.7763568394002505e-15
+        ]
+      },
+      {
+        "id": "base_appoggi",
+        "traslazione_da_stampa_mm": [
+          128.00000190734863,
+          158.8057565689087,
+          8.881784197001252e-16
+        ]
+      }
+    ]
+  },
+  "assieme": {
+    "step": "cad/assembly/assembly.step",
+    "glb": "cad/assembly/assembly.glb",
+    "unita_glb": "m"
+  },
+  "scopo": "Progetto completo per stampa di prova PETG Pro. Base R10 e ponte R12 invariati. Montaggio/carico/calore aperti."
+}

@@ -1,0 +1,29 @@
+{
+  "document": "docs/printing.md",
+  "checked_local_links": [
+    "print/stl/inner-bridge.stl",
+    "print/stl/backing-plate.stl",
+    "print/slicer/boreo-superkikko2-petg.3mf",
+    "source/profiles",
+    "previews/assembly/exploded.png",
+    "LICENSE.txt",
+    "LICENSE-SOFTWARE.txt",
+    "LICENSING.md"
+  ],
+  "current_layout_issues": [],
+  "same_repository_release_links": [
+    "https://github.com/S9-Engineering/boreo-superkikko2-torch-mount/releases"
+  ],
+  "local_portal_git_guard": {
+    "directory": "publication-local/",
+    "present": true,
+    "own_repository": true,
+    "tracked_files": [],
+    "ignored_by_git": true,
+    "passed": true
+  },
+  "require_tracked": true,
+  "issues": [],
+  "passed": true,
+  "scope": "Inline Markdown links/images. Inspect HTML, reference-style links, source dependencies and image content separately."
+}

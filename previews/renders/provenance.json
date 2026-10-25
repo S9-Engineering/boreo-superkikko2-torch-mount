@@ -1,13 +1,13 @@
 {
   "date": "2026-10-25",
   "hero": {
-    "file": "r13-hero-ai.png",
+    "file": "hero-ai.png",
     "method": "Built-in image_gen",
     "prompt": "Use case: product-mockup. Create a landscape 3:2 photographic-style hero for the README of a DIY 3D-printable BOREO torch-mount prototype. The first two references are precise CAD views of THE SAME SMALL PRODUCT, front and rear, not separate products. Preserve its actual geometry: a thin continuous curved inner strip with two narrow arms, screwed to a rounded external plate with two rectangular rivet-clearance openings low down, three small fixing passages (two lateral and one high center), two bolt locations at the side, and the small embossed S9 mark on a side boss. DO NOT add extra mounting features, rounded pockets, flanges, knobs or change the plate silhouette. Match the front three-quarter orientation in image1. Show that exact assembled bracket sitting on a limestone work surface at the entrance of a cave, a loosely coiled caving rope out of focus in the background, natural soft daylight, credible scale around 105 mm wide, realistic matte PETG with restrained visible fine print layers and silver steel fasteners. Both printed pieces may be dark teal (one material); keep all edges, holes and clearances faithful. No lamp, no helmet, no people and no implication of a tested installed assembly. This is an illustrative render of an untested prototype, not a photograph of a real print. Clean composition with room in the bottom corners. Image3 is supporting branding artwork: reproduce the supplied FULL S9 ENGINEERING signature faithfully at bottom right with generous margins and small size, preserving exact lettering and proportions, use a discreet dark rectangle if needed for contrast. Bottom left include the exact discreet readable label 'AI-generated render'. No other text, no title, no badges, no invented certification.",
     "source_default": "exec-f4bac86a-82b8-492e-82d6-b17e8301616a.png",
     "geometry_references": [
-      "progetto-R13-completo-PETG/anteprime/viste/assieme_frontale.png",
-      "progetto-R13-completo-PETG/anteprime/viste/assieme_interno.png"
+      "previews/technical/assieme_frontale.png",
+      "previews/technical/assieme_interno.png"
     ],
     "branding": "assets/logo_S9_Engineering.png",
     "disclosure": "AI-generated render",

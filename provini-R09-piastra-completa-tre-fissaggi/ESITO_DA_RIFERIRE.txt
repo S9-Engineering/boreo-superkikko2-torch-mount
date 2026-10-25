@@ -1,5 +1,0 @@
-R09 — prove a torcia spenta, sostenuta a mano
-A: entrano i due piolini laterali insieme? Il superiore entra allo stesso tempo? Quanto va alzato/abbassato? Dima piana senza flettere?
-B: terminali liberi nel casco? Bordo inferiore/cuscinetto liberi? Tre parti della farfalla appoggiano sullo stesso piano? Rivetti e corpo lampada liberi? Tutti i passaggi sono accessibili anche da dietro?
-Foto frontale e di profilo. Misurare spessore fra le facce della lamiera. Il bordo laterale2mm non è lo spessore.
-Niente prova portante o accensione sul PLA. Materiale, ferramenta e temperatura non convalidati.

@@ -1,6 +1,0 @@
-R10 — stampare prima A (ponte2mm e provino supporti)
-- Ponte: entra senza flettere alette/comprimere schiuma? Cuscinetto e testa liberi con0,8mm aggiunti? Bordo inferiore come R06?
-- Supporti del provino: escono senza pezzetti saldati? Fondo ripiano integro? Dado M3 entra da sotto? Logo S9 leggibile?
-- Se A va bene stampare B; riutilizzare il ponte di A.
-- B: tre parti della farfalla appoggiano? Rivetti liberi? Tre passaggi raggiungibili anche sul retro? Foto frontale e laterale.
-Torcia spenta e sostenuta. Nessuna prova di carico/temperatura ancora acquisita.

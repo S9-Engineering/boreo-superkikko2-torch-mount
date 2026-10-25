@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "revision": "r13-prototype",
+  "status": "UNRELEASED_PROTOTYPE",
+  "output": "boreo-superkikko2-torch-mount-print-pack.zip",
+  "files": [
+    {
+      "source": "print/stl/inner-bridge.stl",
+      "archive": "print/stl/inner-bridge.stl",
+      "role": "model"
+    },
+    {
+      "source": "print/stl/backing-plate.stl",
+      "archive": "print/stl/backing-plate.stl",
+      "role": "model"
+    },
+    {
+      "source": "print/slicer/boreo-superkikko2-petg.3mf",
+      "archive": "print/3mf/boreo-superkikko2-petg.3mf",
+      "role": "model",
+      "expected_sha256": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b"
+    },
+    {
+      "source": "packages/README.print.md",
+      "archive": "README.md",
+      "role": "instructions"
+    },
+    {
+      "source": "previews/assembly/exploded.png",
+      "archive": "assembly/exploded.png",
+      "role": "image"
+    },
+    {
+      "source": "LICENSE.txt",
+      "archive": "LICENSE.txt",
+      "role": "license"
+    },
+    {
+      "source": "LICENSE-SOFTWARE.txt",
+      "archive": "LICENSE-SOFTWARE.txt",
+      "role": "license"
+    },
+    {
+      "source": "LICENSING.md",
+      "archive": "LICENSING.md",
+      "role": "license"
+    }
+  ],
+  "release_authorization": false
+}

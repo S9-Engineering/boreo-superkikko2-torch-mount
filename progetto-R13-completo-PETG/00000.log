@@ -1,5 +1,0 @@
-cli mode, Current ElegooSlicer Version 1.5.3.5
-no filament colors found in projects
-error_code 65540, description: Invalid OpenGL version 3.4
-Failed to create GLFW window; skipping thumbnail rendering for CLI export
-OpenGL context unavailable; skip thumbnail generating

@@ -1,8 +1,0 @@
-{
-  "macchina_origine": "R09 ECC2 0.4 PEI testurizzato",
-  "filamento_origine": "R09 ELEGOO PLA Basic",
-  "macchina_identica": true,
-  "filamento_identico": true,
-  "processo": "5pareti/30%gyroid/5top-bottom;supportiZ0.4,XY0.55 per provino;parametri non calibrati fisicamente",
-  "avvio_stampa": false
-}

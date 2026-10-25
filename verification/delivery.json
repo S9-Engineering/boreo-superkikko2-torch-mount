@@ -1,0 +1,38 @@
+{
+  "revisione": "R13_COMPLETO_PETG",
+  "data": "2026-10-23",
+  "stato": "PRONTO_PER_LA_STAMPA_DEL_PROTOTIPO_COMPLETO_PETG",
+  "materiale": "ELEGOO PETG Pro",
+  "macchina": "ELEGOO Centauri Carbon 2 Combo",
+  "ugello_mm": 0.4,
+  "piano": "PEI testurizzato",
+  "pezzi": {
+    "ponte_centrato_R12": 1,
+    "base_arrotondata_R10": 1
+  },
+  "piatti": 1,
+  "file_principale": "print/slicer/boreo-superkikko2-petg.3mf",
+  "stima_slicer": {
+    "tempo": "2h55m19s",
+    "massa_g": 44.23,
+    "supporti_inclusi": true
+  },
+  "verifica_geometria_controlli": 140,
+  "layers-rivisti": 230,
+  "warning_slicer": 0,
+  "isole_candidate": 0,
+  "logo_rilievo_mm": 2,
+  "ponte_pelle_mm": 2,
+  "rinforzo_ingombro_locale_massimo_progetto_mm": 4.4,
+  "inserimento_casco_R13_verificato": false,
+  "fissaggio_farfalla_verificato": false,
+  "portata_verificata": false,
+  "calore_verificato": false,
+  "stampa_fisica_eseguita": false,
+  "stampa_inviata_o_avviata": false,
+  "controlli_pacchetto": 98,
+  "hash_stampa": {
+    "print/slicer/boreo-superkikko2-petg.3mf": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b",
+    "print/slicer/boreo-superkikko2-petg.gcode": "5ba47b5268a908235facd35f6eb93eca355daa984e417f3e230d619435d92b82"
+  }
+}

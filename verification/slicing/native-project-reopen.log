@@ -1,0 +1,28 @@
+[boreo-superkikko2-petg.3mf]
+size_x = 104.982140
+size_y = 50.049686
+size_z = 28.799999
+min_x = -52.491070
+min_y = -25.024843
+min_z = -14.400000
+max_x = 52.491070
+max_y = 25.024843
+max_z = 14.400000
+number_of_facets = 2340
+manifold = yes
+number_of_parts =  1
+volume = 8906.032227
+[boreo-superkikko2-petg.3mf]
+size_x = 102.801910
+size_y = 25.611513
+size_z = 46.000000
+min_x = -51.400955
+min_y = -12.805757
+min_z = -23.000000
+max_x = 51.400955
+max_y = 12.805757
+max_z = 23.000000
+number_of_facets = 5770
+manifold = yes
+number_of_parts =  1
+volume = 26029.349609

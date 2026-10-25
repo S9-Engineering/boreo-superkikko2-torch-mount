@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "previous_commit": "54c08956b31ceaa43f58314ac0fea845e96dc9be",
+  "history": "Git commits; no working-tree revision snapshots",
+  "geometry_or_toolpaths_changed": false,
+  "print_sha256": {
+    "print/stl/backing-plate.stl": "9f2d9fbfde3bb2989819d4e1db064e5e18d89f3d75fba6ee1973def8aef22b9d",
+    "print/stl/inner-bridge.stl": "b7ffd0778cd092c533875846b68a235f75fabc20edb1a2d0399cf956ccee99df",
+    "print/slicer/geometry-only.3mf": "2a9ed4bd1aea7d09b861268be8ec342635886308bec6ef7c1d7143189d4a458f",
+    "cad/inner-bridge.step": "294ca4f3baa891e76d9860e5e57f65b6c5d4f4fe911e1f6780fe35f3bc4c02c8",
+    "cad/backing-plate.step": "cc091697d8d672592d6f5201b6abfc54475cff0a80a6b001418718a6cde44055",
+    "print/slicer/boreo-superkikko2-petg.3mf": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b",
+    "print/slicer/boreo-superkikko2-petg.gcode": "5ba47b5268a908235facd35f6eb93eca355daa984e417f3e230d619435d92b82"
+  },
+  "physical_tests": false,
+  "geometry_checks_passed": 140,
+  "native_package_checks_passed": 110,
+  "generator_exercised_in_isolated_directory": true,
+  "regenerated_stl_identical": {
+    "inner-bridge.stl": true,
+    "backing-plate.stl": true
+  }
+}

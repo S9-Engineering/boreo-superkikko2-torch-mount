@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "archive": "packages/boreo-superkikko2-torch-mount-print-pack.zip",
+  "sha256": "147d5548bc043e003f576f99c2c0c5871110b20047c1eae31ba2def05eafbdf1",
+  "members": 10,
+  "bytes": 1662127,
+  "standalone_links": [
+    {
+      "document": "README.md",
+      "target": "print/stl/inner-bridge.stl"
+    },
+    {
+      "document": "README.md",
+      "target": "print/stl/backing-plate.stl"
+    },
+    {
+      "document": "README.md",
+      "target": "print/3mf/boreo-superkikko2-petg.3mf"
+    },
+    {
+      "document": "README.md",
+      "target": "assembly/exploded.png"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSE.txt"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSE-SOFTWARE.txt"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSING.md"
+    },
+    {
+      "document": "LICENSING.md",
+      "target": "LICENSE.txt"
+    },
+    {
+      "document": "LICENSING.md",
+      "target": "LICENSE-SOFTWARE.txt"
+    },
+    {
+      "document": "LICENSING.md",
+      "target": "LICENSE-SOFTWARE.txt"
+    }
+  ],
+  "files": [
+    {
+      "source": "print/stl/inner-bridge.stl",
+      "archive": "print/stl/inner-bridge.stl",
+      "role": "model",
+      "sha256": "b7ffd0778cd092c533875846b68a235f75fabc20edb1a2d0399cf956ccee99df",
+      "bytes": 117084
+    },
+    {
+      "source": "print/stl/backing-plate.stl",
+      "archive": "print/stl/backing-plate.stl",
+      "role": "model",
+      "sha256": "9f2d9fbfde3bb2989819d4e1db064e5e18d89f3d75fba6ee1973def8aef22b9d",
+      "bytes": 288584
+    },
+    {
+      "source": "print/slicer/boreo-superkikko2-petg.3mf",
+      "archive": "print/3mf/boreo-superkikko2-petg.3mf",
+      "role": "model",
+      "expected_sha256": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b",
+      "sha256": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b",
+      "bytes": 1490945
+    },
+    {
+      "source": "packages/README.print.md",
+      "archive": "README.md",
+      "role": "instructions",
+      "sha256": "ff78834f3ac313242a650ee47cc6741216095636e2fe99d8e882f77a7852b689",
+      "bytes": 8464
+    },
+    {
+      "source": "previews/assembly/exploded.png",
+      "archive": "assembly/exploded.png",
+      "role": "image",
+      "sha256": "933ac89c7e76c40721ecf59a77f3cecf50f64e7a510440b47ded15b7971aabf0",
+      "bytes": 57103
+    },
+    {
+      "source": "LICENSE.txt",
+      "archive": "LICENSE.txt",
+      "role": "license",
+      "sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "bytes": 20849
+    },
+    {
+      "source": "LICENSE-SOFTWARE.txt",
+      "archive": "LICENSE-SOFTWARE.txt",
+      "role": "license",
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8",
+      "bytes": 4563
+    },
+    {
+      "source": "LICENSING.md",
+      "archive": "LICENSING.md",
+      "role": "license",
+      "sha256": "0484bbaf1d182ab0137b73c4c0e888a3208855a119025b5318cb52efaa5b645d",
+      "bytes": 6280
+    }
+  ],
+  "portal_files_included": false,
+  "tag_or_release_created": false,
+  "physical_tests": false
+}
