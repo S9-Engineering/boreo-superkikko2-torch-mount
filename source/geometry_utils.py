@@ -247,5 +247,3 @@ def entries(value):
     if isinstance(value, dict):
         return [(str(key), row) for key, row in value.items()]
     raise ValueError("Manifest: elenco pezzi/riferimenti non riconosciuto")
-
-
