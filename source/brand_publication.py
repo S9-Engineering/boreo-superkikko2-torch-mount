@@ -47,10 +47,12 @@ def main():
     REPORT.write_text(json.dumps({'date':'2026-10-27','method':'Fixed SVG artwork compositing; no generative photo or CAD changes. Original HEICs and CAD/print files unchanged.','core':rows},indent=2)+'\n')
     # Export from clean masters where available, then place the signature on the
     # complete channel canvas. No stacked watermark or crop on portrait photos.
+    channel_images=0
     for channel in ['nexprint','printables']:
         folder=ROOT/'publication-local/current'/channel
         if not (folder/'image-checks.json').exists():continue
         checks=json.loads((folder/'image-checks.json').read_text())
+        channel_images+=len(checks['images'])
         for row in checks['images']:
             src=ROOT/row['source'];clean=cache/row['source'];target=ROOT/row['file']
             use=clean if clean.exists() else src
@@ -80,5 +82,5 @@ def main():
         row['watermark']=rows[full];row['gallery_watermark']=rows[web]
         row['tool']='Apple ImageIO full-resolution conversion and metadata removal, followed by the approved SVG watermark. No generative alteration; metadata-removal pixel check precedes branding.'
     p.write_text(json.dumps(data,indent=2)+'\n')
-    print(json.dumps({'core_images':len(rows),'channel_images':22,'all_watermarked':True,'nexprint_pixels':[2000,1500]}))
+    print(json.dumps({'core_images':len(rows),'channel_images':channel_images,'all_watermarked':True,'nexprint_pixels':[2000,1500]}))
 if __name__=='__main__':main()
