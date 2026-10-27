@@ -86,5 +86,7 @@ def main():
     for key in ['cover','user_confirmation']:
         if key in previous:report[key]=previous[key]
     (photo/'edits.json').write_text(json.dumps(report,indent=2)+'\n')
+    from brand_publication import main as brand_publication
+    brand_publication()
     print(json.dumps({'photos':len(assets),'private_originals_unchanged':True,'public_gps':False,'full_resolution_verified':True}))
 if __name__=='__main__':main()

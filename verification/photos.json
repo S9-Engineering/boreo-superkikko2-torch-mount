@@ -24,78 +24,192 @@
       "original_hash_matches_supplied_file": true,
       "private_original_ignored": true,
       "public_full_resolution": "previews/photos/edited/mount-side-real.jpg",
-      "public_sha256": "958c0463666b512dda88e2b55c9abc2d5c950bfc03b1483135cfc04dba93011a",
+      "public_sha256": "0f59649ea1952ef06c6d6efa2400e0c5806504c39d6113e7ca92c972badc80b0",
       "pixels": [
         4032,
         3024
       ],
       "public_private_metadata_found": false,
-      "decoded_pixels_unchanged_by_metadata_removal": true
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "watermark": {
+        "source_sha256": "958c0463666b512dda88e2b55c9abc2d5c950bfc03b1483135cfc04dba93011a",
+        "signature": "Full approved S9 Engineering SVG",
+        "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+        "position": "bottom-right",
+        "bounds_px": [
+          3395,
+          2572,
+          3951,
+          2943
+        ],
+        "pixels": [
+          4032,
+          3024
+        ],
+        "sha256": "0f59649ea1952ef06c6d6efa2400e0c5806504c39d6113e7ca92c972badc80b0",
+        "generative_ai_used_for_watermark": false
+      },
+      "metadata_pixel_check_scope": "Before applying the approved SVG watermark."
     },
     {
       "source_id": "IMG_1671",
       "original_hash_matches_supplied_file": true,
       "private_original_ignored": true,
       "public_full_resolution": "previews/photos/edited/butterfly-backing-real.jpg",
-      "public_sha256": "38e97fe352dbfddaade2e48dbd665be51b3538d8c4094e5c0e459a6f79f7ca99",
+      "public_sha256": "18aa7b9b7047d1c6d996c8f31dbb2d08940b60bb16035630fba48e29ef90093f",
       "pixels": [
         4032,
         3024
       ],
       "public_private_metadata_found": false,
-      "decoded_pixels_unchanged_by_metadata_removal": true
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "watermark": {
+        "source_sha256": "38e97fe352dbfddaade2e48dbd665be51b3538d8c4094e5c0e459a6f79f7ca99",
+        "signature": "Full approved S9 Engineering SVG",
+        "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+        "position": "bottom-right",
+        "bounds_px": [
+          3395,
+          2572,
+          3951,
+          2943
+        ],
+        "pixels": [
+          4032,
+          3024
+        ],
+        "sha256": "18aa7b9b7047d1c6d996c8f31dbb2d08940b60bb16035630fba48e29ef90093f",
+        "generative_ai_used_for_watermark": false
+      },
+      "metadata_pixel_check_scope": "Before applying the approved SVG watermark."
     },
     {
       "source_id": "IMG_1672",
       "original_hash_matches_supplied_file": true,
       "private_original_ignored": true,
       "public_full_resolution": "previews/photos/edited/mount-underside-real.jpg",
-      "public_sha256": "12106d3afb9f89d8df65e4fbc2c35bdd93d54cac2c46285458b15969d386a003",
+      "public_sha256": "dc5de1465c0ce9de687044d907f588779b37eac096069eb09ad47474a1802766",
       "pixels": [
         3024,
         4032
       ],
       "public_private_metadata_found": false,
-      "decoded_pixels_unchanged_by_metadata_removal": true
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "watermark": {
+        "source_sha256": "12106d3afb9f89d8df65e4fbc2c35bdd93d54cac2c46285458b15969d386a003",
+        "signature": "Full approved S9 Engineering SVG",
+        "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+        "position": "bottom-right",
+        "bounds_px": [
+          2547,
+          3694,
+          2964,
+          3972
+        ],
+        "pixels": [
+          3024,
+          4032
+        ],
+        "sha256": "dc5de1465c0ce9de687044d907f588779b37eac096069eb09ad47474a1802766",
+        "generative_ai_used_for_watermark": false
+      },
+      "metadata_pixel_check_scope": "Before applying the approved SVG watermark."
     },
     {
       "source_id": "IMG_1673",
       "original_hash_matches_supplied_file": true,
       "private_original_ignored": true,
       "public_full_resolution": "previews/photos/edited/inner-bridge-real.jpg",
-      "public_sha256": "4aa70a140b8136fe5cd4d0b19125b5fe1043f3bdf1fd6d9709b26fdbb7337adf",
+      "public_sha256": "c93cadf41319bb991dd65835e49c2121a6a50f65a3b2f169aee42a2fb9f8d65f",
       "pixels": [
         4284,
         5712
       ],
       "public_private_metadata_found": false,
-      "decoded_pixels_unchanged_by_metadata_removal": true
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "watermark": {
+        "source_sha256": "4aa70a140b8136fe5cd4d0b19125b5fe1043f3bdf1fd6d9709b26fdbb7337adf",
+        "signature": "Full approved S9 Engineering SVG",
+        "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+        "position": "bottom-right",
+        "bounds_px": [
+          3606,
+          5230,
+          4198,
+          5626
+        ],
+        "pixels": [
+          4284,
+          5712
+        ],
+        "sha256": "c93cadf41319bb991dd65835e49c2121a6a50f65a3b2f169aee42a2fb9f8d65f",
+        "generative_ai_used_for_watermark": false
+      },
+      "metadata_pixel_check_scope": "Before applying the approved SVG watermark."
     },
     {
       "source_id": "IMG_1674",
       "original_hash_matches_supplied_file": true,
       "private_original_ignored": true,
       "public_full_resolution": "previews/photos/edited/lamp-side-real.jpg",
-      "public_sha256": "108256012fae7f233c0de5376c985fa98d310413aa58c53c37d847ec65ee3786",
+      "public_sha256": "f7d1922bad37ba758168913a4ca953621aaa7be7717057520122d11f7dfb7a01",
       "pixels": [
         3024,
         4032
       ],
       "public_private_metadata_found": false,
-      "decoded_pixels_unchanged_by_metadata_removal": true
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "watermark": {
+        "source_sha256": "108256012fae7f233c0de5376c985fa98d310413aa58c53c37d847ec65ee3786",
+        "signature": "Full approved S9 Engineering SVG",
+        "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+        "position": "bottom-right",
+        "bounds_px": [
+          2547,
+          3694,
+          2964,
+          3972
+        ],
+        "pixels": [
+          3024,
+          4032
+        ],
+        "sha256": "f7d1922bad37ba758168913a4ca953621aaa7be7717057520122d11f7dfb7a01",
+        "generative_ai_used_for_watermark": false
+      },
+      "metadata_pixel_check_scope": "Before applying the approved SVG watermark."
     },
     {
       "source_id": "IMG_1675",
       "original_hash_matches_supplied_file": true,
       "private_original_ignored": true,
       "public_full_resolution": "previews/photos/edited/helmet-mounted-real.jpg",
-      "public_sha256": "14cc492f82908d6fa03aba3973a5d44aa1d864f1fb3afe819004bae0b664af93",
+      "public_sha256": "fb7594c1634c32d35a10bf6139a6cc0e8d1cabdef34311838540c6a73445ac31",
       "pixels": [
         4284,
         5712
       ],
       "public_private_metadata_found": false,
-      "decoded_pixels_unchanged_by_metadata_removal": true
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "watermark": {
+        "source_sha256": "14cc492f82908d6fa03aba3973a5d44aa1d864f1fb3afe819004bae0b664af93",
+        "signature": "Full approved S9 Engineering SVG",
+        "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+        "position": "bottom-right",
+        "bounds_px": [
+          3606,
+          5230,
+          4198,
+          5626
+        ],
+        "pixels": [
+          4284,
+          5712
+        ],
+        "sha256": "fb7594c1634c32d35a10bf6139a6cc0e8d1cabdef34311838540c6a73445ac31",
+        "generative_ai_used_for_watermark": false
+      },
+      "metadata_pixel_check_scope": "Before applying the approved SVG watermark."
     }
   ],
   "cover": {
@@ -145,7 +259,7 @@
     "cad/reference/inner-bridge-reference.step": "3fb9d51d2c38e5b733b13bf4f8157077731c57aa8b69259124f28698cd7d189f",
     "cad/reference/backing-plate-reference.step": "d91705c2e608900d95ab076b052f70707f39cf89413bf0e826145c3b2cc3b6b5"
   },
-  "photo_qa": "All six source images and cover inspected visually. Reference views preserve the photographed geometry and defects.",
+  "photo_qa": "All reference photos and publication exports inspected; exact approved SVG signature added without generative photo changes. Covers retain their existing signatures and AI labels.",
   "public_documents": "README, printing guide, standalone guide, photo provenance",
   "release_created": false,
   "rendered_markdown_review": {
@@ -154,5 +268,6 @@
     "cover_and_gallery": "PASS",
     "relative_images_loaded": true,
     "full_resolution_links": "PASS"
-  }
+  },
+  "watermark_provenance": "verification/branding.json"
 }

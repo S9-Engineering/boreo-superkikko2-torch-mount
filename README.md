@@ -10,7 +10,7 @@ A two-piece DIY torch-mount prototype designed around one measured **Petzl BOREO
 
 ## Real-print photographs
 
-User-supplied photographs added on **27 October 2026**. The six views below have only orientation, format and web-size conversion; no generative alteration. Click each photograph for its full-resolution public copy.
+User-supplied photographs added on **27 October 2026**. The six views below have orientation/format conversion, web resizing and the approved S9 Engineering watermark; no generative alteration. Click each photograph for its full-resolution public copy.
 
 | Side mounting detail | Metal butterfly and backing | Underside and helmet rim |
 | --- | --- | --- |
@@ -132,6 +132,7 @@ Retained evidence records **140 geometry checks, 110 package checks, 230 rendere
 - [Original delivery status](verification/delivery.json)
 - [Layout and integrity report](verification/repository-layout.json)
 - [Real-print photo evidence and checks](verification/photos.json)
+- [Publication watermark provenance](verification/branding.json)
 
 Earlier fit feedback concerns an orange coupon. The user identifies the new photographs as the latest model printed in PETG and mounted on the helmet. They document a PETG print, but do not provide measured fit, sustained-load or thermal tests. Mesh-intersection screening is not a complete mathematical proof. No carrying capacity, safe operating temperature or protective compatibility is claimed. This preparation workflow did not start a printer.
 

@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-27",
+  "method": "Fixed SVG artwork compositing; no generative photo or CAD changes. Original HEICs and CAD/print files unchanged.",
+  "core": {
+    "previews/photos/edited/butterfly-backing-real.jpg": {
+      "source_sha256": "38e97fe352dbfddaade2e48dbd665be51b3538d8c4094e5c0e459a6f79f7ca99",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        3395,
+        2572,
+        3951,
+        2943
+      ],
+      "pixels": [
+        4032,
+        3024
+      ],
+      "sha256": "18aa7b9b7047d1c6d996c8f31dbb2d08940b60bb16035630fba48e29ef90093f",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.3852136620354286,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/edited/helmet-mounted-real.jpg": {
+      "source_sha256": "14cc492f82908d6fa03aba3973a5d44aa1d864f1fb3afe819004bae0b664af93",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        3606,
+        5230,
+        4198,
+        5626
+      ],
+      "pixels": [
+        4284,
+        5712
+      ],
+      "sha256": "fb7594c1634c32d35a10bf6139a6cc0e8d1cabdef34311838540c6a73445ac31",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.21566094226452248,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/edited/inner-bridge-real.jpg": {
+      "source_sha256": "4aa70a140b8136fe5cd4d0b19125b5fe1043f3bdf1fd6d9709b26fdbb7337adf",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        3606,
+        5230,
+        4198,
+        5626
+      ],
+      "pixels": [
+        4284,
+        5712
+      ],
+      "sha256": "c93cadf41319bb991dd65835e49c2121a6a50f65a3b2f169aee42a2fb9f8d65f",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.3543101492907695,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/edited/lamp-side-real.jpg": {
+      "source_sha256": "108256012fae7f233c0de5376c985fa98d310413aa58c53c37d847ec65ee3786",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        2547,
+        3694,
+        2964,
+        3972
+      ],
+      "pixels": [
+        3024,
+        4032
+      ],
+      "sha256": "f7d1922bad37ba758168913a4ca953621aaa7be7717057520122d11f7dfb7a01",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.30136742301724406,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/edited/mount-side-real.jpg": {
+      "source_sha256": "958c0463666b512dda88e2b55c9abc2d5c950bfc03b1483135cfc04dba93011a",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        3395,
+        2572,
+        3951,
+        2943
+      ],
+      "pixels": [
+        4032,
+        3024
+      ],
+      "sha256": "0f59649ea1952ef06c6d6efa2400e0c5806504c39d6113e7ca92c972badc80b0",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.25561008226229487,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/edited/mount-underside-real.jpg": {
+      "source_sha256": "12106d3afb9f89d8df65e4fbc2c35bdd93d54cac2c46285458b15969d386a003",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        2547,
+        3694,
+        2964,
+        3972
+      ],
+      "pixels": [
+        3024,
+        4032
+      ],
+      "sha256": "dc5de1465c0ce9de687044d907f588779b37eac096069eb09ad47474a1802766",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.30219293473265396,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/gallery/butterfly-backing.jpg": {
+      "source_sha256": "238f5fd415a61eb6a342b1f30a0ff5a5a7b33dca4984d724ff1267437953d0ae",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1684,
+        1276,
+        1960,
+        1460
+      ],
+      "pixels": [
+        2000,
+        1500
+      ],
+      "sha256": "39931d0c66c6b6eaf071259b3e9ee2c92071b6791808b411a27c8aecc44db777",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.7206241278098723,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/gallery/helmet-mounted.jpg": {
+      "source_sha256": "30ef64920f54bc040084be185f3afcf2cacd0aae816521a8da1f2066dfd36ab7",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1264,
+        1833,
+        1470,
+        1970
+      ],
+      "pixels": [
+        1500,
+        2000
+      ],
+      "sha256": "7f759cf51de6277955abf45948649d06b27381200cb5a047eb7ca509ecc9a62a",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.3814373800663249,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/gallery/inner-bridge.jpg": {
+      "source_sha256": "b73635db2bb4ec6d699f0ad35a079189a6bbb145a50c1d227adf8a0fbc64963f",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1264,
+        1833,
+        1470,
+        1970
+      ],
+      "pixels": [
+        1500,
+        2000
+      ],
+      "sha256": "1b49b8f62b9c2e286a43a8e8adbabb6082cd3b9738c41ae1a73a78ba5998d892",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.5994580394516587,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/gallery/lamp-side.jpg": {
+      "source_sha256": "fcdf224ba11e14f36db4aa4881119ce19de084670e1a9dd17e5a2254d7119cf2",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1264,
+        1833,
+        1470,
+        1970
+      ],
+      "pixels": [
+        1500,
+        2000
+      ],
+      "sha256": "147fe27aae6bd5952f3985c01239da16f4224e0c257310181d8f6b96e29fbf2f",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.5397996388275829,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/gallery/mount-side.jpg": {
+      "source_sha256": "af4bd8686b6e2d676b1311e065dfdddceedc272d91eb5ae0ca2be637d5218390",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1684,
+        1276,
+        1960,
+        1460
+      ],
+      "pixels": [
+        2000,
+        1500
+      ],
+      "sha256": "0465850d365511926600e8574b7772721bd8cc9d4340f8efac7c3b447c3634ef",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.49442391789077084,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/gallery/mount-underside.jpg": {
+      "source_sha256": "2bd88b29cac1dc33578fd9828b5ff43dbcbbb0809c63c8be9e2914da3077e222",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1264,
+        1833,
+        1470,
+        1970
+      ],
+      "pixels": [
+        1500,
+        2000
+      ],
+      "sha256": "e4b92b35bf8369948c6a6437d81685899c1baa7fe1bba5d74b28645f0ab4f199",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.5623432995651257,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/renders/bridge-underside-cad.png": {
+      "source_sha256": "0ecff0ae6643188d18527706f489ef3539315030e9a5665251430fff7648f49c",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1348,
+        821,
+        1568,
+        968
+      ],
+      "pixels": [
+        1600,
+        1000
+      ],
+      "sha256": "db2d1fb0b4ff32236ec296b06beca857e763a2bd9cc827eebdfc82039587b3ff",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.0,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/renders/exploded-cad.png": {
+      "source_sha256": "933ac89c7e76c40721ecf59a77f3cecf50f64e7a510440b47ded15b7971aabf0",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1348,
+        821,
+        1568,
+        968
+      ],
+      "pixels": [
+        1600,
+        1000
+      ],
+      "sha256": "3096d36fd94c307f6f44ec863bcbfad58f3df69afdb16653bb93ef447636e437",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.0,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/renders/front-cad.png": {
+      "source_sha256": "badbcdeb42d541dca3d683c4f2972bfd661a7482d9c4ca0915561805f78f8bec",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1348,
+        821,
+        1568,
+        968
+      ],
+      "pixels": [
+        1600,
+        1000
+      ],
+      "sha256": "5a821c601aafe3193fd42d39c380bf86d0c35b21eb4b69d38f72c110d038cf02",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.0,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/renders/rear-cad.png": {
+      "source_sha256": "e4b8c7cf446d84ce4703646daf383b8390762cbb64148466cab841addb951fcc",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1348,
+        821,
+        1568,
+        968
+      ],
+      "pixels": [
+        1600,
+        1000
+      ],
+      "sha256": "dd23fba4c42cae398404745cbefe1b429c34be1d08d4352a2263a25c2cb84f97",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.0,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/assembly/exploded.png": {
+      "source_sha256": "933ac89c7e76c40721ecf59a77f3cecf50f64e7a510440b47ded15b7971aabf0",
+      "signature": "Full approved S9 Engineering SVG",
+      "logo_sha256": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
+      "position": "bottom-right",
+      "bounds_px": [
+        1348,
+        821,
+        1568,
+        968
+      ],
+      "pixels": [
+        1600,
+        1000
+      ],
+      "sha256": "3096d36fd94c307f6f44ec863bcbfad58f3df69afdb16653bb93ef447636e437",
+      "generative_ai_used_for_watermark": false,
+      "outside_watermark_mean_absolute_rgb_change": 0.0,
+      "content_check": "PNG pixels outside the watermark unchanged; JPEG differences limited to encoding."
+    },
+    "previews/photos/edited/hero-enhanced.png": {
+      "sha256": "ab337440d725f24f0e053018b9e5288e7a0b4ed5d8965b6e29a4af7adb4c93a6",
+      "pixels": [
+        1448,
+        1086
+      ],
+      "signature": "Existing full S9 Engineering signature, visually reviewed",
+      "position": "bottom-right",
+      "already_branded": true
+    },
+    "previews/renders/hero-ai.png": {
+      "sha256": "bd45c0d5d969f830b2eddc881f126d3e7a8bd2603f9785969ab4652b7c8b1299",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "signature": "Existing full S9 Engineering signature, visually reviewed",
+      "position": "bottom-right",
+      "already_branded": true
+    }
+  }
+}
