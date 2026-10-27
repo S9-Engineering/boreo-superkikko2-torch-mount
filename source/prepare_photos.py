@@ -79,7 +79,7 @@ def main():
                 'generative_ai_used':False,
                 'tool':'Apple ImageIO: orientation baked into full-resolution JPEG, quality 94; APP1/COM removed losslessly. ImageMagick resizes the web gallery only.'})
     report={'prepared_on':'2026-10-27','project':'BOREO Superkikko2 Torch Mount',
-        'evidence_scope':'User photographs show a physical printed mount installed with the original lamp and metal bracket. The user confirms the latest model was printed in PLA. Actual print settings were not supplied; no dimensional, load, heat or immersion test is inferred.',
+        'evidence_scope':'User photographs show a physical printed mount installed with the original lamp and metal bracket. The user confirms the latest model was printed in PETG. Actual print settings were not supplied; no dimensional, load, heat or immersion test is inferred.',
         'private_original_policy':'GPS-bearing untouched HEICs stay local and ignored; full-resolution public references contain no private location metadata.',
         'assets':assets}
     previous=json.loads((photo/'edits.json').read_text()) if (photo/'edits.json').exists() else {}

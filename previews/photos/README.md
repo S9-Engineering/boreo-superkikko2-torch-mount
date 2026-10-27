@@ -1,6 +1,6 @@
 # Real-print photographs
 
-Six user-supplied HEIC captures document a black printed mount installed on a red BOREO with the original Superkikko2 metal bracket and lamp. The user confirms the latest model was printed in PLA. Actual print settings were not supplied. The prepared PETG job is separately checked digitally and remains physically untested. The upper butterfly slot is visibly unfastened, long trial bolts protrude and support-contact residue remains visible. These are observations of a trial assembly, not proof of dimensional fit, final hardware, strength, heat dissipation or protective compatibility.
+Six user-supplied HEIC captures document a black printed mount installed on a red BOREO with the original Superkikko2 metal bracket and lamp. The user confirms the latest model was printed in PETG. Actual print settings were not supplied. The prepared PETG job is checked digitally; the actual settings used for the photographed print were not supplied. The upper butterfly slot is visibly unfastened, long trial bolts protrude and support-contact residue remains visible. These are observations of a trial assembly, not proof of dimensional fit, final hardware, strength, heat dissipation or protective compatibility.
 
 ## Public images
 

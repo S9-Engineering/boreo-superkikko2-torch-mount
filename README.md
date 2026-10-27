@@ -2,7 +2,7 @@
 
 A two-piece DIY torch-mount prototype designed around one measured **Petzl BOREO M/L helmet** and the existing **Superkikko2 metal butterfly plate and U-bracket**. Includes separate **STL**, editable **STEP/CAD sources** and a prepared **3MF** printing project. A curved inner bridge passes through the existing ventilation slots and bolts to an external backing plate, without drilling, glue or an elastic band around the helmet.
 
-**Development version 0.1.0. Ready for printing as a prototype in the documented setup. The user confirms that the photographs show the latest model printed in PLA and installed on the helmet. The prepared PETG job has not been physically verified; final lamp fastening, measured fit, load retention and heat performance remain open.** This independent experimental design is not an approved Petzl accessory or validated protective equipment. The public project identity is **BOREO Superkikko2 Torch Mount**. No tagged GitHub release is published yet.
+**Development version 0.1.0. Ready for printing as a prototype in the documented setup. The user confirms that the photographs show the latest model printed in PETG and installed on the helmet. The exact prepared-profile settings used for that print are not confirmed; final lamp fastening, measured fit, load retention and heat performance remain open.** This independent experimental design is not an approved Petzl accessory or validated protective equipment. The public project identity is **BOREO Superkikko2 Torch Mount**. No tagged GitHub release is published yet.
 
 ![Real printed mount installed on the BOREO, with original Superkikko2 metal bracket and lamp](previews/photos/edited/hero-enhanced.png)
 
@@ -18,7 +18,7 @@ User-supplied photographs added on **27 October 2026**. The six views below have
 | Continuous inner bridge | Opposite side and cable | Mounted lamp overview |
 | [![Curved printed bridge inside the helmet](previews/photos/gallery/inner-bridge.jpg)](previews/photos/edited/inner-bridge-real.jpg) | [![Lamp, metal bracket and trial bolts from the side](previews/photos/gallery/lamp-side.jpg)](previews/photos/edited/lamp-side-real.jpg) | [![Complete helmet with installed Superkikko2](previews/photos/gallery/helmet-mounted.jpg)](previews/photos/edited/helmet-mounted-real.jpg) |
 
-The photographs document a **physical printed trial assembly**, not a load or thermal test. The upper butterfly slot is visibly unfastened and long trial bolts protrude; their size is not inferred from the pictures and they are not the specified final hardware. Support-contact residue and layer lines remain visible. The user confirms the latest model was printed in PLA. Its actual machine settings were not supplied; the prepared PETG profile is a separate, digitally checked setup. [Photo provenance and privacy checks](previews/photos/README.md).
+The photographs document a **physical printed trial assembly**, not a load or thermal test. The upper butterfly slot is visibly unfastened and long trial bolts protrude; their size is not inferred from the pictures and they are not the specified final hardware. Support-contact residue and layer lines remain visible. The user confirms the latest model was printed in PETG. Its actual machine settings were not supplied; the prepared PETG profile is a separate, digitally checked setup. [Photo provenance and privacy checks](previews/photos/README.md).
 
 ## CAD views
 
@@ -26,13 +26,13 @@ The photographs document a **physical printed trial assembly**, not a load or th
 | --- | --- | --- |
 | ![Front CAD view showing backing plate, rivet reliefs and M3 joint](previews/renders/front-cad.png) | ![Rear CAD view showing the continuous inner bridge](previews/renders/rear-cad.png) | ![Underside CAD view of the reinforced bridge](previews/renders/bridge-underside-cad.png) |
 
-*CAD renders. Colours identify parts; the bundled job uses one filament. Grey hardware is purchased, not printed. These illustrate the downloadable model; the photographs show the user's PLA trial of that model.*
+*CAD renders. Colours identify parts; the bundled job uses one filament. Grey hardware is purchased, not printed. These illustrate the downloadable model; the photographs show the user's PETG trial of that model.*
 
 ## What you need
 
 ### Printing materials and parts
 
-PETG suitable for your calibrated process, enough for two parts and removable supports. The prepared job estimates **44.23 g** in **My setup**; allow extra for loading and trials. The photographed fit trial uses PLA; the prepared job uses PETG.
+PETG suitable for your calibrated process, enough for two parts and removable supports. The prepared job estimates **44.23 g** in **My setup**; allow extra for loading and trials. The photographed fit trial uses PETG. Actual print settings were not supplied; the prepared setup is documented below.
 
 | Part | Quantity | Print-oriented STL | Overall dimensions, mm |
 | --- | --- | --- | --- |
@@ -72,13 +72,13 @@ For other printers/materials, import STL in **millimetres**, keep the documented
 
 ## My setup
 
-This setup was **prepared and digitally checked**. The user confirms the photographed model was printed in PLA. Actual print settings were not supplied; the prepared PETG native job is not physically verified.
+This setup was **prepared and digitally checked**. The user confirms the photographed model was printed in PETG. Actual print settings were not supplied; correspondence with the exact prepared native PETG profile is not confirmed.
 
 | Setting | Prepared configuration |
 | --- | --- |
 | Printer | ELEGOO Centauri Carbon 2 Combo; internal profile: Elegoo Centauri Carbon 2 0.4 nozzle |
 | Nozzle / plate | 0.4 mm / textured PEI |
-| Filament | ELEGOO PETG Pro, 1.75 mm; photographed PLA trial is black |
+| Filament | ELEGOO PETG Pro, 1.75 mm; photographed PETG trial is black |
 | Slicer | ElegooSlicer 1.5.3.5; CLI engine 2.4.2 |
 | Temperatures | 240 °C nozzle / 65 °C plate; within the [manufacturer's PETG Pro range](https://www.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg) |
 | Layers / walls / infill | 0.20 mm / 5 / 30% gyroid; 5 top/bottom layers |
@@ -133,7 +133,7 @@ Retained evidence records **140 geometry checks, 110 package checks, 230 rendere
 - [Layout and integrity report](verification/repository-layout.json)
 - [Real-print photo evidence and checks](verification/photos.json)
 
-Earlier fit feedback concerns an orange coupon. The user identifies the new photographs as the latest model printed in PLA and mounted on the helmet. They do not provide a measured fit or a physical PETG test. Mesh-intersection screening is not a complete mathematical proof. No carrying capacity, safe operating temperature or protective compatibility is claimed. This preparation workflow did not start a printer.
+Earlier fit feedback concerns an orange coupon. The user identifies the new photographs as the latest model printed in PETG and mounted on the helmet. They document a PETG print, but do not provide measured fit, sustained-load or thermal tests. Mesh-intersection screening is not a complete mathematical proof. No carrying capacity, safe operating temperature or protective compatibility is claimed. This preparation workflow did not start a printer.
 
 ## Versioning and licences
 

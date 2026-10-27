@@ -2,19 +2,21 @@
   "date": "2026-10-27",
   "status": "PASS",
   "project_version": "0.1.0",
-  "scope": "Photo processing, privacy, public documentation and unchanged core print/CAD files. No fresh slicing or new mechanical/thermal tests.",
+  "scope": "Photo processing, privacy, documentation and unchanged core print/CAD files. User-confirmed PETG print; no new slicing, mechanical or thermal tests.",
   "physical_evidence": {
     "latest_model": "User-confirmed",
-    "material": "PLA",
+    "material": "PETG",
     "appearance": "Black",
     "mounted_with_original_lamp": true,
     "actual_machine_settings": "Not supplied",
-    "petg_physical_test": false,
     "measured_fit_test": false,
     "final_butterfly_fastening": false,
     "sustained_load_test": false,
     "thermal_test": false,
-    "immersion_test": false
+    "immersion_test": false,
+    "petg_print_documented": true,
+    "prepared_profile_print_settings_confirmed": false,
+    "material_confirmation": "Direct user correction on 2026-10-27; PETG, exact product unspecified."
   },
   "photos": [
     {

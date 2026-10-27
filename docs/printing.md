@@ -1,6 +1,6 @@
 # BOREO Superkikko2 Torch Mount — printing and assembly
 
-**Unreleased development version 0.1.0. Ready for printing as a prototype in My setup.** The user confirms the photographs show the latest model printed in PLA and mounted on the helmet. Its actual print settings were not supplied; the prepared PETG job has not been physically tested. Final fastening, dimensional, load and heat checks remain open. Designed around the measured Petzl BOREO M/L and original Superkikko2 butterfly/U-bracket. Do not modify the helmet or use force to fit this trial.
+**Unreleased development version 0.1.0. Ready for printing as a prototype in My setup.** The user confirms the photographs show the latest model printed in PETG and mounted on the helmet. Its actual print settings were not supplied; correspondence with the prepared native PETG job is not confirmed. Final fastening, dimensional, load and heat checks remain open. Designed around the measured Petzl BOREO M/L and original Superkikko2 butterfly/U-bracket. Do not modify the helmet or use force to fit this trial.
 
 ## Selected print files
 
@@ -33,13 +33,13 @@ The nut/washer listing identifies the required standards but does not independen
 
 ## My setup
 
-This setup was **prepared and digitally checked**. The photographed model is a user-confirmed PLA print; the exact print settings are undocumented and the PETG native job remains physically untested.
+This setup was **prepared and digitally checked**. The photographed model is a user-confirmed PETG print; the exact print settings are undocumented and use of the exact native PETG job is not confirmed.
 
 | Setting | Prepared configuration |
 | --- | --- |
 | Printer | ELEGOO Centauri Carbon 2 Combo; internal profile: Elegoo Centauri Carbon 2 0.4 nozzle |
 | Nozzle / plate | 0.4 mm / textured PEI |
-| Filament | ELEGOO PETG Pro, 1.75 mm; photographed PLA trial is black |
+| Filament | ELEGOO PETG Pro, 1.75 mm; photographed PETG trial is black |
 | Slicer | ElegooSlicer 1.5.3.5; CLI engine 2.4.2 |
 | Temperatures | 240 °C nozzle / 65 °C plate; within the [manufacturer's PETG Pro range](https://www.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg) |
 | Layers / walls / infill | 0.20 mm / 5 / 30% gyroid; 5 top/bottom layers |
@@ -70,7 +70,7 @@ The bridge/base M3 joint uses Ø3.4 holes, 0.4 mm diametral screw clearance, 0.3
 
 The butterfly's 2 mm metal slots are user-confirmed. Its 57.5 mm lateral interaxis is photo-derived, and upper centre Z41.5 remains provisional. The thickness of the metal plate and rivet protrusion still determine the final small fastener selection. Printed 3 × 1.9 mm passages are not threads or proof of a working M1.6 joint. Do not load or heat-test an unsupported lamp on an unvalidated interface.
 
-Retained digital checks: 140 geometry checks, 110 package checks, 230 layers reviewed, no slicer warnings or candidate islands. These are digital checks. The current file hashes have been checked again without changing the model or reslicing it. Earlier orange-coupon feedback is separate. The user confirms the new photographs show the latest model printed in PLA; this does not validate the prepared PETG job or its thermal/load behaviour. The upper butterfly slot is unfastened in the photos, and their long trial bolts are not the defined final hardware. No carrying capacity, safe service temperature, protective compatibility, wet/immersed performance or support-removal finish is established.
+Retained digital checks: 140 geometry checks, 110 package checks, 230 layers reviewed, no slicer warnings or candidate islands. These are digital checks. The current file hashes have been checked again without changing the model or reslicing it. Earlier orange-coupon feedback is separate. The user confirms the new photographs show the latest model printed in PETG; this does not validate the prepared PETG job or its thermal/load behaviour. The upper butterfly slot is unfastened in the photos, and their long trial bolts are not the defined final hardware. No carrying capacity, safe service temperature, protective compatibility, wet/immersed performance or support-removal finish is established.
 
 ## Integrity and licences
 
