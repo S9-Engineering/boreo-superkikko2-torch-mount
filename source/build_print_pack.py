@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the allowlisted, unreleased R13 prototype printing package.
+"""Build the allowlisted, unreleased prototype printing package.
 
 Required Notice: S9 Engineering (https://github.com/S9-Engineering)
 SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
@@ -14,6 +14,8 @@ def digest(data):return hashlib.sha256(data).hexdigest()
 
 def main():
     recipe=json.loads((FOLDER/'manifest.json').read_text())
+    version=(ROOT/recipe['version_file']).read_text().strip()
+    assert re.fullmatch(r'\d+\.\d+\.\d+',version)
     assert recipe['status']=='UNRELEASED_PROTOTYPE'
     payload={};rows=[]
     for row in recipe['files']:
@@ -38,8 +40,8 @@ def main():
             linked=PurePosixPath(name).parent/unquote(target)
             assert str(linked) in payload,(name,target)
             checked.append({'document':name,'target':str(linked)})
-    metadata={'revision':'R13','status':recipe['status'],'files':rows,
-      'geometry_or_slicing_changed':False,'physical_tests':False,'gcode':'Native 3MF contains the verified setup-specific embedded path; no standalone G-code selected.'}
+    metadata={'version':version,'status':recipe['status'],'files':rows,
+      'geometry_or_slicing_changed':False,'physical_validation':False,'gcode':'Native 3MF contains the verified setup-specific embedded path; no standalone G-code selected.'}
     payload['manifest.json']=(json.dumps(metadata,indent=2)+'\n').encode()
     payload['SHA256SUMS.txt']=''.join(digest(data)+'  '+name+'\n' for name,data in sorted(payload.items())).encode()
     output=FOLDER/recipe['output']
@@ -52,7 +54,7 @@ def main():
     checksum=output.with_suffix('.zip.sha256');checksum.write_text(digest(output.read_bytes())+'  '+output.name+'\n')
     report={'status':'PASS','archive':str(output.relative_to(ROOT)),'sha256':digest(output.read_bytes()),
       'members':len(payload),'bytes':output.stat().st_size,'standalone_links':checked,'files':rows,
-      'portal_files_included':False,'tag_or_release_created':False,'physical_tests':False}
+      'portal_files_included':False,'tag_or_release_created':False,'physical_validation':False}
     (FOLDER/'package-checks.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({k:report[k] for k in ['status','archive','members','bytes','sha256']}))
 

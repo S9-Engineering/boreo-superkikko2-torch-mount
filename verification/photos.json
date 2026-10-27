@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-27",
+  "status": "PASS",
+  "project_version": "0.1.0",
+  "scope": "Photo processing, privacy, public documentation and unchanged core print/CAD files. No fresh slicing or new mechanical/thermal tests.",
+  "physical_evidence": {
+    "latest_model": "User-confirmed",
+    "material": "PLA",
+    "appearance": "Black",
+    "mounted_with_original_lamp": true,
+    "actual_machine_settings": "Not supplied",
+    "petg_physical_test": false,
+    "measured_fit_test": false,
+    "final_butterfly_fastening": false,
+    "sustained_load_test": false,
+    "thermal_test": false,
+    "immersion_test": false
+  },
+  "photos": [
+    {
+      "source_id": "IMG_1670",
+      "original_hash_matches_supplied_file": true,
+      "private_original_ignored": true,
+      "public_full_resolution": "previews/photos/edited/mount-side-real.jpg",
+      "public_sha256": "958c0463666b512dda88e2b55c9abc2d5c950bfc03b1483135cfc04dba93011a",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "public_private_metadata_found": false,
+      "decoded_pixels_unchanged_by_metadata_removal": true
+    },
+    {
+      "source_id": "IMG_1671",
+      "original_hash_matches_supplied_file": true,
+      "private_original_ignored": true,
+      "public_full_resolution": "previews/photos/edited/butterfly-backing-real.jpg",
+      "public_sha256": "38e97fe352dbfddaade2e48dbd665be51b3538d8c4094e5c0e459a6f79f7ca99",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "public_private_metadata_found": false,
+      "decoded_pixels_unchanged_by_metadata_removal": true
+    },
+    {
+      "source_id": "IMG_1672",
+      "original_hash_matches_supplied_file": true,
+      "private_original_ignored": true,
+      "public_full_resolution": "previews/photos/edited/mount-underside-real.jpg",
+      "public_sha256": "12106d3afb9f89d8df65e4fbc2c35bdd93d54cac2c46285458b15969d386a003",
+      "pixels": [
+        3024,
+        4032
+      ],
+      "public_private_metadata_found": false,
+      "decoded_pixels_unchanged_by_metadata_removal": true
+    },
+    {
+      "source_id": "IMG_1673",
+      "original_hash_matches_supplied_file": true,
+      "private_original_ignored": true,
+      "public_full_resolution": "previews/photos/edited/inner-bridge-real.jpg",
+      "public_sha256": "4aa70a140b8136fe5cd4d0b19125b5fe1043f3bdf1fd6d9709b26fdbb7337adf",
+      "pixels": [
+        4284,
+        5712
+      ],
+      "public_private_metadata_found": false,
+      "decoded_pixels_unchanged_by_metadata_removal": true
+    },
+    {
+      "source_id": "IMG_1674",
+      "original_hash_matches_supplied_file": true,
+      "private_original_ignored": true,
+      "public_full_resolution": "previews/photos/edited/lamp-side-real.jpg",
+      "public_sha256": "108256012fae7f233c0de5376c985fa98d310413aa58c53c37d847ec65ee3786",
+      "pixels": [
+        3024,
+        4032
+      ],
+      "public_private_metadata_found": false,
+      "decoded_pixels_unchanged_by_metadata_removal": true
+    },
+    {
+      "source_id": "IMG_1675",
+      "original_hash_matches_supplied_file": true,
+      "private_original_ignored": true,
+      "public_full_resolution": "previews/photos/edited/helmet-mounted-real.jpg",
+      "public_sha256": "14cc492f82908d6fa03aba3973a5d44aa1d864f1fb3afe819004bae0b664af93",
+      "pixels": [
+        4284,
+        5712
+      ],
+      "public_private_metadata_found": false,
+      "decoded_pixels_unchanged_by_metadata_removal": true
+    }
+  ],
+  "cover": {
+    "source": "previews/photos/edited/mount-side-real.jpg",
+    "output": "previews/photos/edited/hero-enhanced.png",
+    "sha256": "ab337440d725f24f0e053018b9e5288e7a0b4ed5d8965b6e29a4af7adb4c93a6",
+    "pixels": [
+      1448,
+      1086
+    ],
+    "generative_ai_used": true,
+    "tool": "Built-in image_gen",
+    "prompt": "previews/photos/hero-edit-prompt.txt",
+    "disclosure": "AI-enhanced photo, bottom-left",
+    "signature": "Full S9 Engineering, bottom-right",
+    "review": "Compared visually with supplied side photograph: physical geometry, long trial bolts, original metal bracket, lamp, layer lines and surface residue retained. Cover is editorial, reference photographs remain available."
+  },
+  "unchanged_core_files": {
+    "print/slicer/boreo-superkikko2-petg.gcode": "5ba47b5268a908235facd35f6eb93eca355daa984e417f3e230d619435d92b82",
+    "print/slicer/boreo-superkikko2-petg.3mf": "67d702f4c59aad955025ee50584942f0ad4cd0feea6ebe1ec752fc53c0295b4b",
+    "print/slicer/geometry-only.3mf": "2a9ed4bd1aea7d09b861268be8ec342635886308bec6ef7c1d7143189d4a458f",
+    "print/stl/inner-bridge.stl": "b7ffd0778cd092c533875846b68a235f75fabc20edb1a2d0399cf956ccee99df",
+    "print/stl/backing-plate.stl": "9f2d9fbfde3bb2989819d4e1db064e5e18d89f3d75fba6ee1973def8aef22b9d",
+    "cad/backing-plate.step": "cc091697d8d672592d6f5201b6abfc54475cff0a80a6b001418718a6cde44055",
+    "cad/inner-bridge.step": "294ca4f3baa891e76d9860e5e57f65b6c5d4f4fe911e1f6780fe35f3bc4c02c8",
+    "cad/hardware/screw-m3x16-2.step": "d963b253fdfa3f5cfb40fb5449ac5d3d338b6dec6b69a6ee7208b42579d38f8e",
+    "cad/hardware/nut-m3-1.step": "2e3c9cace47d0cb87ee31ecd944113d8c48ce45be248c47997ee9f32b38465a5",
+    "cad/hardware/screw-m3x16-1.stl": "73c7662b154dd3c2a66a8f01487f5f2e1ed0ac5b8d4b3d6396fa560d6e769839",
+    "cad/hardware/screw-m3x16-2.stl": "d0ce98b1f779a86461e6ec355edd36a40a19e1b049bcc85efb1565e21d7b20f9",
+    "cad/hardware/washer-m3-2.step": "395516dca9d3052f4fd2d25ac6ebd5b9733e38818119a487549382deee18950d",
+    "cad/hardware/washer-m3-1.step": "da311244ee17efc65cd8043b876e37cf61ebc3d6669528dff66950a917c8886c",
+    "cad/hardware/nut-m3-1.stl": "40c4e6a4412d6e35c290eb3f8d75d41f7010b5a0a342b5aa2fd213ccea7b97ce",
+    "cad/hardware/nut-m3-2.stl": "7f10df5e41e4f66c1cc5e599f170ec4cfca56d3146870101318da48d3e6cc20f",
+    "cad/hardware/nut-m3-2.step": "01385b6173472e1c6e8d5bcdbc28fe4933ee5c4952958c814803d3aa2463ef46",
+    "cad/hardware/washer-m3-2.stl": "64cd8cef0a89c251e657706dc12ae214da2824308c23933520228ad478715709",
+    "cad/hardware/screw-m3x16-1.step": "e934c55aecf527fa90a80b6e82aa3f0a02572b1f1bed5d9895d9ccdc8127a678",
+    "cad/hardware/washer-m3-1.stl": "e8f22733e7e12fcde457637e6766ebac018b6af8c608d1465fdd8168f60b7638",
+    "cad/assembly/inner-bridge.stl": "38d70abfaec1d46f31e5daf60bf23e40a4ceeb05b4b7065118545c3d2ceeb9f8",
+    "cad/assembly/backing-plate.step": "0f4872ea5b133f0ff69d5fa40f0e542794693c27f1e731ed1c94a8f5213585f2",
+    "cad/assembly/assembly-with-hardware.glb": "8a6c6eb6b1de1a0b21c8ef212a6da6de5a2424c196ab92742ae4d8b86b7c9781",
+    "cad/assembly/assembly.glb": "767f0dac89d172d812c2da5c36af55e699febe953033c1a6358421d7d2d51512",
+    "cad/assembly/assembly-with-hardware.step": "495265ea4a180b0062ac22ac96062faa70721bb851a0271a8389d8de29b4d446",
+    "cad/assembly/inner-bridge.step": "7eb1758d28bfac891c7403aa0e81e7517a3283574d06af17fdc2a0439f3112fa",
+    "cad/assembly/assembly.step": "2d770a41e1b5c3d4bdaf845402dbddccc2c3c5b57a0f3791a0ace5b2686c8253",
+    "cad/assembly/backing-plate.stl": "b27b4af7ddfbedac8bf28ad309b7d74358d41595d3b0fcdd8c1fa8be31d3fcd1",
+    "cad/reference/frame-reference.step": "df994e65b876fa2f9af365e2693fcced874f0c00fab857ecd63f00ece1c60f03",
+    "cad/reference/inner-bridge-reference.step": "3fb9d51d2c38e5b733b13bf4f8157077731c57aa8b69259124f28698cd7d189f",
+    "cad/reference/backing-plate-reference.step": "d91705c2e608900d95ab076b052f70707f39cf89413bf0e826145c3b2cc3b6b5"
+  },
+  "photo_qa": "All six source images and cover inspected visually. Reference views preserve the photographed geometry and defects.",
+  "public_documents": "README, printing guide, standalone guide, photo provenance",
+  "release_created": false,
+  "rendered_markdown_review": {
+    "date": "2026-10-27",
+    "tool": "In-app browser, locally rendered Markdown",
+    "cover_and_gallery": "PASS",
+    "relative_images_loaded": true,
+    "full_resolution_links": "PASS"
+  }
+}

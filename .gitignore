@@ -30,3 +30,6 @@ Thumbs.db
 # Portal-specific copies, listing text, metadata, images and bundles NEVER enter Git.
 /publication-local/
 # END 3DCOOK
+
+# Untouched captures contain private GPS metadata. Public copies are versioned.
+/previews/photos/originals/*.HEIC

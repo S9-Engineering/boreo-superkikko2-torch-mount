@@ -1,9 +1,9 @@
 {
   "status": "PASS",
   "archive": "packages/boreo-superkikko2-torch-mount-print-pack.zip",
-  "sha256": "147d5548bc043e003f576f99c2c0c5871110b20047c1eae31ba2def05eafbdf1",
+  "sha256": "6226ba98b1bc9a6e76b584e0a8fadd9f08195d0db9ed9e54beba6c789f64244d",
   "members": 10,
-  "bytes": 1662127,
+  "bytes": 1662355,
   "standalone_links": [
     {
       "document": "README.md",
@@ -73,8 +73,8 @@
       "source": "packages/README.print.md",
       "archive": "README.md",
       "role": "instructions",
-      "sha256": "ff78834f3ac313242a650ee47cc6741216095636e2fe99d8e882f77a7852b689",
-      "bytes": 8464
+      "sha256": "9956911db37ef22b92d7de96ad0bb34c2f5d0b33a511f7398ceb9cd2c6d4073e",
+      "bytes": 9099
     },
     {
       "source": "previews/assembly/exploded.png",
@@ -107,5 +107,5 @@
   ],
   "portal_files_included": false,
   "tag_or_release_created": false,
-  "physical_tests": false
+  "physical_validation": false
 }

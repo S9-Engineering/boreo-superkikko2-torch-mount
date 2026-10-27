@@ -1,6 +1,5 @@
 {
   "schema_version": 1,
-  "revision": "r13-prototype",
   "status": "UNRELEASED_PROTOTYPE",
   "output": "boreo-superkikko2-torch-mount-print-pack.zip",
   "files": [
@@ -46,5 +45,6 @@
       "role": "license"
     }
   ],
-  "release_authorization": false
+  "release_authorization": false,
+  "version_file": "VERSION"
 }

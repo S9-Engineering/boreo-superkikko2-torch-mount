@@ -1,0 +1,145 @@
+{
+  "prepared_on": "2026-10-27",
+  "project": "BOREO Superkikko2 Torch Mount",
+  "evidence_scope": "User photographs show a physical printed mount installed with the original lamp and metal bracket. The user confirms the latest model was printed in PLA. Actual print settings were not supplied; no dimensional, load, heat or immersion test is inferred.",
+  "private_original_policy": "GPS-bearing untouched HEICs stay local and ignored; full-resolution public references contain no private location metadata.",
+  "assets": [
+    {
+      "source_id": "IMG_1670",
+      "original": "previews/photos/originals/IMG_1670.HEIC",
+      "original_sha256": "66d505e03d110180edeff0a36e240b73a5d4861668812c7ba2e27e81fcc3da6c",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "public_full_resolution": "previews/photos/edited/mount-side-real.jpg",
+      "public_sha256": "958c0463666b512dda88e2b55c9abc2d5c950bfc03b1483135cfc04dba93011a",
+      "public_size": [
+        4032,
+        3024
+      ],
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "public_gps_metadata_present": false,
+      "gallery": "previews/photos/gallery/mount-side.jpg",
+      "gallery_sha256": "af4bd8686b6e2d676b1311e065dfdddceedc272d91eb5ae0ca2be637d5218390",
+      "generative_ai_used": false,
+      "tool": "Apple ImageIO: orientation baked into full-resolution JPEG, quality 94; APP1/COM removed losslessly. ImageMagick resizes the web gallery only."
+    },
+    {
+      "source_id": "IMG_1671",
+      "original": "previews/photos/originals/IMG_1671.HEIC",
+      "original_sha256": "200b726d7569d4c8d509c39adb6642c861562e9f7048983e564ce87bb3869280",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "public_full_resolution": "previews/photos/edited/butterfly-backing-real.jpg",
+      "public_sha256": "38e97fe352dbfddaade2e48dbd665be51b3538d8c4094e5c0e459a6f79f7ca99",
+      "public_size": [
+        4032,
+        3024
+      ],
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "public_gps_metadata_present": false,
+      "gallery": "previews/photos/gallery/butterfly-backing.jpg",
+      "gallery_sha256": "238f5fd415a61eb6a342b1f30a0ff5a5a7b33dca4984d724ff1267437953d0ae",
+      "generative_ai_used": false,
+      "tool": "Apple ImageIO: orientation baked into full-resolution JPEG, quality 94; APP1/COM removed losslessly. ImageMagick resizes the web gallery only."
+    },
+    {
+      "source_id": "IMG_1672",
+      "original": "previews/photos/originals/IMG_1672.HEIC",
+      "original_sha256": "1c06c27822cab8efe1862252f162d245197a80ac6180e0f8a2b57fb351b08edb",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "public_full_resolution": "previews/photos/edited/mount-underside-real.jpg",
+      "public_sha256": "12106d3afb9f89d8df65e4fbc2c35bdd93d54cac2c46285458b15969d386a003",
+      "public_size": [
+        3024,
+        4032
+      ],
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "public_gps_metadata_present": false,
+      "gallery": "previews/photos/gallery/mount-underside.jpg",
+      "gallery_sha256": "2bd88b29cac1dc33578fd9828b5ff43dbcbbb0809c63c8be9e2914da3077e222",
+      "generative_ai_used": false,
+      "tool": "Apple ImageIO: orientation baked into full-resolution JPEG, quality 94; APP1/COM removed losslessly. ImageMagick resizes the web gallery only."
+    },
+    {
+      "source_id": "IMG_1673",
+      "original": "previews/photos/originals/IMG_1673.HEIC",
+      "original_sha256": "7231f5d2e83e3ba3424baf07f3860165cae2038e234e3441d2dc568dea0aab67",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "public_full_resolution": "previews/photos/edited/inner-bridge-real.jpg",
+      "public_sha256": "4aa70a140b8136fe5cd4d0b19125b5fe1043f3bdf1fd6d9709b26fdbb7337adf",
+      "public_size": [
+        4284,
+        5712
+      ],
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "public_gps_metadata_present": false,
+      "gallery": "previews/photos/gallery/inner-bridge.jpg",
+      "gallery_sha256": "b73635db2bb4ec6d699f0ad35a079189a6bbb145a50c1d227adf8a0fbc64963f",
+      "generative_ai_used": false,
+      "tool": "Apple ImageIO: orientation baked into full-resolution JPEG, quality 94; APP1/COM removed losslessly. ImageMagick resizes the web gallery only."
+    },
+    {
+      "source_id": "IMG_1674",
+      "original": "previews/photos/originals/IMG_1674.HEIC",
+      "original_sha256": "630116c900b49310900861f701f5cf0761927c0f5e49ab66c9032663f06d7056",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "public_full_resolution": "previews/photos/edited/lamp-side-real.jpg",
+      "public_sha256": "108256012fae7f233c0de5376c985fa98d310413aa58c53c37d847ec65ee3786",
+      "public_size": [
+        3024,
+        4032
+      ],
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "public_gps_metadata_present": false,
+      "gallery": "previews/photos/gallery/lamp-side.jpg",
+      "gallery_sha256": "fcdf224ba11e14f36db4aa4881119ce19de084670e1a9dd17e5a2254d7119cf2",
+      "generative_ai_used": false,
+      "tool": "Apple ImageIO: orientation baked into full-resolution JPEG, quality 94; APP1/COM removed losslessly. ImageMagick resizes the web gallery only."
+    },
+    {
+      "source_id": "IMG_1675",
+      "original": "previews/photos/originals/IMG_1675.HEIC",
+      "original_sha256": "cd3aef2fa087a54144eb2ce8a50b2e136343191dd0016dd0c94836a059731263",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "public_full_resolution": "previews/photos/edited/helmet-mounted-real.jpg",
+      "public_sha256": "14cc492f82908d6fa03aba3973a5d44aa1d864f1fb3afe819004bae0b664af93",
+      "public_size": [
+        4284,
+        5712
+      ],
+      "decoded_pixels_unchanged_by_metadata_removal": true,
+      "public_gps_metadata_present": false,
+      "gallery": "previews/photos/gallery/helmet-mounted.jpg",
+      "gallery_sha256": "30ef64920f54bc040084be185f3afcf2cacd0aae816521a8da1f2066dfd36ab7",
+      "generative_ai_used": false,
+      "tool": "Apple ImageIO: orientation baked into full-resolution JPEG, quality 94; APP1/COM removed losslessly. ImageMagick resizes the web gallery only."
+    }
+  ],
+  "cover": {
+    "source": "previews/photos/edited/mount-side-real.jpg",
+    "output": "previews/photos/edited/hero-enhanced.png",
+    "sha256": "ab337440d725f24f0e053018b9e5288e7a0b4ed5d8965b6e29a4af7adb4c93a6",
+    "pixels": [
+      1448,
+      1086
+    ],
+    "generative_ai_used": true,
+    "tool": "Built-in image_gen",
+    "prompt": "previews/photos/hero-edit-prompt.txt",
+    "disclosure": "AI-enhanced photo, bottom-left",
+    "signature": "Full S9 Engineering, bottom-right",
+    "review": "Compared visually with supplied side photograph: physical geometry, long trial bolts, original metal bracket, lamp, layer lines and surface residue retained. Cover is editorial, reference photographs remain available."
+  },
+  "user_confirmation": {
+    "date": "2026-10-27",
+    "model": "Latest project model",
+    "material": "PLA",
+    "exact_filament_product": null,
+    "machine_settings": null,
+    "basis": "Direct user reply: Ultimo progetto, ma in PLA"
+  }
+}

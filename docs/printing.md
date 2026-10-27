@@ -1,6 +1,6 @@
 # BOREO Superkikko2 Torch Mount — printing and assembly
 
-**Unreleased development package. Ready for printing as a prototype in My setup; not physically fit/load/heat validated.** Designed around the measured Petzl BOREO M/L and original Superkikko2 butterfly/U-bracket. Do not modify the helmet or use force to fit this trial.
+**Unreleased development version 0.1.0. Ready for printing as a prototype in My setup.** The user confirms the photographs show the latest model printed in PLA and mounted on the helmet. Its actual print settings were not supplied; the prepared PETG job has not been physically tested. Final fastening, dimensional, load and heat checks remain open. Designed around the measured Petzl BOREO M/L and original Superkikko2 butterfly/U-bracket. Do not modify the helmet or use force to fit this trial.
 
 ## Selected print files
 
@@ -10,13 +10,13 @@
 | [backing-plate.stl](../print/stl/backing-plate.stl) | 1 | As exported, plate standing on its lower edge; PETG |
 | [boreo-superkikko2-petg.3mf](../print/slicer/boreo-superkikko2-petg.3mf) | 1 job | Two separate objects on one plate, exact configuration in My setup |
 
-The native 3MF includes profiles, supports and an embedded sliced path; it is not geometry-only or a universal PETG profile. The new package contains no standalone G-code. For any other machine or material variant, import STL in **millimetres** and reslice appropriately. Do not mix revision files.
+The native 3MF includes profiles, supports and an embedded sliced path; it is not geometry-only or a universal PETG profile. The new package contains no standalone G-code. For any other machine or material variant, import STL in **millimetres** and reslice appropriately. Keep components from the same project version together.
 
 Bridge size 104.98 × 50.05 × 28.80 mm; base size 102.80 × 25.61 × 46.00 mm. Curved skin 2 mm, arms 9.2 × 3.2 mm, nominal ribbed local envelope up to **4.4 mm**. Remove supports but preserve the tapered ribs.
 
 ### Assembly BOM and Amazon.it examples
 
-Listings checked **25 October 2026**. Non-affiliate sourcing examples, not mandatory brands; written specifications govern equivalents. No purchase was made. Prices and delivery promises are omitted. Listing verification does not inspect delivered hardware.
+Listings checked **27 October 2026**. Non-affiliate sourcing examples, not mandatory brands; written specifications govern equivalents. No purchase was made. Prices and delivery promises are omitted. Listing verification does not inspect delivered hardware.
 
 | Item | Required quantity | Specification / fit constraint | Amazon example and pack |
 | --- | --- | --- | --- |
@@ -33,13 +33,13 @@ The nut/washer listing identifies the required standards but does not independen
 
 ## My setup
 
-This setup was **prepared and digitally checked**, not physically printed as R13.
+This setup was **prepared and digitally checked**. The photographed model is a user-confirmed PLA print; the exact print settings are undocumented and the PETG native job remains physically untested.
 
 | Setting | Prepared configuration |
 | --- | --- |
 | Printer | ELEGOO Centauri Carbon 2 Combo; internal profile: Elegoo Centauri Carbon 2 0.4 nozzle |
 | Nozzle / plate | 0.4 mm / textured PEI |
-| Filament | ELEGOO PETG Pro, 1.75 mm; physical colour not documented |
+| Filament | ELEGOO PETG Pro, 1.75 mm; photographed PLA trial is black |
 | Slicer | ElegooSlicer 1.5.3.5; CLI engine 2.4.2 |
 | Temperatures | 240 °C nozzle / 65 °C plate; within the [manufacturer's PETG Pro range](https://www.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg) |
 | Layers / walls / infill | 0.20 mm / 5 / 30% gyroid; 5 top/bottom layers |
@@ -55,7 +55,7 @@ Flow 0.98, pressure advance 0.1 and cooling are initial profile values, not new 
 
 ![Exploded CAD illustration of bridge, base and M3 hardware](../previews/assembly/exploded.png)
 
-1. **Choose the matching package.** Until publication, use the linked prototype pack. After publication, open the [Releases page](https://github.com/S9-Engineering/boreo-superkikko2-torch-mount/releases), select the matching revision/setup, expand **Assets**, download its named **print-pack.zip**, extract it and read the included README. GitHub's automatic source ZIP is different. Keep files from one revision together.
+1. **Choose the matching package.** Until publication, use the linked prototype pack. After publication, open the [Releases page](https://github.com/S9-Engineering/boreo-superkikko2-torch-mount/releases), select the matching version/setup, expand **Assets**, download its named **print-pack.zip**, extract it and read the included README. GitHub's automatic source ZIP is different. Keep files from one version together.
 2. **Choose a printing route.** Use the native 3MF only with the matching setup, or import both STL files and slice for your own configuration. Confirm units, quantity, orientation, supports and first layer before printing.
 3. **Clean separate pieces.** Cool before removing support towers. Clear residue from pockets and passage surfaces. Preserve the tapered ribs beneath the arms: they are part of the model.
 4. **Try the helmet fit first.** With the helmet stationary and not worn, insert without bending arms or compressing foam. Stop if the ribbed transition binds. Check padding/adjustment hardware in both bridge orientations; do not modify the helmet to accommodate it.
@@ -70,7 +70,7 @@ The bridge/base M3 joint uses Ø3.4 holes, 0.4 mm diametral screw clearance, 0.3
 
 The butterfly's 2 mm metal slots are user-confirmed. Its 57.5 mm lateral interaxis is photo-derived, and upper centre Z41.5 remains provisional. The thickness of the metal plate and rivet protrusion still determine the final small fastener selection. Printed 3 × 1.9 mm passages are not threads or proof of a working M1.6 joint. Do not load or heat-test an unsupported lamp on an unvalidated interface.
 
-Original R13 checks: 140 geometry checks, 110 package checks, 230 layers reviewed, no slicer warnings or candidate islands. These are digital checks. The current file hashes have been checked again without changing the model or reslicing it. Earlier orange-coupon fit reports do not validate R13. No carrying capacity, safe service temperature, protective compatibility, wet/immersed performance or support-removal finish is established.
+Retained digital checks: 140 geometry checks, 110 package checks, 230 layers reviewed, no slicer warnings or candidate islands. These are digital checks. The current file hashes have been checked again without changing the model or reslicing it. Earlier orange-coupon feedback is separate. The user confirms the new photographs show the latest model printed in PLA; this does not validate the prepared PETG job or its thermal/load behaviour. The upper butterfly slot is unfastened in the photos, and their long trial bolts are not the defined final hardware. No carrying capacity, safe service temperature, protective compatibility, wet/immersed performance or support-removal finish is established.
 
 ## Integrity and licences
 

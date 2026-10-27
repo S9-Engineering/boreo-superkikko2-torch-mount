@@ -1,0 +1,8 @@
+Use case: lighting-weather / compositing.
+Asset type: GitHub cover for the BOREO Superkikko2 Torch Mount DIY 3D printing project.
+Edit the FIRST input photograph; the SECOND input is approved S9 Engineering signature artwork only.
+Keep the exact same camera view, landscape 4:3 framing, red helmet, black 3D printed mounting plate, raised S9 on the physical part, metal U bracket, lamp, wing knob, long protruding threaded bolts, washers, nuts, cable positions, layer lines, scratches, surface imperfections and stringing/removal residue. This is documentary photography of a real prototype. Do not reconstruct, redraw, smooth, repair or improve the product. No hardware changes. Do not hide protruding screws or print defects. Do not invent additional fasteners.
+Apply only restrained photographic exposure/white balance/shadow readability; gently soften the distracting far background, retaining the existing outdoor terrace ledge setting. No replacement environment, no dramatic cinematic look. Product geometry and details are invariants.
+Place the FULL supplied S9 ENGINEERING signature in the bottom-right corner, maintaining its proportions and lettering, small and discrete, with safe margins and readable contrast. Use its artwork, do not redesign it.
+Place the exact small disclosure "AI-enhanced photo" at bottom-left, readable and unobtrusive. No other text, no title.
+The result must look like the supplied actual photograph with a light editorial adjustment, not a render.
